@@ -1,17 +1,17 @@
 import React from 'react';
-import {
-  FaInstagram,
-  FaLinkedin,
-  FaFacebook,
-  FaTwitter,
-  FaYoutube,
-} from "react-icons/fa";
+// import {
+//   FaInstagram,
+//   FaLinkedin,
+//   FaFacebook,
+//   FaTwitter,
+//   FaYoutube,
+// } from "react-icons/fa";
 
 const Navbar = () => {
   return (
     <div className='Navbar'>
       <h1>Luna Smith</h1>
-      <div className="socialLinks">
+      {/* <div className="socialLinks">
       <a   
         href="//www.linkedin.com/in/luna-smith/"
         target="_blank"
@@ -47,7 +47,7 @@ const Navbar = () => {
         rel="noreferrer">    
           <FaYoutube />
         </a>
-      </div>
+      </div> */}
 
     </div>
   )
