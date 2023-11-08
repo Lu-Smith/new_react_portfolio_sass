@@ -4,7 +4,26 @@
     width: 200px;
     @include flex-direction(center, column);
 
-    a {
-        color: $secondary-color;
+    .titleContainer {
+        h2 {
+            color: $secondary-color;
+            font-weight: 300;
+
+            strong {
+                transition: 200ms all ease-in-out;
+                
+                &:hover {
+                    color: $focus-color;
+                }
+            }
+        }
+    }
+
+    .linkContainer {
+        @include flex-direction(center, column);
+
+        a {
+            color: $secondary-color;
+        }
     }
 }
