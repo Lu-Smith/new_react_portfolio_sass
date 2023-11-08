@@ -1,10 +1,10 @@
 .Home {
-    @include flexDirection(space-between, row);
+    @include flex-direction(center, row);
     width: 100%;
     height: 100%;
 
     .mainContainer {
-        @include flexDirection(center, column);
+        @include flex-direction(center, column);
         width: 100%;
         height: 100%;
     }

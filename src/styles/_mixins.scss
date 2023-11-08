@@ -4,7 +4,7 @@
     justify-content: $jc;
 }
 
-@mixin flexDirection($jc, $fd) {
+@mixin flex-direction($jc, $fd) {
     display: flex;
     align-items: center;
     justify-content: $jc;

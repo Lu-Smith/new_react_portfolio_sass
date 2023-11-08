@@ -1,18 +1,11 @@
 .Navbar {
-    @include flexDirection(space-between, row);
+    @include flex-direction(space-between, row);
     padding: $primary-padding;
     position: fixed;
     top: 5px;
     width: calc(100vw - 200px);
 
     a {
-        text-decoration: none;
-        color: $primary-color;
-
-        &:hover {
-            color: $focus-color;
-        }
-
         h1 {
             flex:1;
         }
@@ -20,7 +13,7 @@
 
     .socialLinks {
         flex:2;
-        @include flex(center, end);
+        @include flex(center, flex-end);
         gap: 10px;
         font-size: $nav-font-size; 
     }
