@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import {
   FaInstagram,
   FaLinkedin,
@@ -10,7 +11,9 @@ import {
 const Navbar = () => {
   return (
     <div className='Navbar'>
-      <h1>Luna Smith</h1>
+      <Link to="/">
+        <h1>Luna Smith</h1>
+      </Link>
       <div className="socialLinks">
       <a   
         href="//www.linkedin.com/in/luna-smith/"

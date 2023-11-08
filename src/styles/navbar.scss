@@ -3,11 +3,16 @@
     padding: $primary-padding;
     height: 20px;
 
-    h1 {
-        flex:1;
-        
+    a {
+        text-decoration: none;
+        color: $primary-color;
+
         &:hover {
             color: $focus-color;
+        }
+
+        h1 {
+            flex:1;
         }
     }
 
@@ -15,17 +20,6 @@
         flex:2;
         @include flex(center, end);
         gap: 10px;
-        font-size: $nav-font-size;
-
-        a {
-            color: $primary-color;
-            transition: 200ms all ease-in-out;
-
-            &:hover {
-                color: $focus-color;
-            }
-        }
-
-        
+        font-size: $nav-font-size; 
     }
 }
