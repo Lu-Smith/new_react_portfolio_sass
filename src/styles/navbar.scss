@@ -1,0 +1,31 @@
+.Navbar {
+    @include flexDirection(space-between, row);
+    padding: $primary-padding;
+    height: 20px;
+
+    h1 {
+        flex:1;
+        
+        &:hover {
+            color: $focus-color;
+        }
+    }
+
+    .socialLinks {
+        flex:2;
+        @include flex(center, end);
+        gap: 10px;
+        font-size: $nav-font-size;
+
+        a {
+            color: $primary-color;
+            transition: 200ms all ease-in-out;
+
+            &:hover {
+                color: $focus-color;
+            }
+        }
+
+        
+    }
+}
