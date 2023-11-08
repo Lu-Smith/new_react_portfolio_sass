@@ -1,7 +1,9 @@
 .Navbar {
     @include flexDirection(space-between, row);
     padding: $primary-padding;
-    height: 20px;
+    position: fixed;
+    top: 5px;
+    width: calc(100vw - 200px);
 
     a {
         text-decoration: none;
