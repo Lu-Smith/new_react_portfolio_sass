@@ -1,6 +1,11 @@
 @import './variables';
 @import './base';
+@import './sidebar.scss';
 
-h1 {
-    color: red;
+
+.App {
+    width: 100vw;
+    height: 100vh;
+    background-color: $primary-background;
+    color: $primary-color;
 }
