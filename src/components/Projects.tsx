@@ -21,16 +21,14 @@ const Projects = () => {
           return <div className={project.title} key={index}>
             <div className="projectsContainer">
               <h3>{project.title}</h3>
-              <div>
+              <div className='project'>
                 {project.project.map((item, index) => {
-                  return <div className="project" key={index}>
-                      <a href={item.href}>
+                  return <a href={item.href} key={index}>
                         <div className="imageContainer">
-                          {/* <img src={item.src} alt={item.title} /> */}
+                          <img src={item.src} alt={item.title} />
                         </div>
                         <h4>{item.title}</h4>
-                      </a>
-                  </div>
+                  </a>
                 })}
               </div>
             </div>
