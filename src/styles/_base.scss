@@ -13,11 +13,8 @@ h1 {
 }
 
 .lightmode {
-    background-color: $standard-background;
-    color: $primary-color;
-}
 
-.darkmode {
-    background-color: $light-background;
-    color: $secondary-color
+    a {
+        color: $light-box-background;
+    }
 }

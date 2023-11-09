@@ -1,3 +1,15 @@
+.Navbar.lightMode {
+    color: $light-box-background;
+
+        a {
+            color: $light-box-background;
+
+            &:hover {
+                color: $focus-color;
+            }
+        }
+}
+
 .Navbar {
     @include flex-direction(space-between, row);
     padding: $primary-padding;
