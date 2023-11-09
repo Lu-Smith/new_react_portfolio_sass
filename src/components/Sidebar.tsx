@@ -9,7 +9,7 @@ import { FaRegLightbulb, FaMoon } from 'react-icons/fa';
 
 const Sidebar = () => {
 
-  const [mode, setMode] = useState('light');
+  const [mode, setMode] = useState('dark');
 
   const handleMode = () => {
     if(mode === 'light') {

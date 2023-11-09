@@ -39,6 +39,8 @@
         @include flex-direction(center, column);
         gap: 20px;
         width: 100%;
+        align-items: self-start;
+        padding-left: $basic-padding;
 
         a {
             transition: 200ms all ease-in-out;
@@ -52,6 +54,7 @@
 
             span {
                 color: $focus-color;
+                font-size: $nav-font-size;
             }
 
 
