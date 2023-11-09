@@ -11,3 +11,13 @@ a {
 h1 {
     font-family: 'Mulish', sans-serif;
 }
+
+.lightmode {
+    background-color: $standard-background;
+    color: $primary-color;
+}
+
+.darkmode {
+    background-color: $light-background;
+    color: $secondary-color
+}

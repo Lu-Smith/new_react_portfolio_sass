@@ -20,7 +20,7 @@ const Sidebar = () => {
   }
 
   return (
-    <div className='Sidebar'>
+    <div className={`Sidebar ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
       <div className="titleContainer">
         <Link to="/">
           <div className="imageContainer">
