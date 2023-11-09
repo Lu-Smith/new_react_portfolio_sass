@@ -18,6 +18,9 @@ const Sidebar = () => {
         <Link to='/about'>About</Link>
         <Link to='/contact'>Contact</Link>
       </div>
+      <div className="box">
+          Futured Projects
+      </div>
     </div>
   )
 }

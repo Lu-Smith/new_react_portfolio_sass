@@ -10,7 +10,7 @@
         .imageContainer{
             margin-top: 20px;
             width: 100%;
-            height: 45%;
+            height: 56%;
             @include flex(center, center);
 
             img {
@@ -52,5 +52,10 @@
                 color: $focus-color;
             }
         }
+    }
+
+    .box {
+        flex: 1;
+        background-color: $primary-background;
     }
 }
