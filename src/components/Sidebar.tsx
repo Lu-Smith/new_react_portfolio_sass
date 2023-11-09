@@ -10,7 +10,7 @@ import { FaRegLightbulb, FaMoon } from 'react-icons/fa';
 interface ModeProps {
   mode: string,
   handleMode: () => void,
-}
+};
 
 const Sidebar = ({ mode, handleMode }: ModeProps) => {
 

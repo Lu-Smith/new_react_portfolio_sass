@@ -7,9 +7,14 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 
-const Navbar = () => {
+interface ModeProps {
+  mode: string,
+  handleMode: () => void,
+};
+
+const Navbar = ({ mode, handleMode }: ModeProps) => {
   return (
-    <div className='Navbar'>
+    <div className={`Navbar ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
       <h1>Bridging <strong>Art</strong> and <strong>Web Development</strong></h1>
       <div className="socialLinks">
       <a   

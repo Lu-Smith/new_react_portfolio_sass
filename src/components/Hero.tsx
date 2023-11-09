@@ -1,10 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import FuturedComponents from './FuturedComponents'
+import FuturedComponents from './FuturedComponents';
 
-const Hero = () => {
+interface ModeProps {
+  mode: string,
+  handleMode: () => void,
+};
+
+const Hero = ({ mode, handleMode }: ModeProps) => {
   return (
-    <div className='Hero'>
+    <div className={`Hero ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
       <div className="futuredContainer">
         <FuturedComponents />
         <div className="recentProjects">

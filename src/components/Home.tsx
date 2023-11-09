@@ -15,8 +15,8 @@ const Home = () => {
     <div className='Home'>
         <Sidebar mode={mode} handleMode={handleMode} />
         <div className="mainContainer">
-            <Navbar />
-            <Hero />
+            <Navbar mode={mode} handleMode={handleMode} />
+            <Hero mode={mode} handleMode={handleMode} />
         </div>
     </div>
   )
