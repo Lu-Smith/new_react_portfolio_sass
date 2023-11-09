@@ -1,12 +1,14 @@
 .FutureComponents {
     @include flex-direction(center, row);
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
     
     .boxContainer {
         background-color: $primary-background;
         border-radius: 10px;
-        width: 300px;
+        width: 48.5%;
         height: 200px;
         @include flex-direction(center, column);
         text-align: center;

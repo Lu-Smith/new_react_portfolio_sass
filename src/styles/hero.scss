@@ -4,4 +4,57 @@
     width: calc(100vw - 200px);
     position: fixed;
     bottom: 0;
+    @include flex-direction(center, row);
+
+    .futuredContainer {
+        flex:1;
+        height: 100%;
+        padding: $basic-padding-right;
+        @include flex-direction(center, column);
+        gap: 20px;
+
+        .recentProjects {
+            background-color: $primary-background;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: $primary-shadow;
+            transition: 200ms all ease-in-out;  
+            width: 100%;
+            height: 100%;
+            @include flex-direction(center, column);
+            
+            &:hover {
+                color: $focus-color;
+            }
+        }
+    }
+
+    .messageContainer {
+        flex:1;
+        height: 100%;
+        @include flex-direction(center, column);
+        gap: 20px;
+        padding: $basic-padding-left;
+
+        div {
+            flex: 1;
+            background-color: $primary-background;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: $primary-shadow;
+            transition: 200ms all ease-in-out;
+            @include flex-direction(center, column);
+            gap: 20px;
+            width: 100%;
+            padding: $basic-padding;
+    
+            &:hover {
+                color: $focus-color;
+            }
+        }
+
+        .mainInfo {
+            flex: 2;
+        }
+    }
 }
