@@ -1,5 +1,51 @@
-.Hero {
+.Hero.darkMode {
     background: $hero-background;
+
+    .futuredContainer {
+        .recentProjects{
+            background-color: $primary-background;
+        }
+    }
+
+    .messageContainer {
+        div {
+            background-color: $primary-background;
+        }
+    }
+}
+
+.Hero.lightMode {
+    background: $light-hero-background;
+
+    .futuredContainer {
+        color: $light-box-background;
+
+        .boxContainer {
+            background-color: $primary-color;
+        }
+
+        .recentProjects{
+            background-color: $primary-color;
+
+            a {
+                color: $light-box-background;
+            } 
+        }
+    }
+
+    .messageContainer {
+        div {
+            background-color: $primary-color;
+            color: $light-box-background;
+
+            a {
+                color: $light-box-background;
+            }
+        }
+    }
+}
+
+.Hero {
     height: 90%;
     width: calc(100vw - 200px);
     position: fixed;
@@ -14,7 +60,6 @@
         gap: 20px;
 
         .recentProjects {
-            background-color: $primary-background;
             border-radius: 10px;
             text-align: center;
             box-shadow: $primary-shadow;
@@ -39,7 +84,6 @@
 
         div {
             flex: 1;
-            background-color: $primary-background;
             border-radius: 10px;
             text-align: center;
             box-shadow: $primary-shadow;

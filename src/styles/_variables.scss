@@ -3,15 +3,16 @@ $primary-color: rgb(231, 226, 233);
 $secondary-color: rgb(27, 24, 29);
 $focus-color: rgb(20, 235, 202);
 $mode-color: rgb(235, 203, 20);
-$light-mode-color: rgb(235, 74, 20);
 
 //backgrounds
 $primary-background: rgb(27, 24, 29);
 $standard-background: rgb(32, 36, 41);
+$light-box-background: rgb(29, 105, 90);
 $light-background: linear-gradient(to right, $primary-color 96%, rgb(32, 187, 123) 100%);
 $secondary-background: linear-gradient(to right, $standard-background 98%, $focus-color 100%);
 $hero-background: radial-gradient($focus-color 0%, $standard-background 59%);
-$light-box-background: rgb(29, 105, 90);
+$light-hero-background: radial-gradient($primary-color 0%, $light-box-background 59%);
+
 
 //font-size
 $primary-font-size: 14px;
