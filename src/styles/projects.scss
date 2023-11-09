@@ -1,0 +1,32 @@
+.Projects {
+    position: relative;
+    @include flex-direction(space-between, row);
+    background: $standard-background;
+    color: $primary-color;
+
+    .menu {
+        height: 100vh;
+        width: 200px;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    .componentContainer {
+        width: 100vw;
+        margin-left: 220px;
+
+        h2 {
+            margin: 20px;
+        }
+
+        .projectsContainer {
+            @include flex-direction(center, column);
+            height: 100vh;
+            width: 100%;  
+            background: $hero-background;       
+        }
+       
+    }
+    
+  }
