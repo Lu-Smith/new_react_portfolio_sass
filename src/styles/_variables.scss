@@ -11,6 +11,7 @@ $hero-background: radial-gradient($focus-color 0%, $standard-background 59%);
 
 //font-size
 $primary-font-size: 14px;
+$big-font-size: 22px;
 $nav-font-size: 28px;
 $box-font-size: 32px;
 
@@ -21,7 +22,7 @@ $basic-padding-left: 40px 40px 40px 20px;
 $basic-padding-right: 40px 0 40px 40px;
 
 //borders
-$primary-border: 1px solid $focus-color;
+$primary-border: 5px solid $secondary-color;
 
 //shadows
 $primary-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
