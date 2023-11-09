@@ -1,8 +1,13 @@
 import React from 'react'
+import FuturedComponents from './FuturedComponents'
 
 const Hero = () => {
   return (
-    <div className='Hero'>Hero</div>
+    <div className='Hero'>
+      <div className="futuredContainer">
+        <FuturedComponents />
+      </div>
+    </div>
   )
 }
 

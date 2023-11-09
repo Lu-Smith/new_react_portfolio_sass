@@ -1,0 +1,32 @@
+.FutureComponents {
+    @include flex-direction(center, row);
+    flex-wrap: wrap;
+    gap: 50px;
+    
+    .boxContainer {
+        background-color: $primary-background;
+        border-radius: 10px;
+        width: 300px;
+        height: 200px;
+        @include flex-direction(center, column);
+        text-align: center;
+        box-shadow: $primary-shadow;
+        transition: 200ms all ease-in-out;
+
+        &:hover {
+            color: $focus-color;
+        }
+
+        div {
+            @include flex-direction(center, row);
+        }
+
+        h2 {
+            font-size: $box-font-size;
+        }
+
+        &:hover {
+            box-shadow: none;
+        }
+    }
+}

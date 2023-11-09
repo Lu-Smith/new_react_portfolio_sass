@@ -21,8 +21,7 @@ const Sidebar = () => {
       <div className="box">
         <div className="container">
         Futured Projects
-        </div>
-          
+        </div>  
       </div>
     </div>
   )
