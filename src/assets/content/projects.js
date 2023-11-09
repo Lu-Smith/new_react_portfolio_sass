@@ -4,7 +4,7 @@ import ImgR2 from '../media/projects/React/WeatherApp_R.jpg';
 import ImgR3 from '../media/projects/React/TicTacToeR.jpg';
 
 //JavaScript
-import ImgJ1 from '../media/projects/JavaScript/PixelRainJ.jpg.jpg';
+import ImgJ1 from '../media/projects/JavaScript/PixelRainJ.jpg';
 import ImgJ2 from '../media/projects/JavaScript/FroggerJ.jpg';
 
 
