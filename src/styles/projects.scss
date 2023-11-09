@@ -1,8 +1,53 @@
-.Projects {
-    position: relative;
-    @include flex-direction(space-between, row);
+.Projects.darkMode {
     background: $standard-background;
     color: $primary-color;
+
+    .componentContainer {
+        .projectsContainer {
+            background: $hero-background;   
+
+            h3 {
+                color: $primary-color;
+            }
+            
+            .project {
+                background-color: $primary-background;
+
+                h4 {
+                    color: $primary-color;
+                }    
+            }
+        }
+    }
+}
+
+.Projects.lightMode {
+    background: $primary-color;
+    color: $primary-color;
+
+    .componentContainer {
+        .projectsContainer {
+            background: $light-hero-background; 
+
+            h3 {
+                color: $secondary-color;
+            }
+            
+            .project {
+                background-color: $primary-color;
+
+                h4 {
+                    color: $secondary-color;
+                }
+                
+            }
+        }
+    }
+}
+
+.Projects {
+    @include flex-direction(space-between, row);
+    max-width: 100vw;
 
     .menu {
         height: 100vh;
@@ -13,8 +58,9 @@
     }
 
     .componentContainer {
-        width: 100vw;
-        margin-left: 220px;
+        margin-left: 200px;
+        width: calc(100vw - 200px);
+        position: relative;
 
         h2 {
             position: fixed;
@@ -27,9 +73,40 @@
             @include flex-direction(center, column);
             height: 100vh;
             width: 100%;  
-            background: $hero-background;       
-        }
-       
-    }
+            gap: 5px;
+
+            h3 {
+                flex: 1;
+                font-size: $nav-font-size;
+                margin-top: 60px;
+            }
+
+            div {
+                flex: 8;
+                display: grid;
+                grid-template-rows: repeat(2, 1fr);
+                grid-template-columns: repeat(2, 1fr);
+                margin-bottom: 80px;
+                gap: 20px;
+
+                .project {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 20px;
+                    @include flex-direction(center, column);
     
+                    a {
+                        background-color: #fff;
+    
+        
+                    }
+                    
+                }
+            }
+
+           
+
+
+        }
+    }
   }
