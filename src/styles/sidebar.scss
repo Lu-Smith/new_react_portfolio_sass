@@ -10,11 +10,11 @@
         .imageContainer{
             margin-top: 20px;
             width: 100%;
-            height: 56%;
+            height: 50%;
             @include flex(center, center);
 
             img {
-                width: 100px;
+                width: 80px;
                 height: auto;
                 border-radius: 50%;
                 box-shadow: $image-shadow;
