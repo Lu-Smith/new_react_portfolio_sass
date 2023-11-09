@@ -17,7 +17,10 @@
         margin-left: 220px;
 
         h2 {
-            margin: 20px;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 999;
         }
 
         .projectsContainer {

@@ -1,15 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import projects from '../assets/content/projects';
 import Sidebar from './Sidebar';
 
-interface ModeProps {
-  mode: string,
-  handleMode: () => void,
-};
+const Projects = () => {
 
-const Projects = ({ mode, handleMode }: ModeProps) => {
+  const [mode, setMode] = useState('dark');
+
+  const handleMode = () => {
+    setMode((prevMode) => (prevMode === 'light' ? 'dark' : 'light'));
+  };
+
   return (
-    <div className='Projects'>
+    <div className={`Projects ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
       <div className='menu'>
         <Sidebar mode={mode} handleMode={handleMode} />
       </div>
