@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ProfileImage from '../assets/Luna_Smith.jpg';
+import ProfileImage from '../assets/media/Luna_Smith.jpg';
 import { PiCoffee } from 'react-icons/pi';
 import { AiOutlineFundProjectionScreen } from 'react-icons/ai';
 import { TfiEmail, TfiInfoAlt } from 'react-icons/tfi';

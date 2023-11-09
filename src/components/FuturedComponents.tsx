@@ -16,10 +16,8 @@ const FuturedComponents = () => {
           <span>Painter</span>
         </div>
         <div className="boxContainer">
-          <div>
-            <h2>2</h2><span>Years</span>
-          </div>
-          <span>Coding Experience</span>
+            <h2>Years</h2>
+          <span>of Experience</span>
         </div>
     </div>
   )
