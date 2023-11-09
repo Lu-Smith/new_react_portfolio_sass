@@ -19,7 +19,10 @@ const Sidebar = () => {
         <Link to='/contact'>Contact</Link>
       </div>
       <div className="box">
-          Futured Projects
+        <div className="container">
+        Futured Projects
+        </div>
+          
       </div>
     </div>
   )

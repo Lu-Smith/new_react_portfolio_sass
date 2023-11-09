@@ -17,6 +17,7 @@
                 width: 100px;
                 height: auto;
                 border-radius: 50%;
+                box-shadow: $image-shadow;
             }
         }
 
@@ -56,6 +57,22 @@
 
     .box {
         flex: 1;
-        background-color: $primary-background;
+
+        .container {
+            background-color: $primary-background;
+            border-radius: 10px;
+            width: 100px;
+            height: 100px;
+            @include flex(center, center);
+            text-align: center;
+            color: $focus-color;
+            box-shadow: $primary-shadow;
+            transition: 200ms all ease-in-out;
+
+            &:hover {
+                box-shadow: none;
+            }
+        }
+
     }
 }
