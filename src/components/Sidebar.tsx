@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import ProfileImage from '../assets/Luna_Smith.jpg';
 import { PiCoffee } from 'react-icons/pi';
@@ -7,17 +7,12 @@ import { TfiEmail, TfiInfoAlt } from 'react-icons/tfi';
 import { LuPalette } from 'react-icons/lu';
 import { FaRegLightbulb, FaMoon } from 'react-icons/fa';
 
-const Sidebar = () => {
+interface ModeProps {
+  mode: string,
+  handleMode: () => void,
+}
 
-  const [mode, setMode] = useState('dark');
-
-  const handleMode = () => {
-    if(mode === 'light') {
-      setMode('dark');
-    } else {
-      setMode('light');
-    }
-  }
+const Sidebar = ({ mode, handleMode }: ModeProps) => {
 
   return (
     <div className={`Sidebar ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
