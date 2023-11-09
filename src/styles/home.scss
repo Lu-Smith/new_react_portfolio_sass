@@ -1,3 +1,13 @@
+.Home.lightMode {
+    background-color: $light-box-background;
+    color: $secondary-color;
+}
+
+.Home.darkMode {
+    background-color: $standard-background;
+    color: $primary-color;
+}
+
 .Home {
     @include flex-direction(center, row);
     width: 100%;

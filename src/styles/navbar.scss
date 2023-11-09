@@ -1,13 +1,5 @@
 .Navbar.lightMode {
-    color: $light-box-background;
-
-        a {
-            color: $light-box-background;
-
-            &:hover {
-                color: $focus-color;
-            }
-        }
+    background-color: transparent;
 }
 
 .Navbar {

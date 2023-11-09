@@ -12,9 +12,12 @@ h1 {
     font-family: 'Mulish', sans-serif;
 }
 
-.lightmode {
+.lightMode {
+    background-color: $standard-background;
+    color: $primary-color;
+}
 
-    a {
-        color: $light-box-background;
-    }
+.darkMode {
+    background-color: $standard-background;
+    color: $primary-color;
 }

@@ -12,7 +12,7 @@ const Home = () => {
   };
 
   return (
-    <div className='Home'>
+    <div className={`Home ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
         <Sidebar mode={mode} handleMode={handleMode} />
         <div className="mainContainer">
             <Navbar mode={mode} handleMode={handleMode} />
