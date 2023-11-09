@@ -1,5 +1,19 @@
 .Navbar.lightMode {
     background-color: transparent;
+
+    h1 {
+        strong {
+            &:hover {
+                color: $secondary-color;
+            }
+        }
+    }
+
+    a {
+        &:hover {
+            color: $secondary-color;
+        }
+    }
 }
 
 .Navbar {

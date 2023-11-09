@@ -37,12 +37,24 @@
 
             span {
                 color: $light-box-background;
+
+                &:hover {
+                    color: $secondary-color;
+                }
+            }
+
+            &:hover {
+                color: $secondary-color;
             }
         }
         
     }
 
     .box {
+        &:hover {
+            opacity: 0.8;
+        }
+
         .container {
             background-color: $light-box-background;
             color: $primary-color;
@@ -50,6 +62,10 @@
     }
 
     .mode {
+        &:hover {
+            opacity: 0.9;
+        }
+
         .container {
             background-color: $light-box-background;
         }

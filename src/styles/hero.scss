@@ -22,6 +22,10 @@
 
         .boxContainer {
             background-color: $primary-color;
+
+            &:hover {
+                color: $secondary-color;
+            }
         }
 
         .recentProjects{
@@ -29,6 +33,10 @@
 
             a {
                 color: $light-box-background;
+
+                &:hover {
+                    color: $secondary-color;
+                }
             } 
         }
     }
@@ -38,8 +46,16 @@
             background-color: $primary-color;
             color: $light-box-background;
 
+            &:hover {
+                color: $secondary-color;
+            }
+
             a {
                 color: $light-box-background;
+
+                &:hover {
+                    color: $secondary-color;
+                }
             }
         }
     }
