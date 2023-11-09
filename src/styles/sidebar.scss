@@ -25,6 +25,10 @@
         h2 {
             color: $light-box-background;
 
+            &:hover {
+                color: $secondary-color;
+            }
+
             span {
                 color: $light-box-background;
             }
