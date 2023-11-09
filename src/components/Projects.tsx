@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import projects from '../assets/content/projects';
 import Sidebar from './Sidebar';
+import { LiaExternalLinkAltSolid } from 'react-icons/lia';
 
 const Projects = () => {
 
@@ -27,7 +28,7 @@ const Projects = () => {
                         <div className="imageContainer">
                           <img src={item.src} alt={item.title} />
                         </div>
-                        <h4>{item.title}</h4>
+                        <h4>{item.title}<LiaExternalLinkAltSolid /></h4>
                   </a>
                 })}
               </div>

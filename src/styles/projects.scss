@@ -116,7 +116,8 @@
 
                         h4 {
                             flex: 1;
-                            @include flex(center, center);
+                            @include flex-direction(center, row);
+                            gap: 10px;
                         }
                 }
             }
