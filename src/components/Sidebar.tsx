@@ -9,7 +9,7 @@ const Sidebar = () => {
         <div className="imageContainer">
           <img src={ProfileImage} alt="Luna Smith's profile" />
         </div>
-        <h2>Bridging <strong>Art</strong> and <strong>Web Development</strong></h2>
+        <h2>Luna Smith</h2>
       </div>
       <div className="linkContainer">
         <Link to='/'>Home</Link>

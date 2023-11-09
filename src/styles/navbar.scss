@@ -2,12 +2,20 @@
     @include flex-direction(space-between, row);
     padding: $primary-padding;
     position: fixed;
-    top: 5px;
+    top: 40px;
     width: calc(100vw - 200px);
 
-    a {
-        h1 {
-            flex:1;
+    h1 {
+        flex:1;
+        font-weight: 100;
+        font-size: $nav-font-size;
+        
+        strong {
+            transition: 200ms all ease-in-out;
+
+            &:hover {
+                color: $focus-color;
+            }
         }
     }
 

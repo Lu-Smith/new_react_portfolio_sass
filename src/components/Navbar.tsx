@@ -11,9 +11,7 @@ import {
 const Navbar = () => {
   return (
     <div className='Navbar'>
-      <Link to="/">
-        <h1>Luna Smith</h1>
-      </Link>
+      <h1>Bridging <strong>Art</strong> and <strong>Web Development</strong></h1>
       <div className="socialLinks">
       <a   
         href="//www.linkedin.com/in/luna-smith/"

@@ -22,18 +22,7 @@
         }
 
         h2 {
-            font-weight: 300;
-            padding: $primary-padding;
-            text-align: center;
-            font-size: $primary-font-size;
-
-            strong {
-                transition: 200ms all ease-in-out;
-
-                &:hover {
-                    color: $focus-color;
-                }
-            }
+           font-size: $primary-font-size;
         }
     }
 
