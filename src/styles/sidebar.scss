@@ -5,7 +5,7 @@
     @include flex-direction(flex-start, column);
 
     .titleContainer {
-        flex:1;
+        flex: 1;
         width: 100%;
         @include flex-direction(center, column);
         text-align: center;
@@ -19,7 +19,6 @@
                 height: 100%;
                 object-fit: contain;
                 border-radius: 5%;
-
             }
         }
 
@@ -44,15 +43,25 @@
         a {
             transition: 200ms all ease-in-out;
             font-weight: bold;
+            @include flex-direction(center, row);
+            gap: 10px;
 
             &:hover {
                 color: $focus-color;
             }
+
+            span {
+                color: $focus-color;
+            }
+
+
+
         }
     }
 
-    .box {
+    .box, .mode {
         flex: 1;
+        @include flex-direction(center, column);
 
         .container {
             background-color: $primary-background;
@@ -69,6 +78,21 @@
                 box-shadow: none;
             }
         }
+    }
 
+    .mode {
+        .container {
+            @include flex-direction(center, column);
+            gap: 10px;
+            color: $primary-color;
+            border: none;
+            color: $mode-color;
+
+            span {
+                color: $mode-color;
+                font-size: $nav-font-size;
+            }
+        }
+       
     }
 }

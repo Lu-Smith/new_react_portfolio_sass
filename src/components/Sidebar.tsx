@@ -1,12 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import ProfileImage from '../assets/Luna_Smith.jpg';
 import { PiCoffee } from 'react-icons/pi';
-import { GrProjects } from 'react-icons/gr';
+import { AiOutlineFundProjectionScreen } from 'react-icons/ai';
 import { TfiEmail, TfiInfoAlt } from 'react-icons/tfi';
 import { LuPalette } from 'react-icons/lu';
+import { FaRegLightbulb, FaMoon } from 'react-icons/fa';
 
 const Sidebar = () => {
+
+  const [mode, setMode] = useState('light');
+
+  const handleMode = () => {
+    if(mode === 'light') {
+      setMode('dark');
+    } else {
+      setMode('light');
+    }
+  }
+
   return (
     <div className='Sidebar'>
       <div className="titleContainer">
@@ -18,11 +30,18 @@ const Sidebar = () => {
         </Link>
       </div>
       <div className="linkContainer">
-        <Link to='/'><PiCoffee />Home</Link>
-        <Link to='/projects'><GrProjects />Projects</Link>
-        <Link to='/fineart'><LuPalette />Art</Link>
-        <Link to='/about'><TfiInfoAlt />About</Link>
-        <Link to='/contact'><TfiEmail />Contact</Link>
+        <Link to='/'><span><PiCoffee /></span>Home</Link>
+        <Link to='/projects'><span><AiOutlineFundProjectionScreen /></span>Projects</Link>
+        <Link to='/fineart'><span><LuPalette /></span>Art</Link>
+        <Link to='/about'><span><TfiInfoAlt /></span>About</Link>
+        <Link to='/contact'><span><TfiEmail /></span>Contact</Link>
+      </div>
+      <div className="mode">
+        <button className="container" onClick={handleMode}>
+        {mode === 'light' && <span><FaRegLightbulb /></span>}
+        {mode === 'dark' && <span><FaMoon /></span>}
+        Mode
+        </button>  
       </div>
       <div className="box">
         <div className="container">

@@ -12,6 +12,7 @@ import FineArt from './pages/fineart';
 import DigitalArt from './pages/digitalart';
 
 function App() {
+  
   return (
     <div className="App">
        <Router>
