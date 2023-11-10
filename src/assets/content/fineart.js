@@ -56,7 +56,7 @@ import ImgS2 from '../media/fineart/Shadows/V-in-Shadows-by-Luna-Smith.jpg';
 import ImgS3 from '../media/fineart/Shadows/R-in-Shadows-by-Luna-Smith.jpg';
 import ImgS4 from '../media/fineart/Shadows/O-in-Shadows-by-Luna-Smith.jpg';
 import ImgS5 from '../media/fineart/Shadows/L-in-Shadows-by-Luna-Smith.jpg';
-import ImgS6 from '../media/fineart/Shadows/B-in-Shadows-by-Luna-Smith.jpg';
+import ImgS6 from '../media/fineart/Shadows/B-in-Shadows-by-Luna-Smith.jpg';    
 import ImgS7 from '../media/fineart/Shadows/G-in-Shadows-by-Luna-Smith.jpg';
 import ImgS8 from '../media/fineart/Shadows/J-in-Shadows-by-Luna-Smith.jpg';
 import ImgS9 from '../media/fineart/Shadows/M-in-Shadows-by-Luna-Smith.jpg';

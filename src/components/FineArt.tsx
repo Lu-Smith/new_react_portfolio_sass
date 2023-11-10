@@ -26,7 +26,6 @@ const FineArt = () => {
                       <div className="imageContainer">
                         <img src={item.src} alt={item.title} />
                       </div>
-                      <h4>{item.title}</h4>
                     </div>
                   })}
               </div>
