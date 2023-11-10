@@ -15,7 +15,7 @@ const Hero = ({ mode, handleMode }: ModeProps) => {
           <FuturedComponents />
         </div>
         <div className="recentProjects">
-          <Link to="/projects"><h2>Recent Projects</h2></Link>
+          <Link to="/projects"><h2>Futured Projects</h2></Link>
         </div>
       </div>
       <div className="messageContainer">

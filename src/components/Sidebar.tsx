@@ -39,11 +39,11 @@ const Sidebar = ({ mode, handleMode }: ModeProps) => {
         </button>  
       </div>
       <div className="box">
-        <div className="container">
-          <Link to='/games'>
-            Games
-          </Link>
-        </div>  
+        <Link to='/games'>
+          <div className="container">
+              Games
+          </div> 
+        </Link> 
       </div>
     </div>
   )

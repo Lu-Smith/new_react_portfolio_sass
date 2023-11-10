@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
+import projects from '../assets/content/projects';
 import Sidebar from './Sidebar';
+import { LiaExternalLinkAltSolid } from 'react-icons/lia';
 
 const Games = () => {
   const [mode, setMode] = useState('dark');
@@ -15,6 +17,25 @@ const Games = () => {
         </div>
         <div className="componentContainer">
           <h2>Games</h2>
+          {projects.map((project, index) => {
+          return <div key={index}>
+            {project.title === 'Games' && 
+            <div className="projectsContainer">
+              <h3>{project.title}</h3>
+              <div 
+              className='game'>
+                {project.project.map((item, index) => {
+                  return <a href={item.href} key={index} target='_blank' rel="noreferrer">
+                        <div className="imageContainer">
+                          <img src={item.src} alt={item.title} />
+                        </div>
+                        <h4>{item.title}<LiaExternalLinkAltSolid /></h4>
+                  </a>
+                })}
+              </div>
+            </div>}
+          </div>
+        })}
         </div>
     </div>
   )

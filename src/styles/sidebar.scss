@@ -3,10 +3,17 @@
     color: $primary-color;
 
     .box {
-        .container {
-            background-color: $primary-background;
-            color: $focus-color;
+        a {
+            color: $primary-color;
+            .container {
+                background-color: $primary-background;
+            }
+
+            &:hover {
+                color: $focus-color;
+            }
         }
+
     }
 
    .mode {
