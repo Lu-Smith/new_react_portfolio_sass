@@ -47,7 +47,7 @@ const projects = [
             },
             {
                 title: 'Frogger',
-                href: 'frogger-luna-smith.netlify.app',
+                href: 'https://frogger-luna-smith.netlify.app',
                 src: ImgJ2,
             },
             {
