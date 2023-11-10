@@ -1,3 +1,18 @@
+.Events.darkMode {
+    div {
+        background-color: $primary-background;
+    }
+
+}
+
+.Events.lightMode {
+    div {
+        background-color: $focus-color;
+    }
+}
+
+
+
 .Events {
     @include flex-direction(center, column);
     gap: 20px;
@@ -5,7 +20,7 @@
     box-shadow: $primary-shadow;
 
     div {
-        background-color: $primary-background;
+       
         border-radius: 20px;
         padding: $primary-padding;
        

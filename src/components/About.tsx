@@ -33,7 +33,7 @@ const About = () => {
             <p>Through my art, I express a deep connection to life, nature, and cultural traditions. My legacy as a talented Scottish painter with a unique perspective is a testament to my enduring passion for capturing the essence of the world around me.</p>
           </div>
           <button onClick={handleEvents}>Events</button>
-          {displayEvents && <Events />}
+          {displayEvents && <Events mode={mode} handleMode={handleMode} />}
         </div>
       </div>
     </div>

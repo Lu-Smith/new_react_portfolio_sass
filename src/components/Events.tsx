@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-const Events = () => {
+interface ModeProps {
+  mode: string,
+  handleMode: () => void,
+};
+
+const Events = ({ mode, handleMode }: ModeProps) => {
   return (
-    <div className='Events'>
+    <div className={`Events ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
         <div>
             <div className="title">
               Solo exhibition at St Margaret House in Edinburgh, Scotland
