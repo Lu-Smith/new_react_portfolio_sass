@@ -91,12 +91,12 @@ const Contact = () => {
                         height="400px" 
                         width="400px" 
                         version="1.1" 
-                        stroke-width="2"
+                        stroke-width="0.8"
                         id="_x32_" 
                         xmlns="http://www.w3.org/2000/svg" 
                         viewBox="0 0 512 512">
                                 <motion.path  
-                                strokeWidth={10}
+                                strokeWidth={1.7}
                                 initial={{ pathLength: 0}}
                                 animate={isInView && { pathLength: 5}}
                                 transition={{ duration: 10 }}
