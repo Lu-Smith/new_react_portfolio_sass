@@ -1,13 +1,15 @@
 .Events.darkMode {
     div {
         background-color: $primary-background;
+        color: $primary-color;
     }
 
 }
 
 .Events.lightMode {
     div {
-        background-color: $focus-color;
+        background-color: $light-box-background;
+        color: $primary-color;
     }
 }
 
@@ -20,10 +22,8 @@
     box-shadow: $primary-shadow;
 
     div {
-       
         border-radius: 20px;
         padding: $primary-padding;
-       
 
         .title {
             font-size: $nav-font-size;
@@ -32,8 +32,7 @@
         }
 
         .date {
-            font-style: italic;
-            
+            font-style: italic;   
         }
 
         .description {
