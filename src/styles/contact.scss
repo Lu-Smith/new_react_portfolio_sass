@@ -76,6 +76,7 @@
                     border: $button-border;
                     border-radius: 5px;
                     color: $primary-color;
+                    font-size: $primary-font-size;
                 }
     
                 button{
@@ -83,7 +84,8 @@
                     border: none;
                     background-color: $focus-color;
                     cursor: pointer;
-                    font-weight: 500;
+                    font-weight: 600;
+                    font-size: $big-font-size;
                 }
             }
         }
