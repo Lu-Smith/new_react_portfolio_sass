@@ -89,8 +89,8 @@ const Contact = () => {
                     whileInView={{opacity: 0}} 
                     transition={{ delay: 2, duration: 6}}>
                         <svg 
-                        height="400px" 
-                        width="400px" 
+                        height="380px" 
+                        width="380px" 
                         version="1.1" 
                         stroke-width="0.8"
                         id="_x32_" 
@@ -122,7 +122,7 @@ const Contact = () => {
                     onSubmit={sendEmail}
                     initial={{ opacity: 0}} 
                     whileInView={{opacity: 1}} 
-                    transition={{ delay: 4, duration: 1}}>
+                    transition={{ delay: 7, duration: 1}}>
                         <input type="text" required placeholder='Name' name='name' />
                         <input type="email" required placeholder='Email' name='email' />
                         <textarea placeholder='Message'rows={8} name='message' ></textarea>

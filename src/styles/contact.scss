@@ -44,6 +44,7 @@
         position: fixed;
         top: 0;
         left: 0;
+        z-index: 998;
     }
 
     .componentContainer {
@@ -53,6 +54,7 @@
         height: 100vh;
         @include flex(center, center);
         overflow: hidden;
+        z-index: 1;
     
         .textContainer {
             flex: 1;
@@ -89,7 +91,7 @@
             .phoneSvg {
                 margin-left: 20px;
                 position: absolute;
-                z-index: -1;
+                z-index: 2;
                  svg {
                     stroke: $focus-color;
                  }
@@ -99,6 +101,8 @@
                 display: flex;
                 flex-direction: column;
                 gap: 10px;
+                z-index: 4;
+                margin-top: 40px;
     
                 input, textarea {
                     padding: 20px;

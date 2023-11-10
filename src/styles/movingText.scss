@@ -1,11 +1,10 @@
-
 .slidingTextContainer {
     position: absolute;
     font-size: $moving-text-font-size;
-    top: 40px;
+    top: 80px;
     white-space: nowrap;
     color: $focus-color;
     width: 100%;
     font-weight: bold; 
-    z-index: 1;
+    opacity: 0.2;
 }

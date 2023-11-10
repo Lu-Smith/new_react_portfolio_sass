@@ -6,7 +6,7 @@ const sliderVariants = {
         x: '100%',
     },
     animate: {
-        x: '-20%',
+        x: '-100%',
         transition: {
             duration: 30,
             repeat: Infinity,                
