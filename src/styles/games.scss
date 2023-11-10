@@ -5,10 +5,6 @@
     .componentContainer {
         .projectsContainer {
             background: $hero-background;   
-
-            h3 {
-                color: $primary-color;
-            }
             
             .game {
                 a {
@@ -31,10 +27,6 @@
     .componentContainer {
         .projectsContainer {
             background: $light-hero-background; 
-
-            h3 {
-                color: $secondary-color;
-            }
             
             .game {
                 a {
@@ -75,21 +67,14 @@
         }
 
         .projectsContainer {
-            @include flex-direction(center, column);
+            @include flex(center, center);
             height: 100vh;
-            width: 100%;  
-            gap: 5px;
-
-            h3 {
-                flex: 1;
-                font-size: $nav-font-size;
-                margin-top: 60px;
-            }
-
-            .game {
+            width: 100%;
+      
+            .game { 
+                margin-top: 100px;
                 grid-template-rows: repeat(2, 1fr);
                 grid-template-columns: repeat(3, 1fr);
-                flex: 8;
                 display: grid;
                 margin-bottom: 80px;
                 gap: 20px;

@@ -21,7 +21,6 @@ const Games = () => {
           return <div key={index}>
             {project.title === 'Games' && 
             <div className="projectsContainer">
-              <h3>{project.title}</h3>
               <div 
               className='game'>
                 {project.project.map((item, index) => {
