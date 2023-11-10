@@ -1,3 +1,10 @@
 .MobileSidebar {
-    
+    .closeMobileSidebar {
+        span {
+            width: 30px;
+            height: 5px;
+            background-color: $focus-color;
+        }
+    }
+
 }
