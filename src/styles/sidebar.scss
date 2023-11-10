@@ -88,6 +88,7 @@
     height: 100%;
     width: 200px;
     @include flex-direction(flex-start, column);
+    z-index: 998;
 
     .titleContainer {
         flex: 1;

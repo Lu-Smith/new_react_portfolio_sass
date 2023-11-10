@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 
 const sliderVariants = {
     initial: {
-        x: 0,
+        x: '100%',
     },
     animate: {
-        x: "-220%",
+        x: '-20%',
         transition: {
             duration: 30,
             repeat: Infinity,                

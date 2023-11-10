@@ -1,11 +1,11 @@
-.MovingText {
-    .slidingTextContainer {
-        position: absolute;
-        font-size: 50vh;
-        top: 0;
-        white-space: nowrap;
-        color: $focus-color;
-        width: 50%;
-        font-weight: bold;
-    }
+
+.slidingTextContainer {
+    position: absolute;
+    font-size: $moving-text-font-size;
+    top: 40px;
+    white-space: nowrap;
+    color: $focus-color;
+    width: 100%;
+    font-weight: bold; 
+    z-index: 1;
 }

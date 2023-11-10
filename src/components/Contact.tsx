@@ -56,7 +56,6 @@ const Contact = () => {
 
   return (
     <div className={`Contact ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
-      <MovingText />
       <div className='menu'>
         <Sidebar mode={mode} handleMode={handleMode} />
       </div>
@@ -131,8 +130,10 @@ const Contact = () => {
                         {error && "Error"}
                         {success && "Success"}
                     </motion.form>
+                    
                 </div>
         </motion.div>
+        <MovingText />
     </div>
   )
 }
