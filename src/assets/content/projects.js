@@ -41,9 +41,19 @@ const projects = [
                 src: ImgJ1,
             },
             {
+                title: 'Candy Heaven',
+                href: 'https://candyheavenshop.netlify.app/',
+                src: ImgR7,
+            },
+            {
                 title: 'Frogger',
                 href: 'frogger-luna-smith.netlify.app',
                 src: ImgJ2,
+            },
+            {
+                title: 'Example Shop',
+                href: 'https://resonant-mermaid-b21b5e.netlify.app/',
+                src: ImgJ6,
             }
         ]
     },
@@ -165,6 +175,21 @@ const projects = [
                 href: 'https://memory-game-crypto-coo.netlify.app/',
                 src: ImgJ4,
             },
+            {
+                title: 'Snake Game',
+                href: 'https://snake-game-react-typescript.netlify.app/',
+                src: ImgR6,
+            },
+            {
+                title: 'Hangman',
+                href: 'https://hangman-react-typescript.netlify.app/',
+                src: ImgR9,
+            },
+            {
+                title: 'Rock Paper Scissors',
+                href: 'https://rockpaperscissors-fun-game.netlify.app/',
+                src: ImgJ9,
+            } 
         ]
     },
 ]
