@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
+import MobileSidebar from './MobileSidebar';
 
 const Home = () => {
 
@@ -13,6 +14,7 @@ const Home = () => {
 
   return (
     <div className={`Home ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
+        <MobileSidebar />
         <Sidebar mode={mode} handleMode={handleMode} />
         <div className="mainContainer">
             <Navbar mode={mode} handleMode={handleMode} />

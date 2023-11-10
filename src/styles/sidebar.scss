@@ -2,6 +2,10 @@
     background: $secondary-background;
     color: $primary-color;
 
+    @include mobile {
+        display: none;
+    }
+
     .box {
         a {
             color: $primary-color;
@@ -13,7 +17,6 @@
                 color: $focus-color;
             }
         }
-
     }
 
    .mode {
@@ -58,7 +61,6 @@
                 color: $secondary-color;
             }
         }
-        
     }
 
     .box {

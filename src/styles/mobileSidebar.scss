@@ -2,6 +2,11 @@
     @include flex(center, column);
     background-color: $secondary-background;
     color: $secondary-color;
+    display: none;
+
+    @include mobile {
+        display: block;
+    }
 
     .container {
         z-index: 997;
