@@ -44,10 +44,14 @@ import ImgL25 from '../media/fineart/Landscapes/The-Blue-Hollow-by-Luna-Smith.jp
 import ImgL26 from '../media/fineart/Landscapes/Waterfall-by-Luna-Smith.jpg';
 
 //Animals
-import ImgA1 from '../media/projects/JavaScript/PixelRainJ.jpg';
+import ImgA1 from '../media/fineart/Animals/Owl-by-Luna-Smith.jpg';
+import ImgA2 from '../media/fineart/Animals/SpookyKittyByLunaSmith.jpg';
+import ImgA3 from '../media/fineart/Animals/Swan-by-Luna-Smith.jpg';
+import ImgA4 from '../media/fineart/Animals/Shrimp-by-Luna-Smith.jpg';
+import ImgA5 from '../media/fineart/Animals/Dream-by-Luna-Smith.jpg';
 
 //SoundofLife
-import ImgS1 from '../media/projects/JavaScript/PixelRainJ.jpg';
+import ImgS1 from '../media/fineart/Animals/Owl-by-Luna-Smith.jpg';
 
 const paintings = [
     {
@@ -227,53 +231,28 @@ const paintings = [
         ]
     },
     {
-        title: 'JavaScript paintings',
+        title: 'Animals',
         project: [
             {
-                title: 'Pixel Rain ',
-                href: 'https://pixel-rain.netlify.app/',
-                src: ImgJ1,
+                title: 'Owl',
+                src: ImgA1,
             },
             {
-                title: 'Frogger',
-                href: 'frogger-luna-smith.netlify.app',
-                src: ImgJ2,
+                title: 'Spooky Kitty',
+                src: ImgA2,
             },
             {
-                title: 'RaibowSpikes',
-                href: 'https://rainbow-spikes-javascript-animation.netlify.app/',
-                src: ImgJ3,
+                title: 'Swan',
+                src: ImgA3,
             },
             {
-                title: 'Memory Game',
-                href: 'https://memory-game-crypto-coo.netlify.app/',
-                src: ImgJ4,
+                title: 'Shrimp',
+                src: ImgA4,
             },
             {
-                title: 'Mandala Shapes',
-                href: 'https://mandala-shapes.netlify.app/',
-                src: ImgJ5,
+                title: 'Dream',
+                src: ImgA5,
             },
-            {
-                title: 'Example Shop',
-                href: 'https://resonant-mermaid-b21b5e.netlify.app/',
-                src: ImgJ6,
-            },
-            {
-                title: 'JS Text Animations',
-                href: 'https://ephemeral-bienenstitch-24f392.netlify.app/',
-                src: ImgJ7,
-            },
-            {
-                title: 'Matrix',
-                href: 'https://matrix-js.netlify.app/',
-                src: ImgJ8,
-            },
-            {
-                title: 'Rock Paper Scissors',
-                href: 'https://rockpaperscissors-fun-game.netlify.app/',
-                src: ImgJ9,
-            }
         ]
     },
     {
