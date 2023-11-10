@@ -13,6 +13,9 @@ const About = () => {
       <div className='menu'>
         <Sidebar mode={mode} handleMode={handleMode} />
       </div>
+      <div className="componentContainer">
+        <h2>Fine Art</h2>
+      </div>
     </div>
   )
 }
