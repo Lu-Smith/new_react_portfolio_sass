@@ -16,7 +16,22 @@ import ImgN14 from '../media/fineart/Nott/The-Fading-Reality-by-Luna-Smith.jpg';
 import ImgN15 from '../media/fineart/Nott/The-Reflection-of-my-Universe-by-Luna-Smith.jpg';
 
 //Landscapes
-import ImgL1 from '../media/projects/JavaScript/PixelRainJ.jpg';
+import ImgL1 from '../media/fineart/Landscapes/Shimmering-Golden-Trees.jpg';
+import ImgL2 from '../media/fineart/Landscapes/Autumn-by-Luna-Smith.jpg';
+import ImgL3 from '../media/fineart/Landscapes/Scottish-Dream-by-Luna-Smith.jpg';
+import ImgL4 from '../media/fineart/Landscapes/The-Whishper-of-the-Diabaig--by-Luna-Smith.jpg';
+import ImgL5 from '../media/fineart/Landscapes/Sunrise-at-Elgol-Beach-by-Luna-Smith.jpg';
+import ImgL6 from '../media/fineart/Landscapes/The-Lonely-Dragon-by-Luna-Smith.jpg';
+import ImgL7 from '../media/fineart/Landscapes/Autumn-Reflection-by-Luna-Smith.jpg';
+import ImgL8 from '../media/fineart/Landscapes/Guardian-Tree-by-Luna-Smith.jpg';
+import ImgL9 from '../media/fineart/Landscapes/Secret-Garden-by-Luna-Smith.jpg';
+import ImgL10 from '../media/fineart/Landscapes/Winter-Breeze-by-Luna-Smith.jpg';
+import ImgL11 from '../media/fineart/Landscapes/Viking-Sunset-by-Luna-Smith.jpg';
+import ImgL12 from '../media/fineart/Landscapes/WInter-Cottage-by-Luna-Smith.jpg';
+import ImgL13 from '../media/fineart/Landscapes/Autumn-Sunset-by-Luna-Smith.jpg';
+import ImgL14 from '../media/fineart/Landscapes/Snowy-Mount-Rainier-by-Luna-Smith.jpg';
+import ImgL15 from '../media/fineart/Landscapes/Grasslands-of-Arran-by-Luna-Smith.jpg';
+import ImgL16 from '../media/fineart/Landscapes/Italian-Alps-by-Luna-Smith.jpg';
 
 //Animals
 import ImgA1 from '../media/projects/JavaScript/PixelRainJ.jpg';
@@ -92,53 +107,73 @@ const paintings = [
         ]
     },
     {
-        title: 'React paintings',
+        title: 'Landscapes',
         project: [
             {
-                title: 'LuArt Gallery',
-                href: 'https://luartgallery.com/',
-                src: ImgR1,
+                title: 'Shimmering Golden Trees',
+                src: ImgL1,
             },
             {
-                title: 'Weather App',
-                href: 'https://weather-app-react-luna-smith.netlify.app/',
-                src: ImgR2,
+                title: 'Autumn',
+                src: ImgL2,
             },
             {
-                title: 'TicTacToe',
-                href: 'https://tic-tac-toe-react-typescript-luna.netlify.app/',
-                src: ImgR3,
+                title: 'Scottish Dream',
+                src: ImgL3,
             },
             {
-                title: 'Dictionary App',
-                href: 'https://luminous-dictionary-app.netlify.app/',
-                src: ImgR4,
+                title: 'The Whishper of Diabaig',
+                src: ImgL4,
             },
             {
-                title: 'Recipe App',
-                href: 'https://recipe-app-react-luna-smith.netlify.app/',
-                src: ImgR5,
+                title: 'Sunrise at Elgol Beach',
+                src: ImgL5,
             },
             {
-                title: 'Snake Game',
-                href: 'https://snake-game-react-typescript.netlify.app/',
-                src: ImgR6,
+                title: 'The Lonely Dragon',
+                src: ImgL6,
             },
             {
-                title: 'Candy Heaven',
-                href: 'https://candyheavenshop.netlify.app/',
-                src: ImgR7,
+                title: 'Autumn Reflection',
+                src: ImgL7,
             },
             {
-                title: 'Bubble - community space',
-                href: 'https://community-fans.netlify.app/',
-                src: ImgR8,
+                title: 'Guardian Tree',
+                src: ImgL8,
             },
             {
-                title: 'Hangman',
-                href: 'https://hangman-react-typescript.netlify.app/',
-                src: ImgR9,
-            } 
+                title: 'Secret Garden',
+                src: ImgL9,
+            },
+            {
+                title: 'Winter Breeze',
+                src: ImgL10,
+            },
+            {
+                title: 'Viking Sunset',
+                src: ImgL11,
+            },
+            {
+                title: 'Winter Cottage',
+                src: ImgL12,
+            },
+            {
+                title: 'Autumn Sunset',
+                src: ImgL13,
+            },
+            {
+                title: 'Snowy Mount Rainier',
+                src: ImgL14,
+            },
+            {
+                title: 'Grasslands of Arran',
+                src: ImgL15,
+            },
+            {
+                title: 'Italian Alps',
+                src: ImgL16,
+            },
+          
         ]
     },
     {
