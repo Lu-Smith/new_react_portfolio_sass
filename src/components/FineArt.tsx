@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Sidebar from './Sidebar';
+import paintings from '../assets/content/fineart';
 
 const FineArt = () => {
   const [mode, setMode] = useState('dark');
@@ -15,7 +16,11 @@ const FineArt = () => {
       </div>
       <div className="componentContainer">
         <h2>Fine Art</h2>
-        gdgs
+        {paintings.map((painting, index) => {
+          return <div className={painting.title} key={index}>
+            {painting.title}
+          </div>
+        })}
       </div>
     </div>
   )
