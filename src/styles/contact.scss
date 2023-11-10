@@ -80,12 +80,23 @@
                 }
     
                 button{
-                    padding: 20px;
-                    border: none;
-                    background-color: $focus-color;
                     cursor: pointer;
                     font-weight: 600;
                     font-size: $big-font-size;
+                    background-color: $primary-background;
+                    color: $primary-color;
+                    box-shadow: $primary-shadow;
+                    transition: 200ms all ease-in-out;
+                    padding: $button-padding;
+                    border-bottom-left-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                    border: $button-border;
+                    margin-bottom: 20px;
+    
+                    &:hover {
+                        color: $focus-color;
+                        box-shadow: none;
+                    }
                 }
             }
         }
