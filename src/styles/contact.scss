@@ -1,11 +1,37 @@
 .Contact.darkMode {
     background: $standard-background;
     color: $primary-color;
+
+    .formContainer {
+        form {
+            input, textarea {
+                border: $form-border;
+                color: $primary-color;
+            }
+
+            input::placeholder, textarea::placeholder {
+                color: $primary-color
+            }
+        }
+    }
 }
 
 .Contact.lightMode {
     background: $primary-color;
     color: $secondary-color;
+
+    .formContainer {
+        form {
+            input, textarea {
+                border: $button-border;
+                color: $secondary-color;
+            }
+
+            input::placeholder, textarea::placeholder {
+                color: $secondary-color
+            }
+        }
+    }
 }
 
 .Contact {
@@ -77,14 +103,8 @@
                 input, textarea {
                     padding: 20px;
                     background-color: transparent;
-                    border: $form-border;
                     border-radius: 5px;
-                    color: $primary-color;
                     font-size: $primary-font-size;
-                }
-
-                input::placeholder, textarea::placeholder {
-                    color: $primary-color
                 }
     
                 button{
