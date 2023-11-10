@@ -16,19 +16,21 @@ const FineArt = () => {
       </div>
       <div className="componentContainer">
         <h2>Fine Art</h2>
-        {paintings.map((painting, index) => {
-          return <div className={painting.title} key={index}>
-            <h3>{painting.title}</h3>
-            {painting.project.map((item, index) => {
-              return <div key={index}>
-                <div className="imageContainer">
-                  <img src={item.src} alt={item.title} />
+        <div className="painitngs">
+          {paintings.map((painting, index) => {
+            return <div className='painting' key={index}>
+              <h3>{painting.title}</h3>
+              {painting.project.map((item, index) => {
+                return <div key={index}>
+                  <div className="imageContainer">
+                    <img src={item.src} alt={item.title} />
+                  </div>
+                  <h4>{item.title}</h4>
                 </div>
-                <h4>{item.title}</h4>
-              </div>
-            })}
+              })}
+            </div>
+          })}
           </div>
-        })}
       </div>
     </div>
   )
