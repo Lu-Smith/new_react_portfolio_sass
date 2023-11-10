@@ -21,7 +21,7 @@
     }
 
     .componentContainer {
-        margin-left: 200px;
+        margin: 0 200px 0 400px;
         width: calc(100vw - 200px);
         position: relative;
         height: 100vh;
@@ -32,7 +32,6 @@
             display: flex;
             flex-direction: column;
             gap: 40px;
-            margin-left: 100px;
     
             h1 {
                 font-size: $box-font-size;
@@ -54,52 +53,39 @@
             }
         }
     
-        // .formContainer {
-        //     flex: 1;
-        //     position: relative;
+        .formContainer {
+            flex: 1;
+            position: relative;
+            overflow: hidden;
     
-        //     @include mobile {
-        //         flex: 2;
-        //         width: 100%;
-        //         padding: 50px;
-        //     }
+            .phoneSvg {
+                stroke: $focus-color;
+                position: absolute;
+                margin: auto;
+                z-index: -1;
+            }
     
-        //     .phoneSvg {
-        //         stroke: $focus-color;
-        //         position: absolute;
-        //         margin: auto;
-        //         z-index: -1;
-        //     }
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
     
-        //     form {
-        //         display: flex;
-        //         flex-direction: column;
-        //         gap: 20px;
+                input, textarea {
+                    padding: 20px;
+                    background-color: transparent;
+                    border: $button-border;
+                    border-radius: 5px;
+                    color: $primary-color;
+                }
     
-        //         input, textarea {
-        //             padding: 20px;
-        //             background-color: transparent;
-        //             border: $button-border;
-        //             border-radius: 5px;
-        //             color: $primary-color;
-    
-        //             @include mobile {
-        //                 padding: 10px;
-        //             }
-        //         }
-    
-        //         button{
-        //             padding: 20px;
-        //             border: none;
-        //             background-color: $focus-color;
-        //             cursor: pointer;
-        //             font-weight: 500;
-    
-        //             @include mobile {
-        //                 padding: 10px;
-        //             }
-        //         }
-        //     }
-        // }
+                button{
+                    padding: 20px;
+                    border: none;
+                    background-color: $focus-color;
+                    cursor: pointer;
+                    font-weight: 500;
+                }
+            }
+        }
     }
 }
