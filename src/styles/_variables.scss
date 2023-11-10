@@ -17,7 +17,13 @@ $light-hero-background: radial-gradient($primary-color 0%, $light-box-background
 $primary-font-size: 14px;
 $big-font-size: 22px;
 $nav-font-size: 28px;
-$box-font-size: 32px;
+$box-font-size: 34px;
+
+//line-height
+$primary-line-height: 20px;
+$big-line-height: 26px;
+$nav-line-height: 35px;
+$box-line-height: 42px;
 
 //paddings
 $primary-padding: 0 40px;
@@ -28,6 +34,7 @@ $title-padding: 0 20px;
 
 //borders
 $primary-border: 5px solid $secondary-color;
+$button-border: 1px solid $secondary-color;
 
 //shadows
 $primary-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
