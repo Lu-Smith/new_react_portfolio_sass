@@ -15,6 +15,7 @@ const FineArt = () => {
       </div>
       <div className="componentContainer">
         <h2>Fine Art</h2>
+        gdgs
       </div>
     </div>
   )
