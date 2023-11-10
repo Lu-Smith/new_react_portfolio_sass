@@ -50,8 +50,16 @@ import ImgA3 from '../media/fineart/Animals/Swan-by-Luna-Smith.jpg';
 import ImgA4 from '../media/fineart/Animals/Shrimp-by-Luna-Smith.jpg';
 import ImgA5 from '../media/fineart/Animals/Dream-by-Luna-Smith.jpg';
 
-//SoundofLife
-import ImgS1 from '../media/fineart/Animals/Owl-by-Luna-Smith.jpg';
+//Shadows
+import ImgS1 from '../media/fineart/Shadows/Z-in-Shadows-by-Luna-Smith.jpg';
+import ImgS2 from '../media/fineart/Shadows/V-in-Shadows-by-Luna-Smith.jpg';
+import ImgS3 from '../media/fineart/Shadows/R-in-Shadows-by-Luna-Smith.jpg';
+import ImgS4 from '../media/fineart/Shadows/O-in-Shadows-by-Luna-Smith.jpg';
+import ImgS5 from '../media/fineart/Shadows/L-in-Shadows-by-Luna-Smith.jpg';
+import ImgS6 from '../media/fineart/Shadows/B-in-Shadows-by-Luna-Smith.jpg';
+import ImgS7 from '../media/fineart/Shadows/G-in-Shadows-by-Luna-Smith.jpg';
+import ImgS8 from '../media/fineart/Shadows/J-in-Shadows-by-Luna-Smith.jpg';
+import ImgS9 from '../media/fineart/Shadows/M-in-Shadows-by-Luna-Smith.jpg';
 
 const paintings = [
     {
@@ -256,38 +264,44 @@ const paintings = [
         ]
     },
     {
-        title: 'Games',
+        title: 'Shadows',
         project: [
             {
-                title: 'Frogger',
-                href: 'frogger-luna-smith.netlify.app',
-                src: ImgJ2,
+                title: 'Z in Shadows',
+                src: ImgS1,
             },
             {
-                title: 'TicTacToe',
-                href: 'https://tic-tac-toe-react-typescript-luna.netlify.app/',
-                src: ImgR3,
+                title: 'V in Shadows',
+                src: ImgS2,
             },
             {
-                title: 'Memory Game',
-                href: 'https://memory-game-crypto-coo.netlify.app/',
-                src: ImgJ4,
+                title: 'R in Shadows',
+                src: ImgS3,
             },
             {
-                title: 'Snake Game',
-                href: 'https://snake-game-react-typescript.netlify.app/',
-                src: ImgR6,
+                title: 'O in Shadows',
+                src: ImgS4,
             },
             {
-                title: 'Hangman',
-                href: 'https://hangman-react-typescript.netlify.app/',
-                src: ImgR9,
+                title: 'L in Shadows',
+                src: ImgS5,
             },
             {
-                title: 'Rock Paper Scissors',
-                href: 'https://rockpaperscissors-fun-game.netlify.app/',
-                src: ImgJ9,
-            } 
+                title: 'B in Shadows',
+                src: ImgS6,
+            },
+            {
+                title: 'G in Shadows',
+                src: ImgS7,
+            },
+            {
+                title: 'J in Shadows',
+                src: ImgS8,
+            },
+            {
+                title: 'M in Shadows',
+                src: ImgS9,
+            },
         ]
     },
 ]
