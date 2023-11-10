@@ -32,6 +32,16 @@ import ImgL13 from '../media/fineart/Landscapes/Autumn-Sunset-by-Luna-Smith.jpg'
 import ImgL14 from '../media/fineart/Landscapes/Snowy-Mount-Rainier-by-Luna-Smith.jpg';
 import ImgL15 from '../media/fineart/Landscapes/Grasslands-of-Arran-by-Luna-Smith.jpg';
 import ImgL16 from '../media/fineart/Landscapes/Italian-Alps-by-Luna-Smith.jpg';
+import ImgL17 from '../media/fineart/Landscapes/Melting-Blue-Mountains-by-Luna-Smith.jpg';
+import ImgL18 from '../media/fineart/Landscapes/Hawaiian-Beach-by-Luna-Smith.jpg';
+import ImgL19 from '../media/fineart/Landscapes/The-Song-of-the-Glen-Etive-by-Luna-Smith.jpg';
+import ImgL20 from '../media/fineart/Landscapes/Paradise-by-Luna-Smith.jpg';
+import ImgL21 from '../media/fineart/Landscapes/The-Trapped-Wind.jpg';
+import ImgL22 from '../media/fineart/Landscapes/Savannah-Beach,-Georgia-by-Luna-Smith.jpg';
+import ImgL23 from '../media/fineart/Landscapes/Melting-Autumn-Sunrise-by-Luna-Smith.jpg';
+import ImgL24 from '../media/fineart/Landscapes/The-First-Walk-by-Luna-Smith.jpg';
+import ImgL25 from '../media/fineart/Landscapes/The-Blue-Hollow-by-Luna-Smith.jpg';
+import ImgL26 from '../media/fineart/Landscapes/Waterfall-by-Luna-Smith.jpg';
 
 //Animals
 import ImgA1 from '../media/projects/JavaScript/PixelRainJ.jpg';
@@ -172,6 +182,46 @@ const paintings = [
             {
                 title: 'Italian Alps',
                 src: ImgL16,
+            },
+            {
+                title: 'Melting Blue Mountains',
+                src: ImgL17,
+            },
+            {
+                title: 'Hawaiian Beach',
+                src: ImgL18,
+            },
+            {
+                title: 'The Song of Glen Etive',
+                src: ImgL19,
+            },
+            {
+                title: 'Paradise',
+                src: ImgL20,
+            },
+            {
+                title: 'The Trapped Wind',
+                src: ImgL21,
+            },
+            {
+                title: 'Savannah Beach',
+                src: ImgL22,
+            },
+            {
+                title: 'Melting Autumn Sunrise',
+                src: ImgL23,
+            },
+            {
+                title: 'The First Walk',
+                src: ImgL24,
+            },
+            {
+                title: 'The Blue Hollow',
+                src: ImgL25,
+            },
+            {
+                title: 'Waterfall',
+                src: ImgL26,
             },
           
         ]
