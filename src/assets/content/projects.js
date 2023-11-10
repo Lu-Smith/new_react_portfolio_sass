@@ -23,7 +23,7 @@ import ImgJ9 from '../media/projects/JavaScript/RockPaperScissors_J.jpg';
 
 const projects = [
     {
-        title: 'Fututred Projects',
+        title: 'Futured Projects',
         project: [
             {
                 title: 'LuArt Gallery',

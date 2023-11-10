@@ -22,7 +22,7 @@ const Projects = () => {
           return <div className={project.title} key={index}>
             <div className="projectsContainer">
               <h3>{project.title}</h3>
-              <div className='project'>
+              <div className={project.title === 'Futured Projects' ? 'futured' : 'project'}>
                 {project.project.map((item, index) => {
                   return <a href={item.href} key={index}>
                         <div className="imageContainer">

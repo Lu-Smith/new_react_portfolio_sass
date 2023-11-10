@@ -10,7 +10,7 @@
                 color: $primary-color;
             }
             
-            .project {
+            .project, .futured {
                 a {
                     background-color: $primary-background;
 
@@ -37,7 +37,7 @@
                 color: $secondary-color;
             }
             
-            .project {
+            .project, .futured {
                 a {
                     background-color: $primary-color;
 
@@ -88,10 +88,18 @@
             }
 
             .project {
-                flex: 8;
-                display: grid;
+                grid-template-rows: repeat(3, 1fr);
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .futured {
                 grid-template-rows: repeat(2, 1fr);
                 grid-template-columns: repeat(3, 1fr);
+            }
+
+            .project, .futured {
+                flex: 8;
+                display: grid;
                 margin-bottom: 80px;
                 gap: 20px;
                 width: 80%;
