@@ -26,7 +26,7 @@ const Projects = () => {
               className={project.title === 'Futured Projects' ? 'futured' : 
               project.title === 'Games' ? 'game' : 'project'}>
                 {project.project.map((item, index) => {
-                  return <a href={item.href} key={index}>
+                  return <a href={item.href} key={index} target='_blank' rel="noreferrer">
                         <div className="imageContainer">
                           <img src={item.src} alt={item.title} />
                         </div>
