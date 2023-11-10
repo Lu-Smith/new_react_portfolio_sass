@@ -1,23 +1,43 @@
 import React, { useState } from 'react';
+import { motion } from 'framer-motion';
+import Links from './Links';
+import ToggleButton from './ToggleButton';
 
 const MobileSidebar = () => {
     const [open, setOpen] = useState(false);
 
-    const handleOpen = () => {
-        setOpen((prev) => !prev);
+    const variants = {
+        open: {
+            clipPath: 'circle(1200px at 30px 30px)',
+            transition: {
+                type: 'spring',
+                stiffnes: 100,
+                delay: 0.4,
+                damping: 10,
+            }
+        },
+        closed: {
+            clipPath: 'circle(20px at 30px 30px',
+            transition: {
+                delay: 0.2,
+                type: 'spring', 
+                stiffnes: 300,
+                damping: 40,
+            }
+        },
     }
 
   return (
-    <div className='MobileSidebar'>
-        {open && <div className="closeMobileSidebar" onClick={handleOpen}>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>}
-        {!open && <div className="openMobileSidebar">
-            Open
-        </div>}
-    </div>
+    <motion.div 
+    className='MobileSidebar'
+    animate={open ? 'open' : 'closed'}>
+        <motion.div 
+        className="container"
+        variants={variants}>
+            <Links />
+        </motion.div>
+        <ToggleButton setOpen={setOpen} />
+    </motion.div>
   )
 }
 
