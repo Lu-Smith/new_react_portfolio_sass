@@ -26,12 +26,14 @@
         position: relative;
         height: 100vh;
         @include flex(center, center);
+        overflow: hidden;
     
         .textContainer {
             flex: 1;
             display: flex;
             flex-direction: column;
             gap: 40px;
+            overflow: hidden;
     
             h1 {
                 font-size: $box-font-size;
@@ -59,10 +61,12 @@
             overflow: hidden;
     
             .phoneSvg {
-                stroke: $focus-color;
+                margin-left: 20px;
                 position: absolute;
-                margin: auto;
                 z-index: -1;
+                 svg {
+                    stroke: $focus-color;
+                 }
             }
     
             form {
