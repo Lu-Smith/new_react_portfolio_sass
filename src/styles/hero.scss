@@ -69,13 +69,20 @@
     @include flex-direction(center, row);
 
     .futuredContainer {
-        flex:1;
+        flex: 1;
         height: 100%;
         padding: $basic-padding-right;
         @include flex-direction(center, column);
         gap: 20px;
 
+        .futuredProjects {
+            flex: 2;
+            width: 100%;
+            height: 100%;
+        }
+
         .recentProjects {
+            flex: 1;
             border-radius: 10px;
             text-align: center;
             box-shadow: $primary-shadow;

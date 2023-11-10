@@ -11,7 +11,9 @@ const Hero = ({ mode, handleMode }: ModeProps) => {
   return (
     <div className={`Hero ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
       <div className="futuredContainer">
-        <FuturedComponents />
+        <div className="futuredProjects">
+          <FuturedComponents />
+        </div>
         <div className="recentProjects">
           <Link to="/projects"><h2>Recent Projects</h2></Link>
         </div>
