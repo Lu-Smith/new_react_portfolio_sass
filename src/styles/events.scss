@@ -1,4 +1,28 @@
 .Events {
     @include flex-direction(center, column);
     gap: 20px;
+    padding: $basic-padding;
+    box-shadow: $primary-shadow;
+
+    div {
+        background-color: $primary-background;
+        border-radius: 20px;
+        padding: $primary-padding;
+       
+
+        .title {
+            font-size: $nav-font-size;
+            line-height: $nav-line-height;
+            padding: $basic-padding;
+        }
+
+        .date {
+            font-style: italic;
+            
+        }
+
+        .description {
+            padding: $basic-padding;
+        }
+    }
 }

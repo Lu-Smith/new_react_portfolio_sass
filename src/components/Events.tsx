@@ -8,7 +8,7 @@ const Events = () => {
               Solo exhibition at St Margaret House in Edinburgh, Scotland
             </div>
             <div className="date">2023, 10 March - 22 March </div>
-            <div>
+            <div className='description'>
               Join us for the solo exhibition of fine art artist Luna Smith,
               where her unique and bold style comes to life on canvas. Known for
               her use of her fingers and strong visible brushstrokes, Smith's
@@ -24,11 +24,13 @@ const Events = () => {
               SSA 130 YEARS | ANNUAL EXHIBITION in Edinburgh, Scotland
             </div>
             <div className="date">2022/2023, 17 December - 10 January</div>
-            <div>
+            <div className='description'>
               "130th anniversary of the inaugural Society of Scottish Artists
               exhibition. To celebrate, we are taking a unique look at its
               vibrant history, and showcasing a selection of works that have
-              contributed to Scotland’s artistic culture. "<br />
+              contributed to Scotland’s artistic culture. "
+              <br />
+              <br />
               Luna Smith's artworks: Celtic Tale and Cute Little Things are part
               of this exhibition and available for sale in a 30x30cm section.
             </div>
@@ -38,7 +40,7 @@ const Events = () => {
               Timeless Immortal Art in China: TIA-Huangshan
             </div>
             <div className="date">permament exhibition, from 2022</div>
-            <div>
+            <div className='description'>
               TIA-Huangshan gives immortality to artist with their works as
               testimonials of the streets of the town forever. An unprecedented
               combination of toponymy and art; Luna Smith's six artworks: The
@@ -51,7 +53,7 @@ const Events = () => {
               MERÍ TIMELESS IMMORTAL ART - Sicily, Italy
             </div>
             <div className="date">permament exhibition, from 2021</div>
-            <div>
+            <div className='description'>
               Merì (Sicily) - Timeless Immortal Art", the revolution of the
               small town that becomes an eternal open-air museum, giving
               immortality to 60 artists from all the nations of the world. A
