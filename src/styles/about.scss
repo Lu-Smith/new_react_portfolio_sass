@@ -24,7 +24,7 @@
         margin-left: 200px;
         width: calc(100vw - 200px);
         position: relative;
-        height: 100vh;
+        height: 100%;
 
         h2 {
             position: fixed;
@@ -36,7 +36,7 @@
         .container {
             margin: $page-about-margin;
             @include flex-direction(center, column);
-            gap: 20px;
+            gap: 40px;
 
             .imageContainer {
                 overflow: hidden;
@@ -47,6 +47,30 @@
                     width: 100%;
                     height: 100%;
                     object-fit: contain;
+                    border-radius: 20px;
+                }
+            }
+
+            .bio {
+                width: 50%;
+                @include flex-direction(center, column);
+                gap: 20px;
+                text-align: center;
+            }
+
+            button {
+                background-color: $primary-background;
+                color: $primary-color;
+                box-shadow: $primary-shadow;
+                transition: 200ms all ease-in-out;
+                padding: $button-padding;
+                border-radius: 10px;
+                border: $button-border;
+                margin-bottom: 20px;
+
+                &:hover {
+                    color: $focus-color;
+                    box-shadow: none;
                 }
             }
         }
