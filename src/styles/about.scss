@@ -32,5 +32,23 @@
             right: 40px;
             z-index: 999;
         }
+
+        .container {
+            margin: $page-about-margin;
+            @include flex-direction(center, column);
+            gap: 20px;
+
+            .imageContainer {
+                overflow: hidden;
+                width: 400px;
+                height: auto;
+    
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
     }
 }

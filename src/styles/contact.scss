@@ -21,7 +21,7 @@
     }
 
     .componentContainer {
-        margin: 0 200px 0 400px;
+        margin: $page-contact-margin;
         width: calc(100vw - 200px);
         position: relative;
         height: 100vh;
