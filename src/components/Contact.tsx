@@ -2,6 +2,7 @@ import React, { useRef, useState, FormEvent, RefObject } from 'react';
 import { motion, useInView } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 import Sidebar from './Sidebar';
+import MovingText from './MovingText';
 
 const variants = {
   initial: {
@@ -55,6 +56,7 @@ const Contact = () => {
 
   return (
     <div className={`Contact ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
+      <MovingText />
       <div className='menu'>
         <Sidebar mode={mode} handleMode={handleMode} />
       </div>
