@@ -14,7 +14,7 @@ const About = () => {
         <Sidebar mode={mode} handleMode={handleMode} />
       </div>
       <div className="componentContainer">
-        <h2>Fine Art</h2>
+        <h2>About</h2>
       </div>
     </div>
   )
