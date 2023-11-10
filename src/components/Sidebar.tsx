@@ -1,11 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ProfileImage from '../assets/media/Luna_Smith.jpg';
-import { PiCoffee } from 'react-icons/pi';
-import { AiOutlineFundProjectionScreen } from 'react-icons/ai';
-import { TfiEmail, TfiInfoAlt } from 'react-icons/tfi';
-import { LuPalette } from 'react-icons/lu';
 import { FaRegLightbulb, FaMoon } from 'react-icons/fa';
+import Links from './Links';
 
 interface ModeProps {
   mode: string,
@@ -24,13 +21,7 @@ const Sidebar = ({ mode, handleMode }: ModeProps) => {
           <h2><span>L</span>una <span>S</span>mith</h2>
         </Link>
       </div>
-      <div className="linkContainer">
-        <Link to='/'><span><PiCoffee /></span>Home</Link>
-        <Link to='/projects'><span><AiOutlineFundProjectionScreen /></span>Projects</Link>
-        <Link to='/fineart'><span><LuPalette /></span>Art</Link>
-        <Link to='/about'><span><TfiInfoAlt /></span>About</Link>
-        <Link to='/contact'><span><TfiEmail /></span>Contact</Link>
-      </div>
+      <Links /> 
       <div className="mode">
         <button className="container" onClick={handleMode}>
         {mode === 'light' && <span><FaRegLightbulb /></span>}
