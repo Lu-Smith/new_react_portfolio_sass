@@ -124,6 +124,12 @@
 
         .mainInfo {
             flex: 2;
+
+            a {
+                @include flex-direction(center, column);
+                gap: 20px;
+                padding: $basic-padding;
+            }
         }
     }
 }

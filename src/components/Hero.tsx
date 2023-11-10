@@ -20,8 +20,10 @@ const Hero = ({ mode, handleMode }: ModeProps) => {
       </div>
       <div className="messageContainer">
         <div className='mainInfo'>
-          <h2>A Web Developer with a Brushstroke of Excellence!</h2>
-          <span>I'm an artist weaving creativity into every line of code. With a palette of 100+ successful projects, I bring a unique blend of technical prowess and artistic finesse to the digital realm. Let's transform your ideas into web wonders!</span>
+          <Link to='/about'>
+            <h2>A Web Developer with a Brushstroke of Excellence!</h2>
+            <span>I'm an artist weaving creativity into every line of code. With a palette of 100+ successful projects, I bring a unique blend of technical prowess and artistic finesse to the digital realm. Let's transform your ideas into web wonders!</span>
+          </Link>
         </div>
         <div>
             <a 
@@ -33,7 +35,7 @@ const Hero = ({ mode, handleMode }: ModeProps) => {
             </a>
         </div>
         <div>
-            <Link to='/contact'>
+          <Link to='/contact'>
               <h2>Contact me</h2>
           </Link>
         </div>

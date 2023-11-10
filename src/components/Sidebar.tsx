@@ -40,7 +40,9 @@ const Sidebar = ({ mode, handleMode }: ModeProps) => {
       </div>
       <div className="box">
         <div className="container">
-        Futured Projects
+          <Link to='/projects'>
+            Futured Projects
+          </Link>
         </div>  
       </div>
     </div>
