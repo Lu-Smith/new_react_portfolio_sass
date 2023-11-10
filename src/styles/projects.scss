@@ -10,7 +10,7 @@
                 color: $primary-color;
             }
             
-            .project, .futured {
+            .project, .futured, .game {
                 a {
                     background-color: $primary-background;
 
@@ -37,7 +37,7 @@
                 color: $secondary-color;
             }
             
-            .project, .futured {
+            .project, .futured, .game {
                 a {
                     background-color: $primary-color;
 
@@ -92,12 +92,12 @@
                 grid-template-columns: repeat(3, 1fr);
             }
 
-            .futured {
+            .futured, .game {
                 grid-template-rows: repeat(2, 1fr);
                 grid-template-columns: repeat(3, 1fr);
             }
 
-            .project, .futured {
+            .project, .futured, .game {
                 flex: 8;
                 display: grid;
                 margin-bottom: 80px;
