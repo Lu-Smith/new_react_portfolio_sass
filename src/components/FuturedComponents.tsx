@@ -1,9 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const FuturedComponents = () => {
+interface ModeProps {
+  mode: string,
+};
+
+const FuturedComponents = ({ mode }: ModeProps) => {
   return (
-    <div className='FutureComponents'>
+    <div className={`FuturedComponents ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
          <Link to='/projects' className="boxContainer">
           <h2>100+</h2>
           <span>Completed Projects</span>

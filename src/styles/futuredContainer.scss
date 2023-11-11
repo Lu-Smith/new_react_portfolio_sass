@@ -1,4 +1,22 @@
-.FutureComponents {
+.FuturedComponents.darkMode {
+    .boxContainer {
+        background-color: $primary-background;
+        color: $primary-color;
+    }
+}
+
+.FuturedComponents.lightMode {
+    .boxContainer {
+        background-color: $secondary-background;
+        color: $light-box-background;
+        span {
+            font-weight: 600;
+        }
+    }
+}
+
+
+.FuturedComponents {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);

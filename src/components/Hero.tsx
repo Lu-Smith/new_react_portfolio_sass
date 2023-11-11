@@ -11,7 +11,7 @@ const Hero = ({ mode }: ModeProps) => {
     <div className={`Hero ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
       <div className="futuredContainer">
         <div className="futuredProjects">
-          <FuturedComponents />
+          <FuturedComponents mode={mode} />
         </div>
         <div className="recentProjects">
           <Link to="/projects"><h2>Futured Projects</h2></Link>

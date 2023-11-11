@@ -2,9 +2,11 @@
     background-color: transparent;
 
     h1 {
+        font-weight: 600;
         strong {
             &:hover {
-                color: $secondary-color;
+                color: $primary-color;
+                
             }
         }
     }
