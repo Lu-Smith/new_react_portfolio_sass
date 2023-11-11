@@ -44,10 +44,11 @@ const Contact = () => {
       e.preventDefault();
   
       if (formRef.current) {
-          emailjs.sendForm('service_32tmuu8', 'template_b8562im', formRef.current, 'Ym8tOO_4MtfS6A6CA')
+          emailjs.sendForm('service_sqibj18', 'template_b8562im', formRef.current, 'Ym8tOO_4MtfS6A6CA')
               .then((result) => {
                   setSuccess(true);
               }, (error) => {
+                console.error('EmailJS error:', error);
                   setError(true);
               });
       } else {
@@ -94,7 +95,7 @@ const Contact = () => {
                         height="380px" 
                         width="380px" 
                         version="1.1" 
-                        stroke-width="0.8"
+                        strokeWidth="0.8"
                         id="_x32_" 
                         xmlns="http://www.w3.org/2000/svg" 
                         viewBox="0 0 512 512">
