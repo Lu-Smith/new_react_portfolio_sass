@@ -113,6 +113,12 @@ const Contact = () => {
                     initial={{ opacity: 0}} 
                     whileInView={{opacity: 1}} 
                     transition={{ delay: 7, duration: 1}}>
+                        <input type="hidden" name="_feedback.dark" value="true" />
+                        <input
+                            type="hidden"
+                            name="_feedback.success.title"
+                            value="Thank you! Have a wonderful day 🌞"
+                        />
                         <input type="text" id="name" required placeholder='Name' name='name' />
                         <input type="email" id="email" required placeholder='Email' name='email' />
                         <textarea placeholder='Message'rows={8} name='message' id="message" ></textarea>
