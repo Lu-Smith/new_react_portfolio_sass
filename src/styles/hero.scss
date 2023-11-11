@@ -76,15 +76,16 @@
 
     @include mobile {
         width: 100vw;
-        height: 83%;
+        height: 75%;
         font-size: $primary-font-size;
+        padding-bottom: $basic-padding;
     }
 
     .futuredContainer {
         flex: 1;
         height: 100%;
         padding: $basic-padding-right;
-        @include flex-direction(center, column);
+        @include flex-direction(flex-start, column);
         gap: 20px;
 
         @include mobile {

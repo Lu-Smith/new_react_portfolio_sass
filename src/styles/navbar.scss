@@ -28,6 +28,7 @@
     @include mobile {
         width: 100vw;
         @include flex-direction(center, column);
+        top: 80px;
     }
 
     h1 {
