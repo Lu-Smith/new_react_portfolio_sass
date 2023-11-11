@@ -74,7 +74,7 @@
         left: 0;
         bottom: 0;
         width: 180px;
-        height: 60%;
+        height: 75%;
         @include flex(center, column);
         overflow: hidden;
 
@@ -108,13 +108,13 @@
             .mode {
                 flex: 1;
                 display: flex;
-                width: 100%;
+                width: 1000%;
                 height: 100%;
                 margin-top: 60px;
 
                 button {
-                    width: 100px;
-                    height: 100px;
+                    width: 85px;
+                    height: 85px;
                     @include flex-direction(center, column);
                     gap: 10px;
                     border: none;
