@@ -89,11 +89,12 @@
                         transition: 200ms all ease-in-out;
 
                         &:hover {
-                            transform: scale(1.4);
+                            border-radius: 0;
+                            background-color: transparent;
                         }
 
                         @include mobile {
-                            width: 70%;
+                            width: 65%;
                             height: auto;
                         }
 
@@ -106,11 +107,19 @@
                                 width: 100%;
                                 height: 100%;
                                 object-fit: cover;
-                                transition: 200ms all ease-in-out;;
+                                transition: 200ms all ease-in-out;
 
                                 &:hover {
-                                    object-fit: contain;
-                                    border: 2px solid red;
+                                    transform: scale(1.2); 
+                                    position: absolute;
+                                    z-index: 1000; 
+                                    width: 300px;
+                                    height: auto;
+
+                                    @include mobile {
+                                        transform: scale(1.1);
+                                        width: 260px;
+                                    }
                                 }
                             }
                         }
