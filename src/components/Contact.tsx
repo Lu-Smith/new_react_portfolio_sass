@@ -1,6 +1,5 @@
-import React, { useRef, useState, FormEvent } from 'react';
+import React, { useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
-import emailjs from '@emailjs/browser';
 import Sidebar from './Sidebar';
 import MovingText from './MovingText';
 import MobileSidebar from './MobileSidebar';
@@ -30,32 +29,19 @@ const Contact = () => {
 
   const ref = useRef<HTMLDivElement>(null);
 
-  const [error, setError] = useState(false);
-  const [success, setSuccess] = useState(false);
+  const [message, SetMessage] = useState("");
 
-  const formRef: any = useRef();
+  const submitForm = () => {
+    SetMessage("Thank you");
+  };
 
   const isInView = useInView( 
       ref, {
       margin: '-100px',}
   )
 
-  const sendEmail = (e: FormEvent<HTMLFormElement>) => {
-      e.preventDefault();
-  
-      if (formRef.current) {
-          emailjs.sendForm('service_sqibj18', 'template_b8562im', formRef.current, 'Ym8tOO_4MtfS6A6CA')
-              .then((result) => {
-                  setSuccess(true);
-              }, (error) => {
-                console.error('EmailJS error:', error);
-                  setError(true);
-              });
-      } else {
-          setError(true);
-          console.log('no form')
-      }
-  };
+  const formId = `BgeyOVAq`;
+  const fromSparkUrl = `https://submit-form.com/${formId}`;
 
   return (
     <div className={`Contact ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
@@ -122,17 +108,16 @@ const Contact = () => {
                         </svg>
                     </motion.div>
                     <motion.form 
-                    ref={ formRef }
-                    onSubmit={sendEmail}
+                    action={fromSparkUrl} 
+                    onSubmit={submitForm}
                     initial={{ opacity: 0}} 
                     whileInView={{opacity: 1}} 
                     transition={{ delay: 7, duration: 1}}>
-                        <input type="text" required placeholder='Name' name='name' />
-                        <input type="email" required placeholder='Email' name='email' />
-                        <textarea placeholder='Message'rows={8} name='message' ></textarea>
-                        <button type="submit" value="Send">Submit</button>
-                        {error && "Error"}
-                        {success && "Success"}
+                        <input type="text" id="name" required placeholder='Name' name='name' />
+                        <input type="email" id="email" required placeholder='Email' name='email' />
+                        <textarea placeholder='Message'rows={8} name='message' id="message" ></textarea>
+                        <button type="submit">Submit</button>
+                        <div>{message}</div>
                     </motion.form>
                     
                 </div>
