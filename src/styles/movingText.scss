@@ -9,6 +9,6 @@
     opacity: 0.2;
 
     @include mobile {  
-        opacity: 0.1;
+        display: none;
     }
 }
