@@ -2,8 +2,14 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import Links from './Links';
 import ToggleButton from './ToggleButton';
+import { FaRegLightbulb, FaMoon } from 'react-icons/fa';
 
-const MobileSidebar = () => {
+interface ModeProps {
+    mode: string,
+    handleMode: () => void,
+  };
+
+const MobileSidebar = ({ mode, handleMode }: ModeProps) => {
     const [open, setOpen] = useState(false);
 
     const variants = {
@@ -11,9 +17,9 @@ const MobileSidebar = () => {
             clipPath: 'circle(1200px at 30px 30px)',
             transition: {
                 type: 'spring',
-                stiffnes: 100,
-                delay: 0.4,
-                damping: 10,
+                stiffnes: 250,
+                delay: 0.3,
+                damping: 40,
             }
         },
         closed: {
@@ -21,7 +27,7 @@ const MobileSidebar = () => {
             transition: {
                 delay: 0.2,
                 type: 'spring', 
-                stiffnes: 300,
+                stiffnes: 250,
                 damping: 40,
             }
         },
@@ -34,7 +40,17 @@ const MobileSidebar = () => {
         <motion.div 
         className="container"
         variants={variants}>
-            <Links />
+            {open && <div>
+                <div className="mode">
+                    <button onClick={handleMode}>
+                    {mode === 'light' && <span><FaRegLightbulb /></span>}
+                    {mode === 'dark' && <span><FaMoon /></span>}
+                    Mode
+                    </button>  
+                </div>
+                <Links />
+         
+            </div>}
         </motion.div>
         <ToggleButton setOpen={setOpen} />
     </motion.div>

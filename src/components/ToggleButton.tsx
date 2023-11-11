@@ -9,7 +9,7 @@ const ToggleButton = ({setOpen}: ButtonProps) => {
   
   return (
     <div>
-      <button onClick={() => setOpen((prev: boolean) => !prev)}>
+      <button className="toggleButton" onClick={() => setOpen((prev: boolean) => !prev)}>
       <svg width='23' height='23' viewBox='0 0 23 23' >
         <motion.path 
         strokeWidth='3' 

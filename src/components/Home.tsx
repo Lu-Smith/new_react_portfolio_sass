@@ -14,7 +14,7 @@ const Home = () => {
 
   return (
     <div className={`Home ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
-        <MobileSidebar />
+        <MobileSidebar mode={mode} handleMode={handleMode} />
         <Sidebar mode={mode} handleMode={handleMode} />
         <div className="mainContainer">
             <Navbar mode={mode} handleMode={handleMode} />
