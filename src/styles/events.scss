@@ -13,30 +13,56 @@
     }
 }
 
-
-
 .Events {
     @include flex-direction(center, column);
     gap: 20px;
     padding: $basic-padding;
     box-shadow: $primary-shadow;
 
+    @include mobile {
+        gap: 10px;
+        padding: 0;
+    }
+
     div {
         border-radius: 20px;
         padding: $primary-padding;
+
+        @include mobile {
+            border-radius: 10px;
+            padding: 0;
+        }
 
         .title {
             font-size: $nav-font-size;
             line-height: $nav-line-height;
             padding: $basic-padding;
+
+            @include mobile {
+                font-size: $primary-font-size;
+                line-height: $primary-line-height;
+                padding: $mobile-padding;
+            }
         }
 
         .date {
-            font-style: italic;   
+            font-style: italic; 
+            
+            @include mobile {
+                font-size: $mobile-font-size;
+                line-height: $primary-line-height;
+                padding: 0 20px;
+            }
         }
 
         .description {
             padding: $basic-padding;
+
+            @include mobile {
+                padding: $mobile-padding;
+                font-size: $mobile-font-size;
+                line-height: $primary-line-height;
+            }
         }
     }
 }

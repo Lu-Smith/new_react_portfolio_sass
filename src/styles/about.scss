@@ -94,6 +94,10 @@
                 border: $button-border;
                 margin-bottom: 20px;
 
+                @include mobile {
+                    margin-bottom: 0;
+                }
+
                 &:hover {
                     color: $focus-color;
                     box-shadow: none;
