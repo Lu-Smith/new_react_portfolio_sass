@@ -1,4 +1,4 @@
-import React, { useRef, useState, FormEvent, RefObject } from 'react';
+import React, { useRef, useState, FormEvent } from 'react';
 import { motion, useInView } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 import Sidebar from './Sidebar';
@@ -33,7 +33,7 @@ const Contact = () => {
   const [error, setError] = useState(false);
   const [success, setSuccess] = useState(false);
 
-  const formRef: RefObject<HTMLFormElement> = useRef(null);
+  const formRef: any = useRef();
 
   const isInView = useInView( 
       ref, {
@@ -53,6 +53,7 @@ const Contact = () => {
               });
       } else {
           setError(true);
+          console.log('no form')
       }
   };
 
