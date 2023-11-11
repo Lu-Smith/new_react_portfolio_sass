@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Sidebar from './Sidebar';
 import Events from './Events';
 import BioImage from '../assets/media/BioImage.jpg';
+import MobileSidebar from './MobileSidebar';
 
 const About = () => {
   const [mode, setMode] = useState('dark');
@@ -18,6 +19,7 @@ const About = () => {
   return (
     <div className={`About ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
       <div className='menu'>
+        <MobileSidebar mode={mode} handleMode={handleMode} />
         <Sidebar mode={mode} handleMode={handleMode} />
       </div>
       <div className="componentContainer">

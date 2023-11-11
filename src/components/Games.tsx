@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import projects from '../assets/content/projects';
 import Sidebar from './Sidebar';
 import { LiaExternalLinkAltSolid } from 'react-icons/lia';
+import MobileSidebar from './MobileSidebar';
 
 const Games = () => {
   const [mode, setMode] = useState('dark');
@@ -13,6 +14,7 @@ const Games = () => {
   return (
     <div className={`Games ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
         <div className='menu'>
+        <MobileSidebar mode={mode} handleMode={handleMode} />
         <Sidebar mode={mode} handleMode={handleMode} />
         </div>
         <div className="componentContainer">

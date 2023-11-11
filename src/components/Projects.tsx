@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import projects from '../assets/content/projects';
 import Sidebar from './Sidebar';
 import { LiaExternalLinkAltSolid } from 'react-icons/lia';
+import MobileSidebar from './MobileSidebar';
 
 const Projects = () => {
 
@@ -14,6 +15,7 @@ const Projects = () => {
   return (
     <div className={`Projects ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
       <div className='menu'>
+        <MobileSidebar mode={mode} handleMode={handleMode} />
         <Sidebar mode={mode} handleMode={handleMode} />
       </div>
       <div className="componentContainer">
