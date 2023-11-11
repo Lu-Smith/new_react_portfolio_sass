@@ -68,6 +68,10 @@
     bottom: 0;
     @include flex-direction(center, row);
 
+    @include mobile {
+        width: 100vw;
+    }
+
     .futuredContainer {
         flex: 1;
         height: 100%;
