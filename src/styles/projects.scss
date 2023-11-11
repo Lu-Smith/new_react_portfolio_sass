@@ -99,6 +99,12 @@
                 flex: 1;
                 font-size: $nav-font-size;
                 margin-top: 60px;
+
+                @include mobile {
+                    font-size: $big-font-size;
+                    margin: 0;
+                    padding-top: 100px;
+                }
             }
 
             .project {
@@ -109,6 +115,11 @@
             .futured, .game {
                 grid-template-rows: repeat(2, 1fr);
                 grid-template-columns: repeat(3, 1fr);
+
+                @include mobile {
+                    grid-template-rows: repeat(3, 1fr);
+                    grid-template-columns: repeat(2, 1fr);
+                }
             }
 
             .project, .futured, .game {
@@ -118,11 +129,21 @@
                 gap: 20px;
                 width: 80%;
 
+                @include mobile {
+                    gap: 10px;
+                    margin-bottom: 20px;
+                    width: 90%;
+                }
+
                 a {
                     width: 100%;
                     height: 100%;
                     border-radius: 20px;
                     @include flex-direction(center, column);
+
+                    @include mobile {
+                        border-radius: 5px;
+                    }
 
                         .imageContainer {
                             flex: 4;
@@ -141,6 +162,10 @@
                             flex: 1;
                             @include flex-direction(center, row);
                             gap: 10px;
+
+                            @include mobile {
+                                font-size: $mobile-font-size;
+                            }
                         }
                 }
             }
