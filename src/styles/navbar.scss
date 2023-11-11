@@ -29,9 +29,14 @@
     }
 
     h1 {
-        flex:1;
+        flex: 1;
         font-weight: 100;
         font-size: $nav-font-size;
+
+        @include mobile {
+            font-size: $big-font-size;
+            text-align: center;
+        }
         
         strong {
             transition: 200ms all ease-in-out;
@@ -43,9 +48,15 @@
     }
 
     .socialLinks {
-        flex:2;
+        flex: 2;
         @include flex(center, flex-end);
         gap: 10px;
         font-size: $nav-font-size; 
+
+        @include mobile {
+            flex: 1;
+            @include flex(center, center);
+            font-size: $big-font-size; 
+        }
     }
 }
