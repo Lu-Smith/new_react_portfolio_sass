@@ -9,10 +9,9 @@ import {
 
 interface ModeProps {
   mode: string,
-  handleMode: () => void,
 };
 
-const Navbar = ({ mode, handleMode }: ModeProps) => {
+const Navbar = ({ mode }: ModeProps) => {
   return (
     <div className={`Navbar ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
       <h1>Bridging <strong>Art</strong> and <strong>Web Development</strong></h1>

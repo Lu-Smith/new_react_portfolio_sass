@@ -70,6 +70,8 @@
 
     @include mobile {
         width: 100vw;
+        height: 83%;
+        font-size: $primary-font-size;
     }
 
     .futuredContainer {
@@ -78,6 +80,11 @@
         padding: $basic-padding-right;
         @include flex-direction(center, column);
         gap: 20px;
+
+        @include mobile {
+            padding: $mobile-padding;
+            gap: 10px;
+        }
 
         .futuredProjects {
             flex: 2;
@@ -94,6 +101,11 @@
             width: 100%;
             height: 100%;
             @include flex-direction(center, column);
+
+            @include mobile {
+                border-radius: 5px;
+                font-size: $mobile-font-size;
+            }
             
             &:hover {
                 color: $focus-color;
@@ -109,6 +121,11 @@
         gap: 20px;
         padding: $basic-padding-left;
 
+        @include mobile {
+            padding: $mobile-padding;
+            gap: 10px;
+        }
+
         div {
             flex: 1;
             border-radius: 10px;
@@ -119,6 +136,12 @@
             gap: 20px;
             width: 100%;
             padding: $basic-padding;
+
+            @include mobile {
+                border-radius: 5px;
+                font-size: $mobile-font-size;
+                padding: $mobile-padding;
+            }
     
             &:hover {
                 color: $focus-color;
@@ -129,10 +152,22 @@
         .mainInfo {
             flex: 2;
 
+            @include mobile {
+                flex: 3;
+            }
+
             a {
                 @include flex-direction(center, column);
                 gap: 20px;
                 padding: $basic-padding;
+
+                @include mobile {
+                    padding: $mobile-padding;
+
+                    span {
+                        display: none;
+                    }
+                }
             }
         }
     }

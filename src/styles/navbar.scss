@@ -56,7 +56,8 @@
         @include mobile {
             flex: 1;
             @include flex(center, center);
-            font-size: $big-font-size; 
+            font-size: $big-font-size;
+            margin-top: 15px; 
         }
     }
 }

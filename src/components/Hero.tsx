@@ -4,10 +4,9 @@ import FuturedComponents from './FuturedComponents';
 
 interface ModeProps {
   mode: string,
-  handleMode: () => void,
 };
 
-const Hero = ({ mode, handleMode }: ModeProps) => {
+const Hero = ({ mode }: ModeProps) => {
   return (
     <div className={`Hero ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
       <div className="futuredContainer">
