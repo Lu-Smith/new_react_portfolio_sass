@@ -38,11 +38,20 @@
         position: relative;
         height: 100vh;
 
+        @include mobile {
+            margin-left: 0;
+            width: 100vw;
+        }
+
         h2 {
             position: fixed;
             top: 20px;
             right: 40px;
             z-index: 999;
+
+            @include mobile {
+                font-size: $primary-font-size;
+            }
         }
 
         .paintingsContainer {
@@ -65,12 +74,23 @@
                     width: 80%;
                     gap: 40px;
                     height: 100%;
+
+                    @include mobile {
+                        @include flex-direction(center, column);
+                        width: 100%;
+                        gap: 20px;
+                    }
                     
                     .painting { 
                         width: 225px;
                         height: 300px;
                         border-radius: 5px;
                         overflow: hidden;
+
+                        @include mobile {
+                            width: 70%;
+                            height: auto;
+                        }
 
                         .imageContainer {
                             width: 100%;

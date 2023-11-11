@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Sidebar from './Sidebar';
 import paintings from '../assets/content/fineart';
+import MobileSidebar from './MobileSidebar';
 
 const FineArt = () => {
   const [mode, setMode] = useState('dark');
@@ -12,6 +13,7 @@ const FineArt = () => {
   return (
     <div className={`FineArt ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
       <div className='menu'>
+        <MobileSidebar mode={mode} handleMode={handleMode} />
         <Sidebar mode={mode} handleMode={handleMode} />
       </div>
       <div className="componentContainer">
