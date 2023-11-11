@@ -1,3 +1,63 @@
+.MobileSidebar.darkMode {
+    .container {
+        background-color: $primary-background;
+
+        div {
+            .linkContainer {
+                a {
+                    color: $primary-color;
+
+                    &:hover {
+                        color: $focus-color;
+                    }
+
+                    span {
+                        color: $focus-color;
+                    }
+                }
+            }
+
+            .mode {
+                button {
+                    color: $mode-color;
+                    background-color: $standard-background;
+                }
+            }
+        }
+    }
+
+}
+
+.MobileSidebar.lightMode {
+    .container {
+        background-color: $primary-color;
+
+        div {
+            .linkContainer {
+                a {
+                    color: $light-box-background;
+
+                    &:hover {
+                        color: $secondary-color;
+                    }
+
+                    span {
+                        color: $light-box-background;
+                    }
+                }
+            }
+
+            .mode {
+                button {
+                    color: $mode-color;
+                    background-color: $light-box-background;
+                }
+            }
+        }
+    }
+
+}
+
 .MobileSidebar {
     @include flex(center, column);
     display: none;
@@ -14,7 +74,6 @@
         bottom: 0;
         width: 180px;
         height: 60%;
-        background-color: $primary-background;
         @include flex(center, column);
         overflow: hidden;
 
@@ -38,14 +97,8 @@
                     font-weight: bold;
                     @include flex-direction(center, row);
                     gap: 10px;
-                    color: $primary-color;
-        
-                    &:hover {
-                        color: $focus-color;
-                    }
         
                     span {
-                        color: $focus-color;
                         font-size: $nav-font-size;
                     }
                 }
@@ -64,9 +117,7 @@
                     @include flex-direction(center, column);
                     gap: 10px;
                     border: none;
-                    color: $mode-color;
                     border-radius: 50%;
-                    background-color: $standard-background;
                     box-shadow: $primary-shadow;
         
                     span {

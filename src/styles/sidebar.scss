@@ -2,10 +2,6 @@
     background: $secondary-background;
     color: $primary-color;
 
-    @include mobile {
-        display: none;
-    }
-
     .box {
         a {
             color: $primary-color;
@@ -92,6 +88,10 @@
     @include flex-direction(flex-start, column);
     z-index: 998;
 
+    @include mobile {
+        display: none;
+    }
+
     .titleContainer {
         flex: 1;
         width: 100%;
@@ -144,9 +144,6 @@
                 color: $focus-color;
                 font-size: $nav-font-size;
             }
-
-
-
         }
     }
 
@@ -181,7 +178,6 @@
                 font-size: $nav-font-size;
             }
         }
-       
     }
 }
 

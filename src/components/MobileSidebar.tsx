@@ -35,7 +35,7 @@ const MobileSidebar = ({ mode, handleMode }: ModeProps) => {
 
   return (
     <motion.div 
-    className='MobileSidebar'
+    className={`MobileSidebar ${mode === 'light' ? 'lightMode' : 'darkMode'}`}
     animate={open ? 'open' : 'closed'}>
         <motion.div 
         className="container"
