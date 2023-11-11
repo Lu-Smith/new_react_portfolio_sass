@@ -7,4 +7,8 @@
     width: 100%;
     font-weight: bold; 
     opacity: 0.2;
+
+    @include mobile {  
+        opacity: 0.1;
+    }
 }
