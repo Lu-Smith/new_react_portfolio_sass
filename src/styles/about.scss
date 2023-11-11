@@ -52,6 +52,11 @@
                 overflow: hidden;
                 width: 400px;
                 height: auto;
+
+                @include mobile {
+                    width: 300px;
+                    margin-top: 40px;
+                }
     
                 img {
                     width: 100%;
@@ -59,6 +64,10 @@
                     object-fit: contain;
                     border-radius: 20px;
                     box-shadow: $image-shadow;
+
+                    @include mobile {
+                        border-radius: 10px;
+                    }
                 }
             }
 
@@ -67,6 +76,12 @@
                 @include flex-direction(center, column);
                 gap: 20px;
                 text-align: center;
+
+                @include mobile {
+                    font-size: $mobile-font-size;
+                    line-height: $primary-line-height;
+                    width: 80%;
+                }
             }
 
             button {
