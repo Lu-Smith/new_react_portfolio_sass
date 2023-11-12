@@ -64,14 +64,12 @@
         position: fixed;
         top: 0;
         left: 0;
-        z-index: 999;
     }
 
     .componentContainer {
         margin-left: 200px;
         width: calc(100vw - 200px);
         position: relative;
-
         
         @include mobile {
             margin-left: 0;
