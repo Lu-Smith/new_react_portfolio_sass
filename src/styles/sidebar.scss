@@ -135,14 +135,24 @@
             font-weight: bold;
             @include flex-direction(center, row);
             gap: 10px;
+            position: relative;
 
             &:hover {
                 color: $focus-color;
             }
 
-            span {
-                color: $focus-color;
-                font-size: $nav-font-size;
+            div {
+                @include flex-direction(center, row);
+                gap: 8px;
+                span {
+                    color: $focus-color;
+                    font-size: $nav-font-size;
+                }
+    
+                .mainIcon {
+                    position: relative;
+                    left: 35px;
+                }
             }
         }
     }

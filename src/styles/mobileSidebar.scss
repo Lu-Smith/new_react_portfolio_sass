@@ -1,6 +1,7 @@
 .MobileSidebar.darkMode {
     .container {
         background-color: $primary-background;
+        border: $form-border;
 
         div {
             .linkContainer {
@@ -30,7 +31,8 @@
 
 .MobileSidebar.lightMode {
     .container {
-        background-color: $primary-color;
+        background: $light-background;
+        box-shadow: $primary-shadow;
 
         div {
             .linkContainer {
@@ -73,10 +75,11 @@
         top: 0;
         left: 0;
         bottom: 0;
-        width: 180px;
-        height: 75%;
+        width: 200px;
+        height: 78%;
         @include flex(center, column);
         overflow: hidden;
+        border-bottom-right-radius: 10px;
 
         div {
             width: 100%;
@@ -87,20 +90,40 @@
 
             .linkContainer {
                 flex: 2;
+                margin-left: 50px;
                 @include flex-direction(center, column);
-                gap: 20px;
-                width: 100%;
-                align-items: self-start;
-                padding-left: $basic-padding;
+                gap: 10px;
         
                 a {
                     transition: 200ms all ease-in-out;
                     font-weight: bold;
                     @include flex-direction(center, row);
-                    gap: 10px;
-        
-                    span {
-                        font-size: $nav-font-size;
+                    gap: 5px;
+                    width: 100%;
+
+                    div {
+                        flex: 2;
+                        @include flex-direction(center, row);
+                        gap: 2px;
+                        height: 45px;
+
+                        div {
+                            span {
+                                color: $focus-color;
+                                font-size: $nav-font-size;
+                                position: relative;
+                                top: 12px;
+                            }
+
+                            .mainIcon {
+                                position: relative;
+                                left: 32px;
+                            }
+                        }
+
+                        h4 {
+                            flex: 3;
+                        }
                     }
                 }
             }

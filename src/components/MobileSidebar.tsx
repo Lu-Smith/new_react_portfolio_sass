@@ -49,7 +49,6 @@ const MobileSidebar = ({ mode, handleMode }: ModeProps) => {
                     </button>  
                 </div>
                 <Links />
-         
             </div>}
         </motion.div>
         <ToggleButton setOpen={setOpen} />
