@@ -4,9 +4,11 @@ import { motion } from 'framer-motion';
 const sliderVariants = {
     initial: {
         x: '100%',
+        opacity: 1,
     },
     animate: {
         x: '-100%',
+        opacity: 0,
         transition: {
             duration: 30,
             repeat: Infinity,                
