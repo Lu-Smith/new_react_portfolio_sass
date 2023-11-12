@@ -27,7 +27,6 @@
 
     @include mobile {
         width: 100vw;
-        height: 100%;
         @include flex-direction(center, column);
         top: 60px;
     }
@@ -58,10 +57,10 @@
         font-size: $nav-font-size; 
 
         @include mobile {
-            flex: 1;
+            flex: 4;
             @include flex(center, center);
-            font-size: $big-font-size;
-            margin-top: 15px; 
+            font-size: $big-font-size; 
+            padding-top: 20px;
         }
     }
 }
