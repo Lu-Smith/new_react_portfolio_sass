@@ -7,11 +7,11 @@ $mode-color: rgb(235, 203, 20);
 //backgrounds
 $primary-background: rgb(27, 24, 29);
 $standard-background: rgb(32, 36, 41);
-$light-box-background: rgb(29, 105, 90);
-$light-background: linear-gradient(to right, $primary-color 96%, rgb(32, 187, 123) 100%);
+$light-box-background: rgb(48, 101, 90);
+$light-background: linear-gradient(to right, $primary-color 96%, rgb(61, 223, 155) 100%);
 $secondary-background: linear-gradient(to right, $standard-background 98%, $focus-color 100%);
 $hero-background: radial-gradient($focus-color 0%, $standard-background 59%);
-$light-hero-background: radial-gradient($primary-color 0%, $light-box-background 59%);
+$light-hero-background: radial-gradient($mode-color 0%, $light-box-background 59%);
 
 //font-size
 $primary-font-size: 14px;
