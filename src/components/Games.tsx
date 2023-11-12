@@ -13,10 +13,12 @@ const Games = () => {
 
   return (
     <div className={`Games ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
-        <div className='menu'>
-        <MobileSidebar mode={mode} handleMode={handleMode} />
+            <div className='menu'>
         <Sidebar mode={mode} handleMode={handleMode} />
-        </div>
+      </div>
+      <div className='menuMobile'>
+        <MobileSidebar mode={mode} handleMode={handleMode} />
+      </div>
         <div className="componentContainer">
           <h2>Games</h2>
           {projects.map((project, index) => {

@@ -45,9 +45,11 @@ const Contact = () => {
 
   return (
     <div className={`Contact ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
-      <div className='menu'>
-        <MobileSidebar mode={mode} handleMode={handleMode} />
+           <div className='menu'>
         <Sidebar mode={mode} handleMode={handleMode} />
+      </div>
+      <div className='menuMobile'>
+        <MobileSidebar mode={mode} handleMode={handleMode} />
       </div>
         <motion.div 
             ref = { ref }

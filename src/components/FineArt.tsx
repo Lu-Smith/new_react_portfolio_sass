@@ -12,9 +12,11 @@ const FineArt = () => {
 
   return (
     <div className={`FineArt ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
-      <div className='menu'>
-        <MobileSidebar mode={mode} handleMode={handleMode} />
+         <div className='menu'>
         <Sidebar mode={mode} handleMode={handleMode} />
+      </div>
+      <div className='menuMobile'>
+        <MobileSidebar mode={mode} handleMode={handleMode} />
       </div>
       <div className="componentContainer">
         <h2>Fine Art</h2>

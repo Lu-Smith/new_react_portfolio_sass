@@ -64,6 +64,18 @@
         top: 0;
         left: 0;
         z-index: 999;
+
+        @include mobile {
+            display: none;
+        }
+    }
+
+    .menuMobile {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999;
     }
 
     .componentContainer {

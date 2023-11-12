@@ -15,8 +15,10 @@ const Projects = () => {
   return (
     <div className={`Projects ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
       <div className='menu'>
-        <MobileSidebar mode={mode} handleMode={handleMode} />
         <Sidebar mode={mode} handleMode={handleMode} />
+      </div>
+      <div className='menuMobile'>
+        <MobileSidebar mode={mode} handleMode={handleMode} />
       </div>
       <div className="componentContainer">
         <h2>Projects</h2>
