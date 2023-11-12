@@ -38,6 +38,7 @@
         text-align: center;
         box-shadow: $primary-shadow;
         transition: 200ms all ease-in-out;
+        border: $futured-border;
 
         @include mobile {
             border-radius: 5px;
