@@ -8,6 +8,15 @@
     }
 
     .messageContainer {
+        .contact {
+            background-color: $light-box-background;
+            border: $futured-border;
+            
+                h2 {
+                    color: $primary-color;
+                }
+        }
+
         div {
             background-color: $primary-background;
         }
@@ -46,6 +55,15 @@
             span {
                 font-weight: 600;
             }
+        }
+
+        .contact {
+            background-color: $light-box-background;
+            border: $futured-border;
+            
+                h2 {
+                    color: $primary-color;
+                }
         }
 
         div {
@@ -160,7 +178,7 @@
         }
 
         .mainInfo {
-            flex: 2;
+            flex: 4;
 
             @include mobile {
                 flex: 3;

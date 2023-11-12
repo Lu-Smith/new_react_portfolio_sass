@@ -1,10 +1,25 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import FuturedComponents from './FuturedComponents';
+import { motion } from 'framer-motion';
 
 interface ModeProps {
   mode: string,
 };
+
+const contactVariants = {
+  initial: {
+      x: 100,
+      opacity: 0,
+  },
+  animate: {
+      x: 0,
+      opacity: 1,
+      transition: {
+          duration: 3,
+      }
+  },
+}
 
 const Hero = ({ mode }: ModeProps) => {
   return (
@@ -33,11 +48,15 @@ const Hero = ({ mode }: ModeProps) => {
               <h2>Check my art gallery</h2>
             </a>
         </div>
-        <div>
+        <motion.div 
+        className='contact'
+        variants={contactVariants}
+        initial="initial"
+        animate="animate">
           <Link to='/contact'>
               <h2>Contact me</h2>
           </Link>
-        </div>
+        </motion.div>
       </div>
     </div>
   )
