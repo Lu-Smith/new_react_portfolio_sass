@@ -108,11 +108,11 @@
             }
 
             .project {
-                grid-template-rows: repeat(3, 1fr);
+                grid-template-rows: repeat(4, 1fr);
                 grid-template-columns: repeat(5, 1fr);
                 @include mobile {
                     grid-template-rows: repeat(5, 1fr);
-                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-columns: repeat(4, 1fr);
                 }
             }
 
@@ -128,10 +128,10 @@
 
             .game {
                 grid-template-rows: repeat(3, 1fr);
-                grid-template-columns: repeat(3, 1fr);
+                grid-template-columns: repeat(4, 1fr);
 
                 @include mobile {
-                    grid-template-rows: repeat(3, 1fr);
+                    grid-template-rows: repeat(4, 1fr);
                     grid-template-columns: repeat(3, 1fr);
                 }
             }
