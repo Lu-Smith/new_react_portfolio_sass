@@ -3,6 +3,7 @@ import { motion, useInView } from 'framer-motion';
 import Sidebar from './Sidebar';
 import MovingText from './MovingText';
 import MobileSidebar from './MobileSidebar';
+import OwlSvg from './OwlSvg';
 
 const variants = {
   initial: {
@@ -131,6 +132,9 @@ const Contact = () => {
                 </div>
         </motion.div>
         <MovingText />
+        <div className='owl'>
+          <OwlSvg />
+        </div>
     </div>
   )
 }
