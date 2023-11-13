@@ -136,6 +136,12 @@
                 height: 100%;
                 @include flex-direction(flex-start, row);
                 gap: 20%;
+                position: relative;
+                overflow: hidden;
+
+                div {
+                    overflow: hidden;
+                }
             }
             
             @include mobile {
@@ -146,25 +152,25 @@
                 a {
                     @include flex-direction(center, column);
                     gap: 0;
+                    position: relative;
+                    overflow: hidden;
                  
                     div {
                         flex: 3;
-                        position: relative;
+                        position: fixed;
                         @include flex(center, center);
-
-                        svg {
-                            transform: scale(0.5);
-                        }
+                        transform: rotate(270deg) scale(0.5);
+                        bottom: 80px;
+                        overflow: hidden;
                     }
 
                     h2 {
                         flex: 2;
                         @include flex(center, center);
+                        position: fixed;
+                        bottom: 70px;
+                        width: 40%;
                     }
-
-
-
-
                 }
             }
             

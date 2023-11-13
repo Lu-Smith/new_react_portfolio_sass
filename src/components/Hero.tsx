@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import FuturedComponents from './FuturedComponents';
-import { motion } from 'framer-motion';
+import { motion, useAnimation } from 'framer-motion';
 
 interface ModeProps {
   mode: string,
@@ -16,12 +16,32 @@ const contactVariants = {
       x: 0,
       opacity: 1,
       transition: {
-          duration: 3,
+          duration: 1,
       }
   },
 }
 
+const rotateVariants = {
+  initial: {
+    rotate: 0, 
+  },
+  animate: {
+    rotate: 90, 
+    transition: {
+      duration: 4, 
+      ease: 'linear', 
+    },
+  },
+};
+
 const Hero = ({ mode }: ModeProps) => {
+
+  const controls = useAnimation();
+
+  React.useEffect(() => {
+    controls.start('animate');
+  }, [controls]);
+
   return (
     <div className={`Hero ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
       <div className="futuredContainer">
@@ -31,7 +51,9 @@ const Hero = ({ mode }: ModeProps) => {
         <div className="recentProjects">
           <Link to="/projects">
             <div>
-              <svg height="200px" 
+              <motion.svg height="200px" 
+              animate={controls}
+              variants={rotateVariants}
               width="200px" version="1.1" 
               id="Layer_1" xmlns="http://www.w3.org/2000/svg" 
               xmlnsXlink="http://www.w3.org/1999/xlink" 
@@ -39,10 +61,10 @@ const Hero = ({ mode }: ModeProps) => {
               xmlSpace="preserve" 
               fill="#000000" 
               stroke="#000000" 
-              stroke-width="0.00512" 
+              strokeWidth="0.00512" 
               transform="rotate(90)">
-                <g id="SVGRepo_bgCarrier" stroke-width="0"/>
-                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="3.072"/>
+                <g id="SVGRepo_bgCarrier" strokeWidth="0"/>
+                <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" stroke="#CCCCCC" strokeWidth="3.072"/>
                 <g id="SVGRepo_iconCarrier"> 
                 <path style={{ fill: '#FFFFFF' }} d="M100.848,88.899v148.021c31.443-9.908,54.303-39.339,54.303-74.01S132.291,98.807,100.848,88.899z"/> 
                 <path style={{ fill: 'rgb(25, 181, 157)' }} d="M77.576,38.788H54.303V287.03h23.273c68.44,0,124.121-55.681,124.121-124.121 S146.016,38.788,77.576,38.788z"/> 
@@ -63,7 +85,7 @@ const Hero = ({ mode }: ModeProps) => {
                 </g> 
                 <path style={{ fill: 'rgb(25, 181, 157)' }} d="M256,100.848c-51.38,0-100.537,10.918-142.262,31.134c66.399,2.171,122.374,46.251,142.262,106.592 C275.887,178.233,307.38,100.848,256,100.848z"/> 
                 <path style={{ fill: 'rgb(48, 101, 90)' }} d="M256,238.576V100.848c51.38,0,100.537,10.918,142.262,31.134 C331.863,134.155,275.887,178.233,256,238.576z"/> </g>
-              </svg>
+              </motion.svg>
             </div>
             <h2>Futured Projects</h2></Link>
         </div>
