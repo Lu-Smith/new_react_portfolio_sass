@@ -151,7 +151,7 @@
             
             @include mobile {
                 border-radius: 5px;
-                font-size: $primary-font-size;
+                font-size: $mobile-font-size;
                 padding: $mobile-padding;
                 transition: 200ms all ease-in-out;
 
@@ -180,7 +180,7 @@
                         @include flex(center, center);
                         position: fixed;
                         bottom: 60px;
-                        width: 40%;
+                        width: 20%;
                     }
                 }
             }
