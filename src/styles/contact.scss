@@ -139,7 +139,6 @@
                 }
 
                  svg {
-                    stroke: $focus-color;
                     z-index: -1;
 
                     @include mobile {  
