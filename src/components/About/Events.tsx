@@ -2,10 +2,9 @@ import React from 'react';
 
 interface ModeProps {
   mode: string,
-  handleMode: () => void,
 };
 
-const Events = ({ mode, handleMode }: ModeProps) => {
+const Events = ({ mode }: ModeProps) => {
   return (
     <div className={`Events ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
         <div>
