@@ -17,7 +17,7 @@ const Bio = ({ mode }: ModeProps) => {
   return (
     <div>
         <h2>About</h2>
-        <div className="container">
+        <div className="bioContainer">
           <div className="imageContainer">
             <img src={BioImage} alt="Luna Smith" />
           </div>

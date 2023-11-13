@@ -1,19 +1,26 @@
 @import './variables';
 @import './mixins';
 @import './base';
+//home
 @import './home.scss';
 @import './sidebar.scss';
 @import './mobileSidebar.scss';
 @import './hero.scss';
 @import './futuredContainer.scss';
 @import './navbar.scss';
+//projects
 @import './projects.scss';
+@import './games.scss';
+//fineart
 @import './fineart.scss';
+//about
 @import './about.scss';
+@import './work.scss';
 @import './events.scss';
+//contact
 @import './contact.scss';
 @import './movingText.scss';
-@import './games.scss';
+
 
 .App {
     width: 100vw;
