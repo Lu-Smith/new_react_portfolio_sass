@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Art from '../../assets/media/LunaSmith_LifeArchitect.jpg'
+import Art from '../../assets/media/DropletsbyLunaSmith.jpg';
 import OwlSvg from '../Svg/OwlSvg';
 import { motion } from 'framer-motion';
 import ArtistSvg from '../Svg/ArtistSvg';
