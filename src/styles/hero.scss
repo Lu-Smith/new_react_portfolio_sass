@@ -240,7 +240,12 @@
                     $owl-focus-green 15.9%, 
                     $focus-color 28.4%, 
                     $primary-background 30%
-                  );
+                );
+                transform: 200ms all ease;
+
+                &:hover {
+                    background-color: $primary-background;
+                }
             }
 
             a {
@@ -251,6 +256,12 @@
                 @include mobile {
                     padding: $mobile-padding;
                     font-size: $mobile-font-size;
+                    top: 40px;
+                    position: relative;
+
+                    &:hover {
+                        top: 0;
+                    }
 
                     span {
                         display: none;
