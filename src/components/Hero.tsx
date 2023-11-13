@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import FuturedComponents from './FuturedComponents';
-import { motion, useAnimation } from 'framer-motion';
+import { animate, motion, useAnimation } from 'framer-motion';
 
 interface ModeProps {
   mode: string,
