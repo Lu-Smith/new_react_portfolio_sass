@@ -87,6 +87,7 @@
     width: 200px;
     @include flex-direction(flex-start, column);
     z-index: 998;
+    letter-spacing: 1px;
 
     @include mobile {
         display: none;
@@ -189,12 +190,17 @@
             gap: 10px;
             border: none;
             color: $mode-color;
+            letter-spacing: 1px;
 
             span {
                 color: $mode-color;
                 font-size: $nav-font-size;
             }
         }
+    }
+
+    .box {
+        font-weight: bold;
     }
 }
 
