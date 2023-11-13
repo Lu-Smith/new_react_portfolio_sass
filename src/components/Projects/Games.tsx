@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import projects from '../assets/content/projects';
-import Sidebar from './Sidebar';
+import projects from '../../assets/content/projects';
+import Sidebar from '../Sidebar/Sidebar';
 import { LiaExternalLinkAltSolid } from 'react-icons/lia';
-import MobileSidebar from './MobileSidebar';
+import MobileSidebar from '../Sidebar/MobileSidebar';
 
 const Games = () => {
   const [mode, setMode] = useState('dark');

@@ -1,10 +1,10 @@
 import React, { useRef, useState } from 'react';
 import { motion } from 'framer-motion';
-import Sidebar from './Sidebar';
+import Sidebar from '../Sidebar/Sidebar';
 import MovingText from './MovingText';
-import MobileSidebar from './MobileSidebar';
-import OwlSvg from './OwlSvg';
-import PhoneSvg from './PhoneSvg';
+import MobileSidebar from '../Sidebar/MobileSidebar';
+import OwlSvg from '../Svg/OwlSvg';
+import PhoneSvg from '../Svg/PhoneSvg';
 
 const variants = {
   initial: {

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Sidebar from './Sidebar';
-import paintings from '../assets/content/fineart';
-import MobileSidebar from './MobileSidebar';
+import Sidebar from '../Sidebar/Sidebar';
+import paintings from '../../assets/content/fineart';
+import MobileSidebar from '../Sidebar/MobileSidebar';
 
 const FineArt = () => {
   const [mode, setMode] = useState('dark');

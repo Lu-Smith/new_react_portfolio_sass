@@ -14,8 +14,6 @@ const rotateVariants = {
     },
   };
 
-
-
 const OwlSvg = () => {
 
     const controls = useAnimation();

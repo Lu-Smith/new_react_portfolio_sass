@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Sidebar from './Sidebar';
+import Sidebar from '../Sidebar/Sidebar';
 import Events from './Events';
-import BioImage from '../assets/media/BioImage.jpg';
-import MobileSidebar from './MobileSidebar';
+import BioImage from '../../assets/media/BioImage.jpg';
+import MobileSidebar from '../Sidebar/MobileSidebar';
 
 const About = () => {
   const [mode, setMode] = useState('dark');

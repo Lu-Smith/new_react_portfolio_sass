@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ProfileImage from '../assets/media/Luna_Smith.jpg';
+import ProfileImage from '../../assets/media/Luna_Smith.jpg';
 import { FaRegLightbulb, FaMoon } from 'react-icons/fa';
 import Links from './Links';
 

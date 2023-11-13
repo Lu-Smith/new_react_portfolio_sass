@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Sidebar from "../components/Sidebar";
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import MobileSidebar from './MobileSidebar';
+import Sidebar from "../Sidebar/Sidebar";
+import Navbar from "./Navbar";
+import Hero from "./Hero";
+import MobileSidebar from '../Sidebar/MobileSidebar';
 
 const Home = () => {
 

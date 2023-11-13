@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import FuturedComponents from './FuturedComponents';
 import { motion} from 'framer-motion';
-import OwlSvg from './OwlSvg';
+import OwlSvg from '../Svg/OwlSvg';
 
 interface ModeProps {
   mode: string,
