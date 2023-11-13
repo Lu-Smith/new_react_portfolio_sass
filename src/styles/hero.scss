@@ -170,8 +170,8 @@
                         flex: 3;
                         position: fixed;
                         @include flex(center, center);
-                        transform: rotate(270deg) scale(0.5);
-                        bottom: 80px;
+                        transform: rotate(270deg) scale(0.6);
+                        bottom: 70px;
                         overflow: hidden;
                     }
 
@@ -179,7 +179,7 @@
                         flex: 2;
                         @include flex(center, center);
                         position: fixed;
-                        bottom: 70px;
+                        bottom: 60px;
                         width: 40%;
                     }
                 }
