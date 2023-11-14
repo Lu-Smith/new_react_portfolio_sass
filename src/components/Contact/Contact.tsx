@@ -37,7 +37,7 @@ const Contact = () => {
     SetMessage("Thank you");
   };
 
-  const formId = process.env.REACT_APP_FORM_ID;
+  const formId = process.env.REACT_APP_CONTACT_FORM_ID;
   const fromSparkUrl = `https://submit-form.com/${formId}`;
 
   return (
