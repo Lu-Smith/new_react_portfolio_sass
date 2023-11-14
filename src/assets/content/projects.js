@@ -53,7 +53,7 @@ const projects = [
             },
             {
                 title: 'Follow me',
-                href: 'https://canvas-project-js.netlify.app/',
+                href: 'https://multiple-canvases-js.netlify.app/',
                 src: ImgJ11,
             },
             {
@@ -218,7 +218,7 @@ const projects = [
             },
             {
                 title: 'Follow me',
-                href: 'https://canvas-project-js.netlify.app/',
+                href: 'https://multiple-canvases-js.netlify.app/',
                 src: ImgJ11,
             },
             {
@@ -228,7 +228,7 @@ const projects = [
             },
             {
                 title: 'Play with CANVAS',
-                href: 'https://multiple-canvases-js.netlify.app/',
+                href: 'https://canvas-project-js.netlify.app/',
                 src: ImgJ13,
             },
             {
@@ -290,7 +290,7 @@ const projects = [
             },
             {
                 title: 'Follow me',
-                href: 'https://canvas-project-js.netlify.app/',
+                href: 'https://multiple-canvases-js.netlify.app/',
                 src: ImgJ11,
             },
             {
@@ -315,7 +315,7 @@ const projects = [
             },
             {
                 title: 'Play with CANVAS',
-                href: 'https://multiple-canvases-js.netlify.app/',
+                href: 'https://canvas-project-js.netlify.app/',
                 src: ImgJ13,
             },  
         ]
