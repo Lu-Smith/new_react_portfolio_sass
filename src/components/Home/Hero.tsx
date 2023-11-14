@@ -37,30 +37,29 @@ const Hero = ({ mode }: ModeProps) => {
         </div>
       </div>
       <div className="messageContainer">
-        <div className='mainInfo'>
-          <Link to='/about'>
+        <Link to='/about' className='mainInfo'>
+          <div>
             <h2>A Web Developer with a Brushstroke of Excellence!</h2>
             <span>I'm an artist weaving creativity into every line of code. With a palette of 100+ successful projects, I bring a unique blend of technical prowess and artistic finesse to the digital realm. Let's transform your ideas into web wonders!</span>
-          </Link>
-        </div>
-        <div>
-            <a 
-            href="https://luartgallery.com/"
-            target='_blank'
-            rel="noreferrer"
-            aria-label='LuArt Gallery' >
-              <h2>Check my art gallery</h2>
-            </a>
-        </div>
-        <motion.div 
-        className='contact'
-        variants={contactVariants}
-        initial="initial"
-        animate="animate">
-          <Link to='/contact'>
+          </div>
+        </Link>
+        <a 
+          href="https://luartgallery.com/"
+          target='_blank'
+          rel="noreferrer"
+          aria-label='LuArt Gallery' >
+          <div>
+            <h2>Check my art gallery</h2>
+          </div>
+        </a>
+        <Link to='/contact' className='contact'>
+          <motion.div 
+          variants={contactVariants}
+          initial="initial"
+          animate="animate">
               <h2>Contact me</h2>
-          </Link>
-        </motion.div>
+          </motion.div>
+        </Link>
       </div>
     </div>
   )

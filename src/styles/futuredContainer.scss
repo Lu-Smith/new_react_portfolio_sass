@@ -2,17 +2,34 @@
     .boxContainer {
         background-color: $primary-background;
         color: $primary-color;
+
+        &:hover {
+            span {
+                color: $primary-color;
+            } 
+        }
+
+        span {
+            color: $focus-color;
+        }
     }
 }
 
 .FuturedComponents.lightMode {
-    .boxContainer {
-        background-color: $secondary-background;
-        color: $light-box-background;
-        span {
-            font-weight: 600;
+        .boxContainer {
+            background-color: $primary-color;
+            transition: 200ms all ease-in-out;
+            color: $light-box-background;
+
+            &:hover {
+                background-color: $light-box-background;
+                color: $focus-color;
+            }
+            span {
+                font-weight: 600;
+                color: $secondary-color;
+            }
         }
-    }
 }
 
 

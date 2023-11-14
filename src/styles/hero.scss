@@ -8,17 +8,38 @@
     }
 
     .messageContainer {
+        a {
+            background-color: $primary-background;
+        }
+
         .contact {
             background-color: $light-box-background;
             border: $futured-border;
+            transition: 200ms all ease-in-out;
             
                 h2 {
                     color: $primary-color;
                 }
+
+            &:hover {
+                background-color: $standard-background;
+            }
         }
 
-        div {
-            background-color: $primary-background;
+        .mainInfo {
+            background: radial-gradient(
+                circle at 50% -10%,  
+                $light-box-background 0%, 
+                $owl-green 8.9%, 
+                $owl-focus-green 15.9%, 
+                $focus-color 28.4%, 
+                $primary-background 30%
+            );
+            transform: 200ms all ease;
+
+            &:hover {
+                background-color: $primary-background;
+            }
         }
     }
 }
@@ -27,16 +48,7 @@
     background: $light-hero-background;
 
     .futuredContainer {
-        color: $secondary-color;
-
-        .boxContainer {
-            background-color: $primary-color;
-
-            &:hover {
-                color: $light-box-background;
-            }
-        }
-
+        color: $primary-color;
         .recentProjects{
             background-color: $primary-color;
 
@@ -51,7 +63,40 @@
     }
 
     .messageContainer {
+        a {
+            background-color: $primary-color;
+            color: $light-box-background;
+
+            &:hover {
+                color: $secondary-color;
+            }
+        }
+
         .mainInfo {
+            background: radial-gradient(
+                circle at 50% -10%,  
+                $light-box-background 0%, 
+                $owl-green 8.9%, 
+                $owl-focus-green 15.9%, 
+                $focus-color 28.4%, 
+                $primary-color 30%
+            );
+            position: relative;
+            transform: 200ms all ease;
+
+            &:hover {
+                background-color: $standard-background;
+            }
+
+            @include mobile {
+                h2 {
+                    position: relative;
+                    top: 10px;
+                }
+            }
+
+
+
             span {
                 font-weight: 600;
             }
@@ -60,26 +105,14 @@
         .contact {
             background-color: $light-box-background;
             border: $futured-border;
+            transition: 200ms all ease-in-out;
             
                 h2 {
                     color: $primary-color;
                 }
-        }
-
-        div {
-            background-color: $primary-color;
-            color: $light-box-background;
 
             &:hover {
-                color: $secondary-color;
-            }
-
-            a {
-                color: $secondary-color;
-
-                &:hover {
-                    color: $light-box-background;
-                }
+                background-color: $standard-background;
             }
         }
     }
@@ -193,19 +226,19 @@
     }
 
     .messageContainer {
-        flex:1;
+        flex: 1;
         height: 100%;
-        @include flex-direction(center, column);
+        padding: $basic-padding-right;
+        @include flex-direction(flex-start, column);
         gap: 20px;
-        padding: $basic-padding-left;
+        overflow: hidden;
 
         @include mobile {
-            padding: $mobile-padding;
             gap: 10px;
             padding: 10px 10px 10px 5px;
         }
 
-        div {
+        a {
             flex: 1;
             border-radius: 10px;
             text-align: center;
@@ -215,6 +248,16 @@
             gap: 20px;
             width: 100%;
             padding: $basic-padding;
+
+            @include mobile {
+                padding: $mobile-padding;
+                font-size: $mobile-font-size;
+                position: relative;
+
+                span {
+                    display: none;
+                }
+            }
 
             @include mobile {
                 border-radius: 5px;
@@ -230,43 +273,16 @@
 
         .mainInfo {
             flex: 4;
+            @include flex-direction(flex-end, column);
+
+            h2 {
+                padding-bottom: 20px;
+            }
 
             @include mobile {
                 flex: 3;
-                background: radial-gradient(
-                    circle at 50% 1.2%,  
-                    $light-box-background 0%, 
-                    $owl-green 8.9%, 
-                    $owl-focus-green 15.9%, 
-                    $focus-color 28.4%, 
-                    $primary-background 30%
-                );
-                transform: 200ms all ease;
-
-                &:hover {
-                    background-color: $primary-background;
-                }
-            }
-
-            a {
-                @include flex-direction(center, column);
-                gap: 20px;
-                padding: $basic-padding;
-
-                @include mobile {
-                    padding: $mobile-padding;
-                    font-size: $mobile-font-size;
-                    top: 40px;
-                    position: relative;
-
-                    &:hover {
-                        top: 0;
-                    }
-
-                    span {
-                        display: none;
-                    }
-                }
+                position: relative;
+                overflow: hidden;                
             }
         }
     }
