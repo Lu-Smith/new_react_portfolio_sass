@@ -6,6 +6,11 @@ import MobileSidebar from '../Sidebar/MobileSidebar';
 import OwlSvg from '../Svg/OwlSvg';
 import PhoneSvg from '../Svg/PhoneSvg';
 
+interface ModeProps {
+  mode: string,
+  handleMode: () => void,
+};
+
 const variants = {
   initial: {
       y: 500,
@@ -21,13 +26,7 @@ const variants = {
   }
 };
 
-const Contact = () => {
-
-  const [mode, setMode] = useState('dark');
-
-  const handleMode = () => {
-    setMode((prevMode) => (prevMode === 'light' ? 'dark' : 'light'));
-  };
+const Contact = ({mode, handleMode}: ModeProps) => {
 
   const ref = useRef<HTMLDivElement>(null);
 

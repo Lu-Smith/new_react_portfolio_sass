@@ -1,11 +1,11 @@
 import React from "react";
 import Home from "../components/Home/Home";
 
-const home = () => {
+const home = ({mode, handleMode}) => {
 
   return (
     <>
-      <Home />
+      <Home mode={mode} handleMode={handleMode} />
     </>
   );
 };

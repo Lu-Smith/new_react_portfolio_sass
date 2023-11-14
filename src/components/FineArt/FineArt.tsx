@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Sidebar from '../Sidebar/Sidebar';
 import paintings from '../../assets/content/fineart';
 import MobileSidebar from '../Sidebar/MobileSidebar';
 
-const FineArt = () => {
-  const [mode, setMode] = useState('dark');
+interface ModeProps {
+  mode: string,
+  handleMode: () => void,
+};
 
-  const handleMode = () => {
-    setMode((prevMode) => (prevMode === 'light' ? 'dark' : 'light'));
-  };
+const FineArt = ({mode, handleMode}: ModeProps) => {
 
   return (
     <div className={`FineArt ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>

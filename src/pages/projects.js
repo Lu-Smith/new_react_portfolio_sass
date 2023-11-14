@@ -2,11 +2,11 @@ import React from "react";
 import Projects from "../components/Projects/Projects";
 import ScrollToTop from "../components/ScrollToTop";
 
-const projects = () => {
+const projects = ({mode, handleMode}) => {
   return (
     <>
       <ScrollToTop />
-      <Projects />
+      <Projects mode={mode} handleMode={handleMode} />
     </>
   );
 };

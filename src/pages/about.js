@@ -2,11 +2,11 @@ import React from "react";
 import About from "../components/About/About";
 import ScrollToTop from "../components/ScrollToTop";
 
-const about = () => {
+const about = ({mode, handleMode}) => {
   return (
     <>
       <ScrollToTop />
-      <About />
+      <About mode={mode} handleMode={handleMode} />
     </>
   );
 };

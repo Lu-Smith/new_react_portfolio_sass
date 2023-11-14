@@ -2,11 +2,11 @@ import React from "react";
 import FineArt from "../components/FineArt/FineArt";
 import ScrollToTop from "../components/ScrollToTop";
 
-const fineart = () => {
+const fineart = ({mode, handleMode}) => {
   return (
     <>
       <ScrollToTop />
-      <FineArt />
+      <FineArt mode={mode} handleMode={handleMode} />
     </>
   );
 };

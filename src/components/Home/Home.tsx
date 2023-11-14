@@ -1,16 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Sidebar from "../Sidebar/Sidebar";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import MobileSidebar from '../Sidebar/MobileSidebar';
 
-const Home = () => {
+interface ModeProps {
+  mode: string,
+  handleMode: () => void,
+};
 
-  const [mode, setMode] = useState('dark');
-
-  const handleMode = () => {
-    setMode((prevMode) => (prevMode === 'light' ? 'dark' : 'light'));
-  };
+const Home = ({mode, handleMode}: ModeProps) => {
 
   return (
     <div className={`Home ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>

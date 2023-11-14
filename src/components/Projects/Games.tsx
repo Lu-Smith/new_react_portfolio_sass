@@ -1,19 +1,19 @@
-import React, { useState } from 'react';
+import React from 'react';
 import projects from '../../assets/content/projects';
-import Sidebar from '../Sidebar/Sidebar';
 import { LiaExternalLinkAltSolid } from 'react-icons/lia';
+import Sidebar from '../Sidebar/Sidebar';
 import MobileSidebar from '../Sidebar/MobileSidebar';
 
-const Games = () => {
-  const [mode, setMode] = useState('dark');
+interface ModeProps {
+  mode: string,
+  handleMode: () => void,
+};
 
-  const handleMode = () => {
-    setMode((prevMode) => (prevMode === 'light' ? 'dark' : 'light'));
-  };
+const Games = ( {mode, handleMode}: ModeProps ) => {
 
   return (
     <div className={`Games ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
-            <div className='menu'>
+      <div className='menu'>
         <Sidebar mode={mode} handleMode={handleMode} />
       </div>
       <div className='menuMobile'>

@@ -1,15 +1,15 @@
-import React, { useState } from 'react';
+import React  from 'react';
 import Sidebar from '../Sidebar/Sidebar';
 import MobileSidebar from '../Sidebar/MobileSidebar';
 import Bio from './Bio';
 import Work from './Work';
 
-const About = () => {
-  const [mode, setMode] = useState('dark');
+interface ModeProps {
+  mode: string,
+  handleMode: () => void,
+};
 
-  const handleMode = () => {
-    setMode((prevMode) => (prevMode === 'light' ? 'dark' : 'light'));
-  };
+const About = ({mode, handleMode}: ModeProps) => {
 
   return (
     <div className={`About ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>

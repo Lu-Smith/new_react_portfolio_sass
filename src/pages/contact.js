@@ -2,11 +2,11 @@ import React from "react";
 import Contact from "../components/Contact/Contact";
 import ScrollToTop from "../components/ScrollToTop";
 
-const contact = () => {
+const contact = ({mode, handleMode}) => {
   return (
     <>
       <ScrollToTop />
-      <Contact />
+      <Contact mode={mode} handleMode={handleMode} />
     </>
   );
 };
