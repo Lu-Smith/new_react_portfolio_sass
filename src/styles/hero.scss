@@ -277,6 +277,20 @@
 
             h2 {
                 padding-bottom: 20px;
+
+                @include medium {
+                    padding-bottom: 50px;
+                }
+            }
+
+            @include ipad {
+                font-size: $primary-font-size;               
+            }
+
+            @include medium {
+                span {
+                    display: none;
+                }
             }
 
             @include mobile {
