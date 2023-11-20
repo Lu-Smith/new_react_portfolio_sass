@@ -136,7 +136,12 @@
         gap: 20px;
         width: 100%;
         align-items: self-start;
-        padding-left: $basic-padding;
+        padding-left: 30px;
+
+        @include medium {
+            padding-left: $mobile-padding;
+            font-size: $primary-font-size;
+        }
 
         a {
             transition: 200ms all ease-in-out;
