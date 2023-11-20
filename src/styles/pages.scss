@@ -1,0 +1,93 @@
+.Page {
+    @include flex-direction(center, column);
+    gap: 30px;
+    width: 100%;
+    height: 100%;
+    color: $secondary-color;
+
+
+    .backgroundContainer {
+        position: relative;
+        color: $secondary-color;
+        height: 100%;
+        width: 100%;
+        z-index: 0;
+
+        .frontBackground {
+            position: relative;
+            left: $art-show-width;
+            z-index: 2;
+        }
+
+        .backBackground {
+            z-index: 1;
+        }
+
+        .animationContainer {
+            position: absolute;
+            right: 85%;
+            bottom: 40%;
+            width: 400px;
+            height: 400px;
+
+            @include ipad {
+                width: 300px;
+                height: 300px;
+                bottom: 30%;
+            }
+
+            @include mobile {
+                width: 180px;
+                height: 180px;
+                right: 70%;
+            }
+
+            .box {
+                width: 250px;
+                height: 250px;
+                border-radius: 50%;
+                background: $scroll-main-color;
+            }
+        }
+
+        .paintings {
+            position: relative;
+            left: -$art-show-width;
+            z-index: 3;
+            padding: 40px;
+            margin: 40px;
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: repeat(2, 1fr);
+            display: grid;
+            gap: 20px;
+            
+            .imageContainer {
+                width: 100%;
+                height: 100%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+
+            .animatedCircle {
+                @include flex-direction(center, row);
+                gap: 20px;
+                padding: 0 125px;
+
+                .box {
+                    flex: 1;
+                    border-radius: 50%;
+                    background: $scroll-main-color;
+                    width: 100px;
+                    height: 100px;
+                }
+
+            }
+       
+
+        }
+    }
+}

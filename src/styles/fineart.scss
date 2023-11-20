@@ -67,6 +67,41 @@
             }
         }
 
+        .artShow {
+            width: $art-show-width;
+            height: $art-show-height;
+            border: $primary-border;
+            margin: 0 auto;
+            margin-top: 40px;
+            overflow-y: hidden;
+            border-radius: 10px;
+
+            ::-webkit-scrollbar {
+                height: 30px;
+                width: 25px;
+                background: $primary-background;
+                -webkit-border-radius: 0.5ex;
+            
+                @include mobile {
+                  height: 30px;
+                  width: 3px;
+                }
+              }
+              
+              ::-webkit-scrollbar-thumb {
+                background: $scroll-main-color;
+                -webkit-border-radius: 0.5ex;
+            
+                @include mobile {
+                  -webkit-border-radius: 0.3ex;
+                }
+              }
+              
+              ::-webkit-scrollbar-corner {
+                background: $scroll-main-color;
+              }                 
+        }
+
         .paintingsContainer {
             @include flex-direction(center, column);
             gap: 20px;

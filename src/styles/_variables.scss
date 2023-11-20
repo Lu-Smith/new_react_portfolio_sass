@@ -3,6 +3,8 @@ $primary-color: rgb(231, 226, 233);
 $secondary-color: rgb(27, 24, 29);
 $focus-color: rgb(20, 235, 202);
 $mode-color: rgb(235, 203, 20);
+$scroll-main-color: rgb(64, 149, 160);
+$hover-color: rgb(20, 88, 44);
 
 //backgrounds
 $primary-background: rgb(27, 24, 29);
@@ -22,12 +24,18 @@ $big-font-size: 22px;
 $nav-font-size: 28px;
 $box-font-size: 34px;
 $moving-text-font-size: 74px;
+$large-font-size: 44px;
+$mobile-large-font-size: 28px;
+$mobile-big-font-size: 11px;
 
 //line-height
 $primary-line-height: 20px;
 $big-line-height: 26px;
 $nav-line-height: 35px;
 $box-line-height: 42px;
+$large-line-height: 50px;
+$mobile-large-line-height: 35px;
+$mobile-big-line-height: 16px;
 
 //paddings
 $primary-padding: 0 40px;
@@ -48,7 +56,13 @@ $button-border: 1px solid $secondary-color;
 $form-border: 1px solid $primary-color;
 $image-border: 10px solid $standard-background;
 $futured-border: 2px solid $focus-color;
+$border-button: 1px solid $scroll-main-color;
+$hover-border-button: 1px solid $hover-color;
 
 //shadows
 $primary-shadow: 1px 3px 3px rgba(0, 0, 0, 0.5);
 $image-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+//width
+$art-show-width : 800px;
+$art-show-height: 600px;

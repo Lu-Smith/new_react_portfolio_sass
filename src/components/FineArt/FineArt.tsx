@@ -2,6 +2,7 @@ import React from 'react';
 import Sidebar from '../Sidebar/Sidebar';
 import paintings from '../../assets/content/fineart';
 import MobileSidebar from '../Sidebar/MobileSidebar';
+import ArtExhibition from './ArtExhibition/ArtExhibition';
 
 interface ModeProps {
   mode: string,
@@ -20,6 +21,9 @@ const FineArt = ({mode, handleMode}: ModeProps) => {
       </div>
       <div className="componentContainer">
         <h2>Fine Art</h2>
+        <div className="artShow">
+          <ArtExhibition />
+        </div>
         <div className="paintingsContainer">
           {paintings.map((painting, index) => {
             return <div className='paintingsCollection' key={index}>
