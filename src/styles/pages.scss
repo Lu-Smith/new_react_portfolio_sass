@@ -5,6 +5,13 @@
     height: 100%;
     color: $secondary-color;
 
+    @include medium {
+        gap: 20px;
+    }
+
+    @include mobile {
+        gap: 10px;
+    }
 
     .backgroundContainer {
         position: relative;
@@ -17,10 +24,26 @@
             position: relative;
             left: $art-show-width;
             z-index: 2;
+
+            @include medium {
+                left: $medium-art-show-width;
+            }
+        
+            @include mobile {
+                left: $mobile-art-show-width;
+            }
         }
 
         .backBackground {
             z-index: 1;
+
+            @include medium {
+                transform: scale(0.8);
+            }
+        
+            @include mobile {
+                display: none;
+            }
         }
 
         .animationContainer {
