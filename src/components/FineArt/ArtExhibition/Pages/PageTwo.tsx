@@ -11,7 +11,7 @@ interface PageProps {
 const PageTwo: React.FC<PageProps> = ({ artwork }) => {
   
   const imageVariants = {
-    hover: { scale: 1.1, x: 30, transition: { duration: 0.3 } },
+    hover: { scale: 1.1, y: 20, transition: { duration: 0.3 } },
   };
 
   return (
@@ -24,9 +24,6 @@ const PageTwo: React.FC<PageProps> = ({ artwork }) => {
           <InteractiveBackground />
         </div>
         <div className="paintings">
-        <div className='animatedCircle'>
-            <AnimatedCircle />
-        </div>
           {artwork.map((art: string, index:number) => {
             return <motion.div 
             key={index}
@@ -48,8 +45,13 @@ const PageTwo: React.FC<PageProps> = ({ artwork }) => {
             </motion.div>
           })}
           <div className='animatedCircle'>
-          <AnimatedCircle />
-          <AnimatedCircle />
+            <AnimatedCircle />
+          </div>
+          <div className='animatedCircle'>
+            <AnimatedCircle />
+          </div>
+          <div className='animatedCircle'>
+            <AnimatedCircle />
           </div>
  
         </div>

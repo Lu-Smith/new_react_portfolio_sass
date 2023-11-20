@@ -72,21 +72,16 @@
             }
 
             .animatedCircle {
-                @include flex-direction(center, row);
-                gap: 20px;
-                padding: 0 125px;
+                padding: 20px 80px;
 
                 .box {
                     flex: 1;
                     border-radius: 50%;
                     background: $scroll-main-color;
-                    width: 100px;
-                    height: 100px;
+                    width: 60px;
+                    height: 60px;
                 }
-
             }
-       
-
         }
     }
 }
