@@ -17,7 +17,9 @@ import Dragon from '../media/fineart/Landscapes/The-Lonely-Dragon-by-Luna-Smith.
 import DreamsFuture from '../media/fineart/Nott/Dreams-of-a-Future-Self-by-Luna-Smith.jpg'
 import Universe from '../media/fineart/Nott/The-Reflection-of-my-Universe-by-Luna-Smith.jpg'
 import Mother from '../media/fineart/Nott/Kiss-of-Mothers-Love-by-Luna-Smith.jpg'
+import Wind from '../media/fineart/Nott/The-Soothing-Wind-of-Longing-by-Luna-Smith.jpg'
 import Warrior from '../media/fineart/Nott/The-Warrior-of-Shattered-Tears-by-Luna-Smith.jpg'
+import Songs from '../media/fineart/Nott/Songs-of-the-Burning-Star-by-Luna-Smith.jpg'
 import Shrimp from '../media/fineart/Animals/Shrimp-by-Luna-Smith.jpg'
 import Dream from '../media/fineart/Animals/Dream-by-Luna-Smith.jpg'
 import Owl from '../media/fineart/Animals/Owl-by-Luna-Smith.jpg'
@@ -65,7 +67,7 @@ const artExhibtionPages = [
     {
         page: PageFour,
         artwork: [
-            DreamsFuture, Mother, Universe, Warrior
+            Songs, Mother, Universe, Warrior, Wind, DreamsFuture
         ]
     },
     {
