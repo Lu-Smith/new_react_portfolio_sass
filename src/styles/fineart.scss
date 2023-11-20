@@ -76,14 +76,29 @@
             overflow-y: hidden;
             border-radius: 10px;
 
+            @include medium {
+                width: $medium-art-show-width;
+                height: $medium-art-show-height;
+              }
+    
+              @include mobile {
+                width: $mobile-art-show-width;
+                height: $mobile-art-show-height;
+              }
+
             ::-webkit-scrollbar {
                 height: 30px;
                 width: 25px;
                 background: $primary-background;
                 -webkit-border-radius: 0.5ex;
+
+                @include medium {
+                    height: 28px;
+                    width: 20px;
+                }
             
                 @include mobile {
-                  height: 30px;
+                  height: 20px;
                   width: 3px;
                 }
               }

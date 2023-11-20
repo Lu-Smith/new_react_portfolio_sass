@@ -3,12 +3,30 @@
     width: $art-show-width;
     height: $art-show-height;
 
+    @include medium {
+      width: $medium-art-show-width;
+      height: $medium-art-show-height;
+    }
+
+    @include mobile {
+      width: $mobile-art-show-width;
+      height: $mobile-art-show-height;
+    }
+
     .mainSection {
       flex: 3;
       width: $art-show-width;
       @include flex-direction(flex-start, row);
       overflow-x: scroll;
       overflow-y: hidden;
+
+      @include medium {
+        width: $medium-art-show-width;
+      }
+  
+      @include mobile {
+        width: $mobile-art-show-width;
+      }
 
       div {
         @include flex(center, center);
@@ -74,6 +92,16 @@
       width: $art-show-width;
       overflow: hidden;
 
+      @include medium {
+        width: $medium-art-show-width;
+        height: $medium-art-show-height;
+      }
+  
+      @include mobile {
+        width: $mobile-art-show-width;
+        height: $mobile-art-show-height;
+      }
+
       .Navigation {
         @include flex-direction(center, column);
         width: 100%;
@@ -103,8 +131,13 @@
             border: $border-button;
             transition: 200ms all ease-in-out;
             overflow: hidden;
-  
+            color: $scroll-main-color;
 
+            @include medium {
+              width: 100px;
+              height: 40px;
+            }
+  
             @include mobile {
                 width: 90px;
                 height: 30px;
@@ -118,6 +151,11 @@
                 width: 120px;
                 height: 50px;
                 overflow: hidden;
+
+                @include medium {
+                  width: 100px;
+                  height: 40px;
+                }
 
                 @include mobile {
                     width: 90px;
