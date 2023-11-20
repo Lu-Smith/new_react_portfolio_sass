@@ -76,6 +76,10 @@
         h2 {
             font-size: $box-font-size;
 
+            @include medium {
+                font-size: $nav-font-size;
+            }
+
             @include mobile {
                 font-size: $big-font-size;
             }
