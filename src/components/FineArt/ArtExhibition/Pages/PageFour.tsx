@@ -2,7 +2,6 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import InteractiveBackground from '../Animations/InteractiveBackground'
 import TopBackground from '../Animations/TopBackground'
-import AnimatedCircle from '../Animations/AnimatedCircle'
 
 interface PageProps {
   artwork: string[]
@@ -12,10 +11,6 @@ const PageFour: React.FC<PageProps> = ({ artwork }) => {
 
   const imageVariants = {
     hover: { scale: 1.1, x: 30, transition: { duration: 0.3 } },
-  };
-
-  const imageRotateVariants = {
-    hover: { scale: 1.1, y: 30, rotate: 30, transition: { duration: 0.3 } },
   };
   
   return (
@@ -45,7 +40,7 @@ const PageFour: React.FC<PageProps> = ({ artwork }) => {
               restDelta: 0.001
             }
           }}>
-             <img src={art} alt="" />
+             <img src={art} alt="An original artwork, created by a Scottish painter, Luna Smith" />
           </motion.div>
         })}
       </div>

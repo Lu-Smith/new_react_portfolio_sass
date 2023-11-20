@@ -40,7 +40,7 @@ const PageFive: React.FC<PageProps> = ({ artwork }) => {
               restDelta: 0.001
             }
           }}>
-             <img src={art} alt="" />
+             <img src={art} alt="An original artwork, created by a Scottish painter, Luna Smith" />
           </motion.div>
         })}
       </div>

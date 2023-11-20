@@ -7,12 +7,8 @@ interface PageProps {
   artwork: string[]
 }
 
-const imageVariants = {
-  hover: { scale: 1.1, x: 30, transition: { duration: 0.3 } },
-};
-
 const imageRotateVariants = {
-  hover: { scale: 1.1, y: 30, rotate: 30, transition: { duration: 0.3 } },
+  hover: { scale: 0.8, rotate: 3600, transition: { duration: 0.3 } },
 };
 
 const PageSix: React.FC<PageProps> = ({ artwork }) => {
@@ -31,7 +27,7 @@ const PageSix: React.FC<PageProps> = ({ artwork }) => {
           key={index}
           className="imageContainer "
           whileHover="hover"
-          variants={imageVariants}
+          variants={imageRotateVariants}
           initial="initial" 
           transition={{
             duration: 2,
@@ -43,7 +39,7 @@ const PageSix: React.FC<PageProps> = ({ artwork }) => {
               restDelta: 0.001
             }
           }}>
-             <img src={art} alt="" />
+             <img src={art} alt="An original artwork, created by a Scottish painter, Luna Smith" />
           </motion.div>
         })}
       </div>
