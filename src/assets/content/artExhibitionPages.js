@@ -4,6 +4,7 @@ import WomenNature from '../media/fineart/WomenNature/LunaSmith_LifeArchitect.jp
 import Reflections from '../media/fineart/Landscapes/Autumn-Reflection-by-Luna-Smith.jpg'
 import WhiteSnake from '../media/fineart/Animals/Eggs/Hatching-White-Snake-by-Luna-Smith.jpg'
 import RainbowEgg from '../media/fineart/Animals/Eggs/Rainbow-Egg-by-Luna-Smith.jpg'
+import FireDragon from '../media/fineart/Animals/Eggs/Fire-Dragon-by-Luna-Smith.jpg'
 import WinterSummer from '../media/fineart//Landscapes/When-WInter-Meets-Summer-by-Luna-Smith.jpg'
 import WinterBreeze from '../media/fineart/Landscapes/Winter-Breeze-by-Luna-Smith.jpg'
 import ItalianAlps from '../media/fineart/Landscapes/Italian-Alps-by-Luna-Smith.jpg'
@@ -21,6 +22,8 @@ import Dream from '../media/fineart/Animals/Dream-by-Luna-Smith.jpg'
 import Owl from '../media/fineart/Animals/Owl-by-Luna-Smith.jpg'
 import Swan from '../media/fineart/Animals/Swan-by-Luna-Smith.jpg'
 import GlenEtive from '../media/fineart/Landscapes/The-Song-of-the-Glen-Etive-by-Luna-Smith.jpg'
+import Viking from '../media/fineart/Landscapes/Viking-Sunset-by-Luna-Smith.jpg'
+import Arran from '../media/fineart/Landscapes/Grasslands-of-Arran-by-Luna-Smith.jpg'
 import TrappedWind from '../media/fineart/Landscapes/The-Trapped-Wind.jpg'
 import SecretGarden from '../media/fineart/Landscapes/Secret-Garden-by-Luna-Smith.jpg'
 import BackgroundAnimation from '../media/backgroundAnimation.jpg'
@@ -42,13 +45,13 @@ const artExhibtionPages = [
     {
         page: PageOne,
         artwork: [
-            WinterSummer, ScottishDream,  Reflections, WinterBreeze
+            WinterSummer, Viking, ScottishDream,  Reflections, WinterBreeze, Arran
         ]
     },
     {
         page: PageTwo,
         artwork: [
-            WhiteSnake, RainbowEgg 
+            WhiteSnake, RainbowEgg, FireDragon
         ]
     },
     {
