@@ -22,15 +22,16 @@
 
         .frontBackground {
             position: relative;
-            left: $art-show-width;
+            left: calc($art-show-width + 40px);
             z-index: 2;
 
             @include medium {
-                left: $medium-art-show-width;
+                left: calc($medium-art-show-width + 30px);
+                
             }
         
             @include mobile {
-                left: $mobile-art-show-width;
+                left: calc($mobile-art-show-width + 20px);
             }
         }
 
@@ -42,7 +43,7 @@
             }
         
             @include mobile {
-                display: none;
+                transform: scale(0.5);
             }
         }
 
