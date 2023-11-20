@@ -12,7 +12,7 @@ function ArtExhibition() {
   const [playFromBeginning, setPlayFromBeginning] = useState(false);
 
   const handleScroll = () => {
-    if(scrollValue >= -500) {
+    if(scrollValue >= -600) {
       setPlayFromBeginning(false);
       setScrollValue(scrollValue - 100);
     } else {
