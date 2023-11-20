@@ -51,6 +51,7 @@
   
             @include mobile {
               font-size: $primary-font-size;
+              margin-top: 0;
             }
           }
   
@@ -68,6 +69,7 @@
             @include mobile {
               max-width: 90%;
               font-size: $mobile-font-size;
+              font-weight: 300;
             }
           }
   
@@ -91,6 +93,14 @@
             height: 100%;
             background-color: $owl-green;
             margin-bottom: 20px;
+
+            @include medium {
+              flex: 2;
+            }
+
+            @include mobile {
+              flex: 1;
+            }
     
             .MainAnimation {
                 width: 120px;
@@ -163,10 +173,10 @@
               width: 100px;
               height: 40px;
             }
-  
+
             @include mobile {
-                width: 90px;
-                height: 30px;
+              width: 100px;
+              height: 30px;
             }
 
             &:hover {
@@ -179,13 +189,8 @@
                 overflow: hidden;
 
                 @include medium {
-                  width: 100px;
-                  height: 40px;
-                }
-
-                @include mobile {
-                    width: 90px;
-                    height: 30px;
+                  width: 90px;
+                  height: 30px;
                 }
             }
         }
