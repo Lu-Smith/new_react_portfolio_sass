@@ -20,6 +20,7 @@ $light-hero-background: radial-gradient(rgb(149, 203, 138) 0%, $light-box-backgr
 //font-size
 $primary-font-size: 14px;
 $mobile-font-size: 10px;
+$small-mobile-font-size: 10px;
 $big-font-size: 22px;
 $nav-font-size: 28px;
 $box-font-size: 34px;
@@ -68,5 +69,5 @@ $art-show-width : 800px;
 $art-show-height: 600px;
 $medium-art-show-width: 600px;
 $medium-art-show-height: 500px;
-$mobile-art-show-width: 350px;
-$mobile-art-show-height: 300px;
+$mobile-art-show-width: 100vw;
+$mobile-art-show-height: 350px;

@@ -68,8 +68,9 @@
   
             @include mobile {
               max-width: 90%;
-              font-size: $mobile-font-size;
+              font-size: $small-mobile-font-size;
               font-weight: 300;
+              flex: 3;
             }
           }
   
@@ -96,10 +97,6 @@
 
             @include medium {
               flex: 2;
-            }
-
-            @include mobile {
-              flex: 1;
             }
     
             .MainAnimation {

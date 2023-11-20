@@ -84,6 +84,8 @@
               @include mobile {
                 width: $mobile-art-show-width;
                 height: $mobile-art-show-height;
+                border-radius: 0;
+                border: none;
               }
 
             ::-webkit-scrollbar {
