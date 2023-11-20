@@ -23,7 +23,16 @@ function ArtExhibition() {
 
   useEffect(() => {
     if (containerRef.current) {
-      const screenWidth = 800;
+      let screenWidth;
+      
+      if (window.innerWidth < 820) {
+        screenWidth = window.innerWidth;
+      } else  if (window.innerWidth < 1050) {
+        screenWidth = 600;
+      } else {
+        screenWidth = 800;
+      }
+
       const percentageFactor = 0.01; 
 
       containerRef.current.scrollTo({
