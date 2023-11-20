@@ -1,10 +1,9 @@
-import ZinShadows from '../media/fineart/Shadows/Z-in-Shadows-by-Luna-Smith.jpg'
 import ScottishDream from '../media/fineart/Landscapes/Scottish-Dream-by-Luna-Smith.jpg'
-import WomenNature from '../media/fineart/WomenNature/LunaSmith_LifeArchitect.jpg'
 import Reflections from '../media/fineart/Landscapes/Autumn-Reflection-by-Luna-Smith.jpg'
 import WhiteSnake from '../media/fineart/Animals/Eggs/Hatching-White-Snake-by-Luna-Smith.jpg'
 import RainbowEgg from '../media/fineart/Animals/Eggs/Rainbow-Egg-by-Luna-Smith.jpg'
 import FireDragon from '../media/fineart/Animals/Eggs/Fire-Dragon-by-Luna-Smith.jpg'
+import BlueDragon from '../media/fineart/Animals/Eggs/Hatching-Dino.jpg'
 import WinterSummer from '../media/fineart//Landscapes/When-WInter-Meets-Summer-by-Luna-Smith.jpg'
 import WinterBreeze from '../media/fineart/Landscapes/Winter-Breeze-by-Luna-Smith.jpg'
 import ItalianAlps from '../media/fineart/Landscapes/Italian-Alps-by-Luna-Smith.jpg'
@@ -39,6 +38,7 @@ import PageThree from '../../components/FineArt/ArtExhibition/Pages/PageThree'
 import PageFour from '../../components/FineArt/ArtExhibition/Pages/PageFour'
 import PageFive from '../../components/FineArt/ArtExhibition/Pages/PageFive'
 import PageSix from '../../components/FineArt/ArtExhibition/Pages/PageSix'
+import PageSeven from '../../components/FineArt/ArtExhibition/Pages/PageSeven'
 
 const artExhibtionPages = [
     {
@@ -80,7 +80,13 @@ const artExhibtionPages = [
     {
         page: PageSix,
         artwork: [
-            Shrimp, Dream, Owl, Swan
+            Shrimp, BlueDragon, Owl, Swan
+        ]
+    },
+    {
+        page: PageSeven,
+        artwork: [
+            Dream
         ]
     }
 ]

@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from 'framer-motion'
 import InteractiveBackground from '../Animations/InteractiveBackground'
 import TopBackground from '../Animations/TopBackground'
@@ -12,7 +11,7 @@ const imageRotateVariants = {
   hover: { scale: 0.8, rotate: 3600, transition: { duration: 0.3 } },
 };
 
-const PageSix: React.FC<PageProps> = ({ artwork }) => {
+const PageSeven: React.FC<PageProps> = ({ artwork }) => {
   return (
     <div className='Page'>
     <div className="backgroundContainer">
@@ -55,4 +54,4 @@ const PageSix: React.FC<PageProps> = ({ artwork }) => {
   )
 }
 
-export default PageSix
+export default PageSeven

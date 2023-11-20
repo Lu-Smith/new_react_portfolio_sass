@@ -53,7 +53,6 @@ const PageTwo: React.FC<PageProps> = ({ artwork }) => {
           <div className='animatedCircle'>
             <AnimatedCircle />
           </div>
- 
         </div>
       </div> 
     </div>
