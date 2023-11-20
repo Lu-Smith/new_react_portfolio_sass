@@ -47,33 +47,6 @@
             }
         }
 
-        .animationContainer {
-            position: absolute;
-            right: 85%;
-            bottom: 40%;
-            width: 400px;
-            height: 400px;
-
-            @include ipad {
-                width: 300px;
-                height: 300px;
-                bottom: 30%;
-            }
-
-            @include mobile {
-                width: 180px;
-                height: 180px;
-                right: 70%;
-            }
-
-            .box {
-                width: 250px;
-                height: 250px;
-                border-radius: 50%;
-                background: $scroll-main-color;
-            }
-        }
-
         .paintings {
             position: relative;
             left: -$art-show-width;
@@ -117,7 +90,7 @@
                 }
     
                 @include mobile {
-                    padding: 20px 40px;
+                    padding: 20px 25px;
                 }
 
                 .box {
