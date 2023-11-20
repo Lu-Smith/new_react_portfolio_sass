@@ -6,7 +6,6 @@
         strong {
             &:hover {
                 color: $primary-color;
-                
             }
         }
     }
@@ -25,6 +24,10 @@
     top: 40px;
     width: calc(100vw - 200px);
 
+    @include medium {
+        top: 30px;
+    }
+
     @include mobile {
         width: 100vw;
         @include flex-direction(center, column);
@@ -36,8 +39,11 @@
         font-weight: 100;
         font-size: $nav-font-size;
 
-        @include mobile {
+        @include medium {
             font-size: $big-font-size;
+        }
+
+        @include mobile {
             text-align: center;
         }
         
@@ -51,15 +57,18 @@
     }
 
     .socialLinks {
-        flex: 2;
+        flex: 1;
         @include flex(center, flex-end);
         gap: 10px;
         font-size: $nav-font-size; 
 
+        @include medium {
+            font-size: $big-font-size;
+        }
+
         @include mobile {
             flex: 4;
             @include flex(center, center);
-            font-size: $big-font-size; 
             padding-top: 20px;
         }
     }
