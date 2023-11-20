@@ -43,7 +43,15 @@
   
           h1 {
             flex: 1;
-            @include flex(center, center);;
+            @include flex(center, center);
+
+            @include medium {
+              font-size: $big-font-size;
+            }
+  
+            @include mobile {
+              font-size: $primary-font-size;
+            }
           }
   
           h4 {
@@ -51,6 +59,16 @@
             @include flex(center, center);
             max-width: 80%;
             font-weight: 400;
+
+            @include medium {
+              max-width: 85%;
+              font-size: $primary-font-size;
+            }
+  
+            @include mobile {
+              max-width: 90%;
+              font-size: $mobile-font-size;
+            }
           }
   
           @keyframes gradientAnimation {
@@ -113,6 +131,14 @@
           @include flex(flex-end, center);
           width: 100%;
           height: 100%;
+
+          @include medium {
+            font-size: $primary-font-size;
+          }
+
+          @include mobile {
+            font-size: $mobile-font-size;
+          }
         }
 
         .scrollButton {
