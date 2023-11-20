@@ -8,6 +8,7 @@ import FireDragon from '../media/fineart/Animals/Eggs/Fire-Dragon-by-Luna-Smith.
 import WinterSummer from '../media/fineart//Landscapes/When-WInter-Meets-Summer-by-Luna-Smith.jpg'
 import WinterBreeze from '../media/fineart/Landscapes/Winter-Breeze-by-Luna-Smith.jpg'
 import ItalianAlps from '../media/fineart/Landscapes/Italian-Alps-by-Luna-Smith.jpg'
+import Paradise from '../media/fineart/Landscapes/Paradise-by-Luna-Smith.jpg'
 import Autumn from '../media/fineart/Landscapes/Autumn-by-Luna-Smith.jpg'
 import Diabaig from '../media/fineart/Landscapes/The-Whishper-of-the-Diabaig--by-Luna-Smith.jpg'
 import GoldenTrees from '../media/fineart/Landscapes/Shimmering-Golden-Trees.jpg'
@@ -26,6 +27,7 @@ import Viking from '../media/fineart/Landscapes/Viking-Sunset-by-Luna-Smith.jpg'
 import Arran from '../media/fineart/Landscapes/Grasslands-of-Arran-by-Luna-Smith.jpg'
 import TrappedWind from '../media/fineart/Landscapes/The-Trapped-Wind.jpg'
 import SecretGarden from '../media/fineart/Landscapes/Secret-Garden-by-Luna-Smith.jpg'
+import Guardian from '../media/fineart/Landscapes/Guardian-Tree-by-Luna-Smith.jpg'
 import BackgroundAnimation from '../media/backgroundAnimation.jpg'
 import MainPage from '../../components/FineArt/ArtExhibition/MainPage/MainPage'
 import PageOne from '../../components/FineArt/ArtExhibition/Pages/PageOne'
@@ -57,7 +59,7 @@ const artExhibtionPages = [
     {
         page: PageThree,
         artwork: [
-            Diabaig, GoldenTrees, Hollow, Dragon,
+            Diabaig, ItalianAlps, GoldenTrees, Hollow, Paradise, Dragon,
         ]
     },
     {
