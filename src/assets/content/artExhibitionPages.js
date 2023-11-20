@@ -25,6 +25,7 @@ import Dream from '../media/fineart/Animals/Dream-by-Luna-Smith.jpg'
 import Owl from '../media/fineart/Animals/Owl-by-Luna-Smith.jpg'
 import Swan from '../media/fineart/Animals/Swan-by-Luna-Smith.jpg'
 import GlenEtive from '../media/fineart/Landscapes/The-Song-of-the-Glen-Etive-by-Luna-Smith.jpg'
+import Mount from '../media/fineart/Landscapes/Snowy-Mount-Rainier-by-Luna-Smith.jpg'
 import Viking from '../media/fineart/Landscapes/Viking-Sunset-by-Luna-Smith.jpg'
 import Arran from '../media/fineart/Landscapes/Grasslands-of-Arran-by-Luna-Smith.jpg'
 import TrappedWind from '../media/fineart/Landscapes/The-Trapped-Wind.jpg'
@@ -73,7 +74,7 @@ const artExhibtionPages = [
     {
         page: PageFive,
         artwork: [
-          Autumn , GlenEtive, TrappedWind, SecretGarden
+          Autumn , GlenEtive, SecretGarden, TrappedWind, Guardian, Mount
         ]
     },
     {

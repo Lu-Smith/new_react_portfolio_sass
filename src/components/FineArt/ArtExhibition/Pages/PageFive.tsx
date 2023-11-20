@@ -10,7 +10,7 @@ interface PageProps {
 const PageFive: React.FC<PageProps> = ({ artwork }) => {
 
   const imageVariants = {
-    hover: { scale: 1.1, x: 30, transition: { duration: 0.3 } },
+    hover: { scale: 1.2, rotate: 45, transition: { duration: 0.3 } },
   };
 
   return (
