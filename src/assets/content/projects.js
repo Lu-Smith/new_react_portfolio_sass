@@ -16,6 +16,7 @@ import ImgR14 from '../media/projects/React/PawHub_R.jpg'
 import ImgR15 from '../media/projects/React/RestaurantReservations_R.jpg';
 import ImgR16 from '../media/projects/React/TodoList_R.jpg';
 import ImgR17 from '../media/projects/React/MoosAndCoos_R.jpg';
+import ImgR18 from '../media/projects/React/MovingArt_R.jpg';
 
 //JavaScript
 import ImgJ1 from '../media/projects/JavaScript/JustForFun_J.jpg';
@@ -160,6 +161,11 @@ const projects = [
                 title: 'Moos and Coos',
                 href: 'https://moosandcoosreactreduxtypescript.netlify.app/',
                 src: ImgR17,
+            },
+            {
+                title: 'Moving Art',
+                href: 'https://moving-art-exhibition.netlify.app/',
+                src: ImgR18,
             }
         ]
     },
