@@ -41,7 +41,7 @@
                     background-color: $primary-color;
 
                     h4 {
-                        color: $secondary-color;
+                        color: $light-box-background;
                         background-color: $primary-color;
                     }
                 }
@@ -120,9 +120,15 @@
             .project {
                 grid-template-rows: repeat(4, 1fr);
                 grid-template-columns: repeat(5, 1fr);
-                @include mobile {
+
+                @include medium {
                     grid-template-rows: repeat(5, 1fr);
                     grid-template-columns: repeat(4, 1fr);
+                }
+
+                @include mobile {
+                    grid-template-rows: repeat(5, 1fr);
+                    grid-template-columns: repeat(3, 1fr);
                 }
             }
 
@@ -153,10 +159,14 @@
                 gap: 20px;
                 width: 80%;
 
+                @include medium {
+                    gap: 15px;
+                    width: 90%;
+                }
+
                 @include mobile {
                     gap: 10px;
                     margin-bottom: 20px;
-                    width: 90%;
                 }
 
                 a {
@@ -164,6 +174,10 @@
                     height: 100%;
                     border-radius: 20px;
                     @include flex-direction(center, column);
+
+                    @include medium {
+                        border-radius: 10px;
+                    }
 
                     @include mobile {
                         border-radius: 5px;
@@ -186,6 +200,10 @@
                             flex: 1;
                             @include flex-direction(center, row);
                             gap: 10px;
+
+                            @include medium {
+                                font-size: $primary-font-size;
+                            }
 
                             @include mobile {
                                 font-size: $mobile-font-size;
