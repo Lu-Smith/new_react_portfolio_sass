@@ -37,6 +37,10 @@ import ImgJ15 from '../media/projects/JavaScript/PixelRain_J.jpg';
 import ImgJ16 from '../media/projects/JavaScript/ConnectFour_J.jpg';
 import ImgJ17 from '../media/projects/JavaScript/SpaceInvaders_J.jpg';
 
+//Vue
+import ImgV1 from '../media/projects/Vue/RockPaperScissors_V.jpg';
+import ImgV2 from '../media/projects/Vue/Quiz_V.jpg';
+
 
 const projects = [
     {
@@ -261,6 +265,21 @@ const projects = [
         ]
     },
     {
+        title: 'Vue Projects',
+        project: [
+            {
+                title: 'Rock Paper Scissors',
+                href: 'https://rock-paper-scissors-vue-luna-smith.netlify.app/',
+                src: ImgV1,
+            },  
+            {
+                title: 'Quiz',
+                href: 'https://vue-ulitmate-quiz.netlify.app/Vue/',
+                src: ImgV2,
+            },           
+        ]
+    },
+    {
         title: 'Games',
         project: [
             {
@@ -306,8 +325,8 @@ const projects = [
             },
             {
                 title: 'Rock Paper Scissors',
-                href: 'https://rockpaperscissors-fun-game.netlify.app/',
-                src: ImgJ9,
+                href: 'https://rock-paper-scissors-vue-luna-smith.netlify.app/',
+                src: ImgV1,
             },
             {
                 title: 'Connect Four',
@@ -323,7 +342,22 @@ const projects = [
                 title: 'Play with CANVAS',
                 href: 'https://canvas-project-js.netlify.app/',
                 src: ImgJ13,
-            },  
+            }, 
+            {
+                title: 'Rock Paper Scissors',
+                href: 'https://rockpaperscissors-fun-game.netlify.app/',
+                src: ImgJ9,
+            }, 
+            {
+                title: 'Quiz',
+                href: 'https://react-typescript-quiz-luna-smith.netlify.app/',
+                src: ImgR12,
+            },
+            {
+                title: 'Quiz',
+                href: 'https://vue-ulitmate-quiz.netlify.app/Vue/',
+                src: ImgV2,
+            }, 
         ]
     },
 ]
