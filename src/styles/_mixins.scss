@@ -18,7 +18,7 @@
 };
 
 @mixin ipad {
-    @media (max-width: 1300px) {
+    @media (max-width: 1500px) {
         @content
     }
 };

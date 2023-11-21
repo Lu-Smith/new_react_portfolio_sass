@@ -117,21 +117,6 @@
                 }
             }
 
-            .project {
-                grid-template-rows: repeat(4, 1fr);
-                grid-template-columns: repeat(5, 1fr);
-
-                @include medium {
-                    grid-template-rows: repeat(5, 1fr);
-                    grid-template-columns: repeat(4, 1fr);
-                }
-
-                @include mobile {
-                    grid-template-rows: repeat(5, 1fr);
-                    grid-template-columns: repeat(3, 1fr);
-                }
-            }
-
             .futured {
                 grid-template-rows: repeat(2, 1fr);
                 grid-template-columns: repeat(3, 1fr);
@@ -218,15 +203,21 @@
                 margin-bottom: 0;
                 gap: 20px;
                 width: 80%;
+                grid-template-rows: repeat(4, 1fr);
+                grid-template-columns: repeat(5, 1fr);
 
-                @include medium {
+                @include ipad {
+                    grid-template-rows: repeat(5, 1fr);
+                    grid-template-columns: repeat(4, 1fr);
                     gap: 15px;
                     width: 90%;
                 }
 
                 @include mobile {
+                    grid-template-rows: repeat(5, 1fr);
+                    grid-template-columns: repeat(3, 1fr);
                     gap: 10px;
-                    margin-bottom: 20px;
+                margin-bottom: 20px;
                 }
 
                 a {
@@ -261,8 +252,12 @@
                             @include flex-direction(center, row);
                             gap: 10px;
 
-                            @include medium {
+                            @include ipad {
                                 font-size: $primary-font-size;
+                            }
+
+                            @include medium {
+                                font-size: $mobile-font-size;
                             }
 
                             @include mobile {
