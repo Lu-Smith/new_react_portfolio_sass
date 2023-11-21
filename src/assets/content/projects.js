@@ -112,7 +112,7 @@ const projects = [
                 src: ImgR7,
             },
             {
-                title: 'Bubble - community space',
+                title: 'Bubble',
                 href: 'https://community-fans.netlify.app/',
                 src: ImgR8,
             },
@@ -132,7 +132,7 @@ const projects = [
                 src: ImgR11,
             },
             {
-                title: 'Quiz - Typescript',
+                title: 'Quiz',
                 href: 'https://react-typescript-quiz-luna-smith.netlify.app/',
                 src: ImgR12,
             },
@@ -142,12 +142,12 @@ const projects = [
                 src: ImgR13,
             },
             {
-                title: 'PawHub - TypeScript ',
+                title: 'PawHub',
                 href: 'https://pawhub-react-typescript.netlify.app/',
                 src: ImgR14,
             },
             {
-                title: 'Restaurant Reservations',
+                title: 'Reservations',
                 href: 'https://restaurant-reservation-order.netlify.app/',
                 src: ImgR15,
             },
