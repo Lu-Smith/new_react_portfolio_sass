@@ -33,16 +33,18 @@
             background: $light-hero-background; 
 
             h3 {
-                color: $secondary-color;
+                color: $focus-color;
+                text-shadow: $image-shadow;
             }
             
             .project, .futured, .game {
                 a {
-                    background-color: $primary-color;
+                    background-color: $light-box-background;
+                    border: $futured-border;
 
                     h4 {
-                        color: $light-box-background;
-                        background-color: $primary-color;
+                        
+                        color: $primary-color;
                     }
                 }
             }
