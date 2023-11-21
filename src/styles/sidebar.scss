@@ -139,7 +139,6 @@
         padding-left: 30px;
 
         @include medium {
-            padding-left: $mobile-padding;
             font-size: $primary-font-size;
         }
 
