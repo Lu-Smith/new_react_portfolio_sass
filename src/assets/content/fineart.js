@@ -136,36 +136,40 @@ const paintings = [
                 src: ImgL1,
             },
             {
-                title: 'Autumn',
-                src: ImgL2,
-            },
-            {
-                title: 'Scottish Dream',
-                src: ImgL3,
+                title: 'Winter Cottage',
+                src: ImgL12,
             },
             {
                 title: 'The Whishper of Diabaig',
                 src: ImgL4,
             },
             {
-                title: 'Sunrise at Elgol Beach',
-                src: ImgL5,
+                title: 'The Blue Hollow',
+                src: ImgL25,
             },
             {
                 title: 'The Lonely Dragon',
                 src: ImgL6,
             },
             {
-                title: 'Autumn Reflection',
-                src: ImgL7,
+                title: 'Autumn',
+                src: ImgL2,
             },
             {
                 title: 'Guardian Tree',
                 src: ImgL8,
             },
             {
+                title: 'Italian Alps',
+                src: ImgL16,
+            },
+            {
                 title: 'Secret Garden',
                 src: ImgL9,
+            },
+            {
+                title: 'Paradise',
+                src: ImgL20,
             },
             {
                 title: 'Winter Breeze',
@@ -176,8 +180,12 @@ const paintings = [
                 src: ImgL11,
             },
             {
-                title: 'Winter Cottage',
-                src: ImgL12,
+                title: 'Scottish Dream',
+                src: ImgL3,
+            },
+            {
+                title: 'Autumn Reflection',
+                src: ImgL7,
             },
             {
                 title: 'Autumn Sunset',
@@ -192,10 +200,6 @@ const paintings = [
                 src: ImgL15,
             },
             {
-                title: 'Italian Alps',
-                src: ImgL16,
-            },
-            {
                 title: 'Melting Blue Mountains',
                 src: ImgL17,
             },
@@ -206,10 +210,6 @@ const paintings = [
             {
                 title: 'The Song of Glen Etive',
                 src: ImgL19,
-            },
-            {
-                title: 'Paradise',
-                src: ImgL20,
             },
             {
                 title: 'The Trapped Wind',
@@ -228,14 +228,13 @@ const paintings = [
                 src: ImgL24,
             },
             {
-                title: 'The Blue Hollow',
-                src: ImgL25,
-            },
-            {
                 title: 'Waterfall',
                 src: ImgL26,
             },
-          
+            {
+                title: 'Sunrise at Elgol Beach',
+                src: ImgL5,
+            },
         ]
     },
     {
