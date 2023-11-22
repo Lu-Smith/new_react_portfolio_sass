@@ -4,6 +4,7 @@ import paintings from '../../assets/content/fineart';
 import MobileSidebar from '../Sidebar/MobileSidebar';
 import ArtExhibition from './ArtExhibition/ArtExhibition';
 import { motion } from 'framer-motion';
+import { LiaExternalLinkAltSolid } from 'react-icons/lia';
 
 interface ModeProps {
   mode: string,
@@ -43,6 +44,11 @@ const FineArt = ({mode, handleMode}: ModeProps) => {
               </div>
             </div>
           })}
+           <a 
+           href="https://luartgallery.com/" 
+           target='_blank'
+           rel="noreferrer"
+           className='moreArtButton'>More Art <LiaExternalLinkAltSolid /></a>
         </div>
       </div>
     </div>

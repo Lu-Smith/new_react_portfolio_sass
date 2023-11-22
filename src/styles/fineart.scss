@@ -119,6 +119,15 @@
               }                 
         }
 
+        .moreArtButton {
+            @include flex(center, center);
+            position: relative;
+            bottom: $basic-padding;
+            font-size: $nav-font-size;
+            margin-top: 60px;
+            gap: 5px;
+        }
+
         .paintingsContainer {
             @include flex-direction(center, column);
             gap: 20px;
