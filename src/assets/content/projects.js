@@ -40,6 +40,7 @@ import ImgJ17 from '../media/projects/JavaScript/SpaceInvaders_J.jpg';
 //Vue
 import ImgV1 from '../media/projects/Vue/RockPaperScissors_V.jpg';
 import ImgV2 from '../media/projects/Vue/Quiz_V.jpg';
+import ImgV3 from '../media/projects/Vue/WarGame_V.jpg';
 
 
 const projects = [
@@ -276,7 +277,12 @@ const projects = [
                 title: 'Quiz',
                 href: 'https://vue-ulitmate-quiz.netlify.app/Vue/',
                 src: ImgV2,
-            },           
+            }, 
+            {
+                title: 'War Game',
+                href: 'https://war-game-vue.netlify.app/',
+                src: ImgV3,
+            },               
         ]
     },
     {
