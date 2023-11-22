@@ -275,7 +275,7 @@ const projects = [
             },  
             {
                 title: 'Quiz',
-                href: 'https://vue-ulitmate-quiz.netlify.app/Vue/',
+                href: 'https://vue-ulitmate-quiz.netlify.app/',
                 src: ImgV2,
             }, 
             {
@@ -363,6 +363,11 @@ const projects = [
                 title: 'Quiz',
                 href: 'https://vue-ulitmate-quiz.netlify.app/Vue/',
                 src: ImgV2,
+            }, 
+            {
+                title: 'War Game',
+                href: 'https://war-game-vue.netlify.app/',
+                src: ImgV3,
             }, 
         ]
     },

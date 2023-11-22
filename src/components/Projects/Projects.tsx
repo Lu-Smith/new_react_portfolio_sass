@@ -28,7 +28,8 @@ const Projects = () => {
               <h3>{project.title}</h3>
               <div 
               className={project.title === 'Futured Projects' ? 'futured' : 
-              project.title === 'Games' ? 'game' : 'project'}>
+              project.title === 'Games' ? 'game' : 
+              project.title === 'Vue Projects' ? 'vue' : 'project'}>
                 {project.project.map((item, index) => {
                   return <a href={item.href} key={index} target='_blank' rel="noreferrer">
                         <div className="imageContainer">
