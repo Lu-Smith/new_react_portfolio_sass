@@ -93,7 +93,7 @@ const projects = [
                 src: ImgR2,
             },
             {
-                title: 'TicTacToe',
+                title: 'Tic Tac Toe',
                 href: 'https://tic-tac-toe-react-typescript-luna.netlify.app/',
                 src: ImgR3,
             },
@@ -289,12 +289,12 @@ const projects = [
         title: 'Games',
         project: [
             {
-                title: 'TicTacToe',
+                title: 'Tic Tac Toe',
                 href: 'https://tic-tac-toe-react-typescript-luna.netlify.app/',
                 src: ImgR3,
             },
             {
-                title: 'RaibowSpikes',
+                title: 'Raibow Spikes',
                 href: 'https://rainbow-spikes-javascript-animation.netlify.app/',
                 src: ImgJ3,
             },
@@ -325,7 +325,7 @@ const projects = [
                 src: ImgJ11,
             },
             {
-                title: 'JS Text Animations',
+                title: 'Text Animations',
                 href: 'https://ephemeral-bienenstitch-24f392.netlify.app/',
                 src: ImgJ7,
             },
