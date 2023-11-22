@@ -3,6 +3,7 @@ import Sidebar from '../Sidebar/Sidebar';
 import paintings from '../../assets/content/fineart';
 import MobileSidebar from '../Sidebar/MobileSidebar';
 import ArtExhibition from './ArtExhibition/ArtExhibition';
+import { motion } from 'framer-motion';
 
 interface ModeProps {
   mode: string,
@@ -31,9 +32,12 @@ const FineArt = ({mode, handleMode}: ModeProps) => {
               <div className="paintingContainer">
                   {painting.project.map((item, index) => {
                     return <div key={index} className='painting'>
-                      <div className="imageContainer">
+                      <motion.div className="imageContainer"
+                      initial={{scale: 0.9}}
+                      whileHover={{scale: 1.3}}
+                      transition={{ duration: 0.5}}>
                         <img src={item.src} alt={item.title} />
-                      </div>
+                      </motion.div>
                     </div>
                   })}
               </div>
