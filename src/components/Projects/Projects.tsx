@@ -3,6 +3,7 @@ import projects from '../../assets/content/projects';
 import Sidebar from '../Sidebar/Sidebar';
 import { LiaExternalLinkAltSolid } from 'react-icons/lia';
 import MobileSidebar from '../Sidebar/MobileSidebar';
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
 
@@ -42,6 +43,7 @@ const Projects = () => {
             </div>
           </div>
         })}
+        <Link to="/games">More Games<LiaExternalLinkAltSolid /></Link>
       </div>
     </div>
   )
