@@ -1,5 +1,5 @@
 import React from 'react';
-import projects from '../../assets/content/projects';
+import gameProjects from '../../assets/content/games';
 import { LiaExternalLinkAltSolid } from 'react-icons/lia';
 import Sidebar from '../Sidebar/Sidebar';
 import MobileSidebar from '../Sidebar/MobileSidebar';
@@ -21,7 +21,7 @@ const Games = ( {mode, handleMode}: ModeProps ) => {
       </div>
         <div className="componentContainer">
           <h2>Games</h2>
-          {projects.map((project, index) => {
+          {gameProjects.map((project, index) => {
           return <div key={index}>
             {project.title === 'Games' && 
             <div className="projectsContainer">

@@ -313,46 +313,15 @@ const projects = [
                 href: 'https://snake-game-react-typescript.netlify.app/',
                 src: ImgR6,
             },
-
-            {
-                title: 'Hangman',
-                href: 'https://hangman-react-typescript.netlify.app/',
-                src: ImgR9,
-            },
-            {
-                title: 'Follow me',
-                href: 'https://multiple-canvases-js.netlify.app/',
-                src: ImgJ11,
-            },
-            {
-                title: 'Text Animations',
-                href: 'https://ephemeral-bienenstitch-24f392.netlify.app/',
-                src: ImgJ7,
-            },
             {
                 title: 'Rock Paper Scissors',
                 href: 'https://rock-paper-scissors-vue-luna-smith.netlify.app/',
                 src: ImgV1,
             },
             {
-                title: 'Connect Four',
-                href: 'connect-four-luna-smith.netlify.app',
-                src: ImgJ16,
-            },
-            {
                 title: 'Space Invaders',
                 href: 'https://space-invaders-luna-smith.netlify.app/',
                 src: ImgJ17,
-            },
-            {
-                title: 'Play with CANVAS',
-                href: 'https://canvas-project-js.netlify.app/',
-                src: ImgJ13,
-            }, 
-            {
-                title: 'Rock Paper Scissors',
-                href: 'https://rockpaperscissors-fun-game.netlify.app/',
-                src: ImgJ9,
             }, 
             {
                 title: 'Quiz',
@@ -363,12 +332,7 @@ const projects = [
                 title: 'Quiz',
                 href: 'https://vue-ulitmate-quiz.netlify.app/Vue/',
                 src: ImgV2,
-            }, 
-            {
-                title: 'War Game',
-                href: 'https://war-game-vue.netlify.app/',
-                src: ImgV3,
-            }, 
+            } 
         ]
     },
 ]

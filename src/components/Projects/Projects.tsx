@@ -43,7 +43,7 @@ const Projects = () => {
             </div>
           </div>
         })}
-        <Link to="/games">More Games<LiaExternalLinkAltSolid /></Link>
+        <Link to="/games" className='moreGameButton'>More Games<LiaExternalLinkAltSolid /></Link>
       </div>
     </div>
   )

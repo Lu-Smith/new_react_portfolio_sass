@@ -101,6 +101,13 @@
             }
         }
 
+        .moreGameButton {
+            @include flex(center, center);
+            position: relative;
+            bottom: $basic-padding;
+            font-size: $nav-font-size;
+        }
+
         .projectsContainer {
             @include flex-direction(center, column);
             height: 100vh;
@@ -130,13 +137,8 @@
             }
 
             .game {
-                grid-template-rows: repeat(4, 1fr);
-                grid-template-columns: repeat(4, 1fr);
-
-                @include medium {
-                    grid-template-rows: repeat(6, 1fr);
-                    grid-template-columns: repeat(3, 1fr);
-                }
+                grid-template-rows: repeat(3, 1fr);
+                grid-template-columns: repeat(3, 1fr);
             }
 
             .futured, .game, .vue {
