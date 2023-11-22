@@ -39,6 +39,7 @@ const FineArt = ({mode, handleMode}: ModeProps) => {
                       transition={{ duration: 0.5}}>
                         <img src={item.src} alt={item.title} />
                       </motion.div>
+                      <h3>{item.title}</h3>
                     </div>
                   })}
               </div>
