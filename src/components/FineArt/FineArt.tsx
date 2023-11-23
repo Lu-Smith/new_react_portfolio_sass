@@ -32,7 +32,7 @@ const FineArt = ({mode, handleMode}: ModeProps) => {
               <h3>{painting.title}</h3>
               <div className="paintingContainer">
                   {painting.project.map((item, index) => {
-                    return <div key={index} className='painting'>
+                    return <a key={index} className='painting' href={item.link} target='_blank' rel='noreferrer'>
                       <motion.div className="imageContainer"
                       initial={{scale: 0.9}}
                       whileHover={{scale: 1.3}}
@@ -40,7 +40,7 @@ const FineArt = ({mode, handleMode}: ModeProps) => {
                         <img src={item.src} alt={item.title} />
                       </motion.div>
                       <h3>{item.title}</h3>
-                    </div>
+                    </a>
                   })}
               </div>
             </div>

@@ -42,6 +42,7 @@ import ImgL23 from '../media/fineart/Landscapes/Melting-Autumn-Sunrise-by-Luna-S
 import ImgL24 from '../media/fineart/Landscapes/The-First-Walk-by-Luna-Smith.jpg';
 import ImgL25 from '../media/fineart/Landscapes/The-Blue-Hollow-by-Luna-Smith.jpg';
 import ImgL26 from '../media/fineart/Landscapes/Waterfall-by-Luna-Smith.jpg';
+import ImgL27 from '../media/fineart/Landscapes/When-WInter-Meets-Summer-by-Luna-Smith.jpg';
 
 //Animals
 import ImgA1 from '../media/fineart/Animals/Owl-by-Luna-Smith.jpg';
@@ -68,62 +69,77 @@ const paintings = [
             {
                 title: 'Awakening from the Sleep of Fear',
                 src: ImgN1,
+                link: 'https://luartgallery.com/art/AwakeningfromtheSleepofFear'
             },
             {
                 title: 'The Warrior of Shattered Tears',
                 src: ImgN2,
+                link: 'https://luartgallery.com/art/TheWarriorofShatteredTears'
             },
             {
                 title: 'Dreams of a Future Self',
                 src: ImgN3,
+                link: 'https://luartgallery.com/art/DreamsofaFutureSelf'
             },
             {
                 title: 'The Soothing Wind of Longing',
                 src: ImgN4,
+                link: 'https://luartgallery.com/art/TheSoothingWindofLonging'
             },
             {
                 title: 'The Battle of Endless Seas',
                 src: ImgN5,
+                link: 'https://luartgallery.com/art/TheBattleofEndlessSeas'
             },
             {
                 title: 'The Flame of the Eternal Triangle',
                 src: ImgN6,
+                link: 'https://luartgallery.com/art/TheFlameoftheEternalTriangle'
             },
             {
                 title: 'The Blood of the Silent Unicorn',
                 src: ImgN7,
+                link: 'https://luartgallery.com/art/TheBloodoftheSilentUnicorn'
             },
             {
                 title: 'Breathe of the Invisible Beast',
                 src: ImgN8,
+                link: 'https://luartgallery.com/art/BreatheoftheInvisibleBeast'
             },
             {
                 title: 'The Heartbeat of the Raging Cyclone',
                 src: ImgN9,
+                link: 'https://luartgallery.com/art/TheHeartbeatoftheRagingCyclone'
             },
             {
                 title: 'A Scale of the Blue Dragon',
                 src: ImgN10,
+                link: 'https://luartgallery.com/art/TheScaleoftheBlueDragon'
             },
             {
                 title: 'The Temple of Life',
                 src: ImgN11,
+                link: 'https://luartgallery.com/art/TheTempleofLife'
             },
             {
                 title: "Kiss of Mother's Love",
                 src: ImgN12,
+                link: "https://luartgallery.com/art/KissofMother'sLove"
             },
             {
                 title: 'Songs of the Burning Star',
                 src: ImgN13,
+                link: 'https://luartgallery.com/art/SongsoftheBurningStar'
             },
             {
                 title: "The Fading Reality",
                 src: ImgN14,
+                link: 'https://luartgallery.com/art/TheFadingReality'
             },
             {
                 title: "The Reflection of My Universe",
                 src: ImgN15,
+                link:'https://luartgallery.com/art/TheReflectionofmyUniverse'
             },
             
         ]
@@ -134,107 +150,138 @@ const paintings = [
             {
                 title: 'Shimmering Golden Trees',
                 src: ImgL1,
+                link: 'https://luartgallery.com/art/ShimmeringGoldenTrees'
             },
             {
                 title: 'Winter Cottage',
                 src: ImgL12,
+                link: 'https://luartgallery.com/art/WinterCottage'
             },
             {
-                title: 'The Whishper of Diabaig',
-                src: ImgL4,
+                title: 'The Whisper of Diabaig',
+                src:  ImgL4,
+                link:'https://luartgallery.com/art/TheFrigidWhisperofDiabaig'
             },
             {
                 title: 'The Blue Hollow',
                 src: ImgL25,
+                link: 'https://luartgallery.com/art/TheBlueHollow'
             },
             {
                 title: 'The Lonely Dragon',
                 src: ImgL6,
+                link: 'https://luartgallery.com/art/TheLonelyDragon'
             },
             {
                 title: 'Autumn',
                 src: ImgL2,
+                link: 'https://luartgallery.com/art/Autumn'
             },
             {
                 title: 'Guardian Tree',
                 src: ImgL8,
+                link: 'https://luartgallery.com/art/GuardianTree'
             },
             {
                 title: 'Italian Alps',
                 src: ImgL16,
+                link: 'https://luartgallery.com/art/ItalianAlps'
             },
             {
                 title: 'Secret Garden',
                 src: ImgL9,
+                link: 'https://luartgallery.com/art/SecretGarden'
             },
             {
                 title: 'Paradise',
                 src: ImgL20,
+                link: 'https://luartgallery.com/art/Paradise',
             },
             {
                 title: 'Winter Breeze',
                 src: ImgL10,
+                link: 'https://luartgallery.com/art/WinterBreeze'
             },
             {
                 title: 'Viking Sunset',
                 src: ImgL11,
+                link: 'https://luartgallery.com/art/VikingSunset'
             },
             {
                 title: 'Scottish Dream',
                 src: ImgL3,
+                link: 'https://luartgallery.com/art/ScottishDream'
             },
             {
                 title: 'Autumn Reflection',
                 src: ImgL7,
+                link: 'https://luartgallery.com/art/AutumnReflection'
             },
             {
                 title: 'Autumn Sunset',
                 src: ImgL13,
+                link: 'https://luartgallery.com/art/AutumnSunset'
             },
             {
                 title: 'Snowy Mount Rainier',
                 src: ImgL14,
+                link: 'https://luartgallery.com/art/SnowyMountRainier'
             },
             {
                 title: 'Grasslands of Arran',
                 src: ImgL15,
+                link: 'https://luartgallery.com/art/GrasslandsofArran'
             },
             {
                 title: 'Melting Blue Mountains',
                 src: ImgL17,
+                link: 'https://luartgallery.com/art/MeltingBlueMountains'
             },
             {
                 title: 'Hawaiian Beach',
                 src: ImgL18,
+                link: 'https://luartgallery.com/art/HawaiianBeach'
             },
             {
                 title: 'The Song of Glen Etive',
                 src: ImgL19,
+                link: 'https://luartgallery.com/art/TheSongofGlenEtive'
             },
             {
                 title: 'The Trapped Wind',
                 src: ImgL21,
+                link: 'https://luartgallery.com/art/TrappedintheSilentWind'
             },
             {
                 title: 'Savannah Beach',
                 src: ImgL22,
+                link: 'https://luartgallery.com/art/SavannahBeach,Georgia',
             },
             {
                 title: 'Melting Autumn Sunrise',
                 src: ImgL23,
+                link: 'https://luartgallery.com/art/MeltingAutumnSunrise'
             },
             {
                 title: 'The First Walk',
                 src: ImgL24,
+                link: 'https://luartgallery.com/art/TheFirstWalk'
             },
             {
                 title: 'Waterfall',
                 src: ImgL26,
+                link: 'https://luartgallery.com/art/Waterfall'
+            },
+            {
+                title: 'Winter Meets Summer',
+                src: ImgL27,
+                link: 'https://luartgallery.com/art/WhenWinterMeetsSummer'
             },
             {
                 title: 'Sunrise at Elgol Beach',
                 src: ImgL5,
-            },
+                link: 'https://luartgallery.com/art/SunriseatElgolBeach'
+            }, 
         ]
     },
     {
@@ -243,23 +290,43 @@ const paintings = [
             {
                 title: 'Owl',
                 src: ImgA1,
+                link: 'https://luartgallery.com/art/Owl'
             },
             {
                 title: 'Spooky Kitty',
                 src: ImgA2,
+                link:''
             },
             {
                 title: 'Swan',
                 src: ImgA3,
+                link: 'https://luartgallery.com/art/Swan'
             },
             {
                 title: 'Shrimp',
                 src: ImgA4,
+                link: 'https://luartgallery.com/art/Shrimp'
             },
             {
                 title: 'Dream',
                 src: ImgA5,
+                link: 'https://luartgallery.com/art/Dream'
             },
+            {
+                title: 'The Lonely Dragon',
+                src: ImgL6,
+                link: 'https://luartgallery.com/art/TheLonelyDragon'
+            },
+            {
+                title: 'The First Walk',
+                src: ImgL24,
+                link: 'https://luartgallery.com/art/TheFirstWalk'
+            },
+            {
+                title: 'Melting Autumn Sunrise',
+                src: ImgL23,
+                link: 'https://luartgallery.com/art/MeltingAutumnSunrise'
+            }
         ]
     },
     {
@@ -268,38 +335,47 @@ const paintings = [
             {
                 title: 'Z in Shadows',
                 src: ImgS1,
+                link: 'https://luartgallery.com/art/ZinShadows'
             },
             {
                 title: 'V in Shadows',
                 src: ImgS2,
+                link: 'https://luartgallery.com/art/VinShadows'
             },
             {
                 title: 'R in Shadows',
                 src: ImgS3,
+                link: 'https://luartgallery.com/art/RinShadows'
             },
             {
                 title: 'O in Shadows',
                 src: ImgS4,
+                link: 'https://luartgallery.com/art/OinShadows'
             },
             {
                 title: 'L in Shadows',
                 src: ImgS5,
+                link: 'https://luartgallery.com/art/LinShadows'
             },
             {
                 title: 'B in Shadows',
                 src: ImgS6,
+                link: 'https://luartgallery.com/art/BinShadows'
             },
             {
                 title: 'G in Shadows',
                 src: ImgS7,
+                link: 'https://luartgallery.com/art/GinShadows'
             },
             {
                 title: 'J in Shadows',
                 src: ImgS8,
+                link: 'https://luartgallery.com/art/JinShadows'
             },
             {
                 title: 'M in Shadows',
                 src: ImgS9,
+                link: 'https://luartgallery.com/art/MinShadows'
             },
         ]
     },
