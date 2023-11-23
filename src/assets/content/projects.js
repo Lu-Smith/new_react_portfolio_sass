@@ -330,7 +330,7 @@ const projects = [
             },
             {
                 title: 'Quiz',
-                href: 'https://vue-ulitmate-quiz.netlify.app/Vue/',
+                href: 'https://vue-ulitmate-quiz.netlify.app/',
                 src: ImgV2,
             } 
         ]
