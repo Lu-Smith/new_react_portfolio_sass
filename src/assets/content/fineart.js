@@ -51,6 +51,24 @@ import ImgA3 from '../media/fineart/Animals/Swan-by-Luna-Smith.jpg';
 import ImgA4 from '../media/fineart/Animals/Shrimp-by-Luna-Smith.jpg';
 import ImgA5 from '../media/fineart/Animals/Dream-by-Luna-Smith.jpg';
 
+//Sound of Life
+import ImgSL1 from '../media/fineart/SoundOfLife/CuriositybyLunaSmith.jpg';
+import ImgSL2 from '../media/fineart/SoundOfLife/NorseSagabyLunaSmith.jpg';
+import ImgSL3 from '../media/fineart/SoundOfLife/SoundofLifebyLunaSmith.jpg';
+import ImgSL4 from '../media/fineart/SoundOfLife/WarriorsbyLunaSmith.jpg';
+import ImgSL5 from '../media/fineart/SoundOfLife/SoundofLifebyLunaSmith.jpg';
+import ImgSL6 from '../media/fineart/SoundOfLife/HarpbyLunaSmith.jpg';
+import ImgSL7 from '../media/fineart/SoundOfLife/PastelViolinbyLunaSmith.jpg';
+import ImgSL8 from '../media/fineart/SoundOfLife/GuitarbyLunaSmith.jpg';
+import ImgSL9 from '../media/fineart/SoundOfLife/MythicalViolinbyLunaSmith.jpg';
+import ImgSL10 from '../media/fineart/SoundOfLife/SaxophonesbyLunaSmith.jpg';
+import ImgSL11 from '../media/fineart/SoundOfLife/SaxophonebyLunaSmith.jpg';
+import ImgSL12 from '../media/fineart/SoundOfLife/DuetbyLunaSmith.jpg';
+import ImgSL13 from '../media/fineart/SoundOfLife/JazzbyLunaSmith.jpg';
+import ImgSL14 from '../media/fineart/SoundOfLife/ViolinsbyLunaSmith.jpg';
+import ImgSL15 from '../media/fineart/SoundOfLife/TrumpetbyLunaSmith.jpg';
+import ImgSL16 from '../media/fineart/SoundOfLife/FlutebyLunaSmith.jpg';
+
 //Shadows
 import ImgS1 from '../media/fineart/Shadows/Z-in-Shadows-by-Luna-Smith.jpg';
 import ImgS2 from '../media/fineart/Shadows/V-in-Shadows-by-Luna-Smith.jpg';
@@ -327,6 +345,91 @@ const paintings = [
                 src: ImgL23,
                 link: 'https://luartgallery.com/art/MeltingAutumnSunrise'
             }
+        ]
+    },
+    {
+        title: 'Sound of Life',
+        project: [
+            {
+                title: 'Curiosity',
+                src: ImgSL1,
+                link: 'https://luartgallery.com/art/Curiosity'
+            },
+            {
+                title: 'Norse Saga',
+                src: ImgSL2,
+                link: 'https://luartgallery.com/art/NorseSaga'
+            },
+            {
+                title: 'Sound of Life',
+                src: ImgSL3,
+                link: 'https://luartgallery.com/art/SoundofLife'
+            },
+            {
+                title: 'Warriors',
+                src: ImgSL4,
+                link: 'https://luartgallery.com/art/Warriors'
+            },
+            {
+                title: 'Sunflowers',
+                src: ImgSL5,
+                link: 'https://luartgallery.com/art/Sunflowers'
+            },
+            {
+                title: 'Harp',
+                src: ImgSL6,
+                link: 'https://luartgallery.com/art/Harp'
+            },
+            {
+                title: 'Pastel Violin',
+                src: ImgSL7,
+                link: 'https://luartgallery.com/art/PastelViolin'
+            },
+            {
+                title: 'Guitar',
+                src: ImgSL8,
+                link: 'https://luartgallery.com/art/Guitar'
+            },
+            {
+                title: 'Mythical Violin',
+                src: ImgSL9,
+                link: 'https://luartgallery.com/art/MythicalViolin'
+            },
+            {
+                title: 'Saxophones',
+                src: ImgSL10,
+                link: 'https://luartgallery.com/art/Saxophones'
+            },
+            {
+                title: 'Saxophone',
+                src: ImgSL11,
+                link: 'https://luartgallery.com/art/Saxophone'
+            },
+            {
+                title: "Duet",
+                src: ImgSL12,
+                link: "https://luartgallery.com/art/Duet"
+            },
+            {
+                title: 'Jazz',
+                src: ImgSL13,
+                link: 'https://luartgallery.com/art/Jazz'
+            },
+            {
+                title: "Violins",
+                src: ImgSL14,
+                link: 'https://luartgallery.com/art/Violins'
+            },
+            {
+                title: "Trumpet",
+                src: ImgSL15,
+                link:'https://luartgallery.com/art/Trumpet'
+            },
+            {
+                title: "Flute",
+                src: ImgSL16,
+                link:'https://luartgallery.com/art/Flute'
+            }   
         ]
     },
     {
