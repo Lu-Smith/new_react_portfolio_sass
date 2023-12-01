@@ -40,8 +40,8 @@ import ImgJ17 from '../media/projects/JavaScript/SpaceInvaders_J.jpg';
 //Vue
 import ImgV1 from '../media/projects/Vue/RockPaperScissors_V.jpg';
 import ImgV2 from '../media/projects/Vue/Quiz_V.jpg';
-import ImgV3 from '../media/projects/Vue/WarGame_V.jpg';
-
+import ImgV3 from '../media/projects/Vue/EpenseTracker_V.jpg';
+import ImgV4 from '../media/projects/Vue/WarGame_V.jpg';
 
 const projects = [
     {
@@ -279,10 +279,15 @@ const projects = [
                 src: ImgV2,
             }, 
             {
+                title: 'Expense Tracker',
+                href: 'https://expense-tracker-vue-tailwind.netlify.app/',
+                src: ImgV3,
+            },  
+            {
                 title: 'War Game',
                 href: 'https://war-game-vue.netlify.app/',
-                src: ImgV3,
-            },               
+                src: ImgV4,
+            },              
         ]
     },
     {
