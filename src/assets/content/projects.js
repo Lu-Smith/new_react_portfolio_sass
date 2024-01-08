@@ -43,6 +43,7 @@ import ImgV2 from '../media/projects/Vue/RecipeSearch_V.jpg';
 import ImgV3 from '../media/projects/Vue/EpenseTracker_V.jpg';
 import ImgV4 from '../media/projects/Vue/WarGame_V.jpg';
 import ImgV5 from '../media/projects/Vue/Quiz_V.jpg';
+import ImgV6 from '../media/projects/Vue/StopWatch-V.jpg';
 
 const projects = [
     {
@@ -59,9 +60,9 @@ const projects = [
                 src: ImgR2,
             },
             {
-                title: 'Follow me',
-                href: 'https://multiple-canvases-js.netlify.app/',
-                src: ImgJ11,
+                title: 'Text Animations',
+                href: 'https://ephemeral-bienenstitch-24f392.netlify.app/',
+                src: ImgJ7,
             },
             {
                 title: 'Candy Heaven',
@@ -74,10 +75,10 @@ const projects = [
                 src: ImgJ2,
             },
             {
-                title: 'Quiz',
-                href: 'https://react-typescript-quiz-luna-smith.netlify.app/',
-                src: ImgR12,
-            },
+                title: 'Recipe Search',
+                href: 'https://vue-recipe-search-tailwindcss.netlify.app/',
+                src: ImgV2,
+            }, 
         ]
     },
     {
@@ -293,6 +294,11 @@ const projects = [
                 title: 'Quiz',
                 href: 'https://vue-ulitmate-quiz.netlify.app/',
                 src: ImgV5,
+            }, 
+            {
+                title: 'Stop Watch',
+                href: 'https://stop-watch-vue-tailwindcss.netlify.app/',
+                src: ImgV6,
             }, 
                     
         ]
