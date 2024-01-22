@@ -38,12 +38,13 @@ import ImgJ16 from '../media/projects/JavaScript/ConnectFour_J.jpg';
 import ImgJ17 from '../media/projects/JavaScript/SpaceInvaders_J.jpg';
 
 //Vue
-import ImgV1 from '../media/projects/Vue/RockPaperScissors_V.jpg';
+import ImgV1 from '../media/projects/Vue/SnakeGame_V.jpg';
 import ImgV2 from '../media/projects/Vue/RecipeSearch_V.jpg';
 import ImgV3 from '../media/projects/Vue/EpenseTracker_V.jpg';
 import ImgV4 from '../media/projects/Vue/WarGame_V.jpg';
 import ImgV5 from '../media/projects/Vue/Quiz_V.jpg';
 import ImgV6 from '../media/projects/Vue/StopWatch-V.jpg';
+import ImgV7 from '../media/projects/Vue/RockPaperScissors_V.jpg';
 
 const projects = [
     {
@@ -70,10 +71,10 @@ const projects = [
                 src: ImgR7,
             },
             {
-                title: 'Frogger',
-                href: 'https://frogger-luna-smith.netlify.app',
-                src: ImgJ2,
-            },
+                title: 'Snake Game',
+                href: 'https://snake-game-vue-tailwindcss.netlify.app/',
+                src: ImgV1,
+            }, 
             {
                 title: 'Recipe Search',
                 href: 'https://vue-recipe-search-tailwindcss.netlify.app/',
@@ -271,10 +272,10 @@ const projects = [
         title: 'Vue Projects',
         project: [
             {
-                title: 'Rock Paper Scissors',
-                href: 'https://rock-paper-scissors-vue-luna-smith.netlify.app/',
+                title: 'Snake Game',
+                href: 'https://snake-game-vue-tailwindcss.netlify.app/',
                 src: ImgV1,
-            },  
+            },   
             {
                 title: 'Recipe Search',
                 href: 'https://vue-recipe-search-tailwindcss.netlify.app/',
@@ -300,6 +301,11 @@ const projects = [
                 href: 'https://stop-watch-vue-tailwindcss.netlify.app/',
                 src: ImgV6,
             }, 
+            {
+                title: 'Rock Paper Scissors',
+                href: 'https://rock-paper-scissors-vue-luna-smith.netlify.app/',
+                src: ImgV7,
+            },
                     
         ]
     },
