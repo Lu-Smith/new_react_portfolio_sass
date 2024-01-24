@@ -334,13 +334,13 @@ const projects = [
             },
             {
                 title: 'Snake Game',
-                href: 'https://snake-game-react-typescript.netlify.app/',
-                src: ImgR6,
-            },
+                href: 'https://snake-game-vue-tailwindcss.netlify.app/',
+                src: ImgV1,
+            },   
             {
                 title: 'Rock Paper Scissors',
                 href: 'https://rock-paper-scissors-vue-luna-smith.netlify.app/',
-                src: ImgV1,
+                src: ImgV7,
             },
             {
                 title: 'Space Invaders',

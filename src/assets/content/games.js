@@ -16,14 +16,21 @@ import ImgJ16 from '../media/projects/JavaScript/ConnectFour_J.jpg';
 import ImgJ17 from '../media/projects/JavaScript/SpaceInvaders_J.jpg';
 
 //Vue
-import ImgV1 from '../media/projects/Vue/RockPaperScissors_V.jpg';
+import ImgV1 from '../media/projects/Vue/SnakeGame_V.jpg';
 import ImgV2 from '../media/projects/Vue/Quiz_V.jpg';
 import ImgV3 from '../media/projects/Vue/WarGame_V.jpg';
+import ImgV7 from '../media/projects/Vue/RockPaperScissors_V.jpg';
+
 
 const gamesProjects = [
     {
         title: 'Games',
         project: [
+            {
+                title: 'Snake Game',
+                href: 'https://snake-game-vue-tailwindcss.netlify.app/',
+                src: ImgV1,
+            },   
             {
                 title: 'Tic Tac Toe',
                 href: 'https://tic-tac-toe-react-typescript-luna.netlify.app/',
@@ -68,7 +75,7 @@ const gamesProjects = [
             {
                 title: 'Rock Paper Scissors',
                 href: 'https://rock-paper-scissors-vue-luna-smith.netlify.app/',
-                src: ImgV1,
+                src: ImgV7,
             },
             {
                 title: 'Connect Four',
