@@ -45,6 +45,7 @@ import ImgV4 from '../media/projects/Vue/WarGame_V.jpg';
 import ImgV5 from '../media/projects/Vue/Quiz_V.jpg';
 import ImgV6 from '../media/projects/Vue/StopWatch-V.jpg';
 import ImgV7 from '../media/projects/Vue/RockPaperScissors_V.jpg';
+import ImgV8 from '../media/projects/Vue/PlayWithCanvas_V.jpg';
 
 const projects = [
     {
@@ -290,6 +291,11 @@ const projects = [
                 title: 'War Game',
                 href: 'https://war-game-vue.netlify.app/',
                 src: ImgV4,
+            }, 
+            {
+                title: 'Play with Canvas',
+                href: 'https://play-with-on-canvas-vue.netlify.app/',
+                src: ImgV8,
             },  
             {
                 title: 'Quiz',
