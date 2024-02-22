@@ -121,7 +121,7 @@ const gamesProjects = [
             },
             {
                 title: 'Generative Art',
-                href: 'generative-art-vue.netlify.app',
+                href: 'https://generative-art-vue.netlify.app',
                 src: ImgV9,
             },  
         ]

@@ -48,7 +48,6 @@ import ImgV7 from '../media/projects/Vue/RockPaperScissors_V.jpg';
 import ImgV8 from '../media/projects/Vue/PlayWithCanvas_V.jpg';
 import ImgV9 from '../media/projects/Vue/GenerativeArt_V.jpg';
 
-
 const projects = [
     {
         title: 'Futured Projects',
@@ -65,7 +64,7 @@ const projects = [
             },
             {
                 title: 'Generative Art',
-                href: 'generative-art-vue.netlify.app',
+                href: 'https://generative-art-vue.netlify.app',
                 src: ImgV9,
             },
             {
@@ -306,7 +305,7 @@ const projects = [
             }, 
             {
                 title: 'Generative Art',
-                href: 'generative-art-vue.netlify.app',
+                href: 'https://generative-art-vue.netlify.app',
                 src: ImgV9,
             },
             {
