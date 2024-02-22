@@ -46,6 +46,8 @@ import ImgV5 from '../media/projects/Vue/Quiz_V.jpg';
 import ImgV6 from '../media/projects/Vue/StopWatch-V.jpg';
 import ImgV7 from '../media/projects/Vue/RockPaperScissors_V.jpg';
 import ImgV8 from '../media/projects/Vue/PlayWithCanvas_V.jpg';
+import ImgV9 from '../media/projects/Vue/GenerativeArt_V.jpg';
+
 
 const projects = [
     {
@@ -62,9 +64,9 @@ const projects = [
                 src: ImgR2,
             },
             {
-                title: 'Text Animations',
-                href: 'https://ephemeral-bienenstitch-24f392.netlify.app/',
-                src: ImgJ7,
+                title: 'Generative Art',
+                href: 'generative-art-vue.netlify.app',
+                src: ImgV9,
             },
             {
                 title: 'Candy Heaven',
@@ -302,6 +304,11 @@ const projects = [
                 href: 'https://vue-ulitmate-quiz.netlify.app/',
                 src: ImgV5,
             }, 
+            {
+                title: 'Generative Art',
+                href: 'generative-art-vue.netlify.app',
+                src: ImgV9,
+            },
             {
                 title: 'Stop Watch',
                 href: 'https://stop-watch-vue-tailwindcss.netlify.app/',
