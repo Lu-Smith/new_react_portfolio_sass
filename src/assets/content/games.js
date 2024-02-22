@@ -21,8 +21,6 @@ import ImgV2 from '../media/projects/Vue/Quiz_V.jpg';
 import ImgV3 from '../media/projects/Vue/WarGame_V.jpg';
 import ImgV7 from '../media/projects/Vue/RockPaperScissors_V.jpg';
 import ImgV8 from '../media/projects/Vue/PlayWithCanvas_V.jpg';
-import ImgV9 from '../media/projects/Vue/GenerativeArt_V.jpg';
-
 
 const gamesProjects = [
     {
@@ -90,9 +88,9 @@ const gamesProjects = [
                 src: ImgJ17,
             },
             {
-                title: 'Play with CANVAS',
-                href: 'https://canvas-project-js.netlify.app/',
-                src: ImgJ13,
+                title: 'Play with Canvas',
+                href: 'https://play-with-on-canvas-vue.netlify.app/',
+                src: ImgV8,
             }, 
             {
                 title: 'Rock Paper Scissors',
@@ -115,15 +113,10 @@ const gamesProjects = [
                 src: ImgV3,
             }, 
             {
-                title: 'Play with Canvas',
-                href: 'https://play-with-on-canvas-vue.netlify.app/',
-                src: ImgV8,
-            },
-            {
-                title: 'Generative Art',
-                href: 'https://generative-art-vue.netlify.app',
-                src: ImgV9,
-            },  
+                title: 'Play with CANVAS',
+                href: 'https://canvas-project-js.netlify.app/',
+                src: ImgJ13,
+            }, 
         ]
     },
 ]
