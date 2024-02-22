@@ -63,10 +63,10 @@ const projects = [
                 src: ImgR2,
             },
             {
-                title: 'Generative Art',
-                href: 'https://generative-art-vue.netlify.app',
-                src: ImgV9,
-            },
+                title: 'Play with Canvas',
+                href: 'https://play-with-on-canvas-vue.netlify.app/',
+                src: ImgV8,
+            },  
             {
                 title: 'Candy Heaven',
                 href: 'https://candyheavenshop.netlify.app/',
@@ -289,6 +289,11 @@ const projects = [
                 src: ImgV3,
             },  
             {
+                title: 'Generative Art',
+                href: 'https://generative-art-vue.netlify.app',
+                src: ImgV9,
+            },
+            {
                 title: 'War Game',
                 href: 'https://war-game-vue.netlify.app/',
                 src: ImgV4,
@@ -303,11 +308,6 @@ const projects = [
                 href: 'https://vue-ulitmate-quiz.netlify.app/',
                 src: ImgV5,
             }, 
-            {
-                title: 'Generative Art',
-                href: 'https://generative-art-vue.netlify.app',
-                src: ImgV9,
-            },
             {
                 title: 'Stop Watch',
                 href: 'https://stop-watch-vue-tailwindcss.netlify.app/',
