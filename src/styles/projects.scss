@@ -107,6 +107,12 @@
             bottom: $basic-padding;
             font-size: $nav-font-size;
             gap: 5px;
+            font-size: 18px;
+            margin-top: 60px;
+            @include mobile {
+                font-size: 14px;
+                margin-top: 40px;
+            }
         }
 
         .projectsContainer {
@@ -208,11 +214,11 @@
                 margin-bottom: 0;
                 gap: 20px;
                 width: 80%;
-                grid-template-rows: repeat(4, 1fr);
+                grid-template-rows: repeat(3, 1fr);
                 grid-template-columns: repeat(5, 1fr);
 
                 @include ipad {
-                    grid-template-rows: repeat(5, 1fr);
+                    grid-template-rows: repeat(4, 1fr);
                     grid-template-columns: repeat(4, 1fr);
                     gap: 15px;
                     width: 90%;
