@@ -8,6 +8,8 @@ import Contact from './pages/contact';
 import About from './pages/about';
 import Games from './pages/games';
 import FineArt from './pages/fineart';
+import JavaScriptProjects from './components/Projects/JavaScriptProjects';
+import ReactProjects from './components/Projects/ReactProjects';
 
 function App() {
 
@@ -26,6 +28,8 @@ function App() {
           <Route path="/about" element={<About mode={mode} handleMode={handleMode} />} />
           <Route path="/projects" element={<Projects mode={mode} handleMode={handleMode} />} />
           <Route path="/games" element={<Games mode={mode} handleMode={handleMode} />} />
+          <Route path="/reactProjects" element={<ReactProjects mode={mode} handleMode={handleMode} />} />
+          <Route path="/javaScriptProjects" element={<JavaScriptProjects mode={mode} handleMode={handleMode} />} />
           <Route path="/fineart" element={<FineArt mode={mode} handleMode={handleMode} />} />
         </Routes>
       </Router>
