@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import projects from '../../assets/content/projects';
 import Sidebar from '../Sidebar/Sidebar';
 import { LiaExternalLinkAltSolid } from 'react-icons/lia';
@@ -40,10 +40,12 @@ const Projects = () => {
                   </a>
                 })}
               </div>
+              {project.title === "React Projects" && <Link to="/reactProjects" className='moreGameButton'>More React Projects<LiaExternalLinkAltSolid /></Link>}
+              {project.title === "JavaScript Projects" && <Link to="/javaScriptProjects" className='moreGameButton'>More JavaScript Projects<LiaExternalLinkAltSolid /></Link>}
+              {project.title === "Games" && <Link to="/games" className='moreGameButton'>More Games<LiaExternalLinkAltSolid /></Link>}
             </div>
           </div>
         })}
-        <Link to="/games" className='moreGameButton'>More Games<LiaExternalLinkAltSolid /></Link>
       </div>
     </div>
   )
