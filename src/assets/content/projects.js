@@ -13,10 +13,7 @@ import ImgR11 from '../media/projects/React/ArtWorld_R.jpg';
 import ImgR12 from '../media/projects/React/Quiz_R.jpg';
 import ImgR13 from '../media/projects/React/MusicApp_R.jpg';
 import ImgR14 from '../media/projects/React/PawHub_R.jpg'
-import ImgR15 from '../media/projects/React/RestaurantReservations_R.jpg';
-import ImgR16 from '../media/projects/React/TodoList_R.jpg';
-import ImgR17 from '../media/projects/React/MoosAndCoos_R.jpg';
-import ImgR18 from '../media/projects/React/MovingArt_R.jpg';
+import ImgR19 from '../media/projects/React/FlowFields_R.jpg';
 
 //JavaScript
 import ImgJ1 from '../media/projects/JavaScript/JustForFun_J.jpg';
@@ -29,13 +26,13 @@ import ImgJ7 from '../media/projects/JavaScript/JSTextAnimation_J.jpg';
 import ImgJ8 from '../media/projects/JavaScript/Matrix_J.jpg';
 import ImgJ9 from '../media/projects/JavaScript/RockPaperScissors_J.jpg';
 import ImgJ10 from '../media/projects/JavaScript/SASS_J.jpg';
-import ImgJ11 from '../media/projects/JavaScript/FollowMe_J.jpg';
 import ImgJ12 from '../media/projects/JavaScript/TeamGenerator_J.png';
 import ImgJ13 from '../media/projects/JavaScript/PlayWithCanvas_J.jpg';
 import ImgJ14 from '../media/projects/JavaScript/JS Animations_J.jpg';
 import ImgJ15 from '../media/projects/JavaScript/PixelRain_J.jpg';
 import ImgJ16 from '../media/projects/JavaScript/ConnectFour_J.jpg';
 import ImgJ17 from '../media/projects/JavaScript/SpaceInvaders_J.jpg';
+import ImgJ18 from '../media/projects/JavaScript/FlowFields_J.jpg';
 
 //Vue
 import ImgV1 from '../media/projects/Vue/SnakeGame_V.jpg';
@@ -143,6 +140,11 @@ const projects = [
                 src: ImgR11,
             },
             {
+                title: 'Flow Fields',
+                href: 'https://flow-fields-react.netlify.app/',
+                src: ImgR19,
+            },
+            {
                 title: 'Quiz',
                 href: 'https://react-typescript-quiz-luna-smith.netlify.app/',
                 src: ImgR12,
@@ -157,36 +159,11 @@ const projects = [
                 href: 'https://pawhub-react-typescript.netlify.app/',
                 src: ImgR14,
             },
-            {
-                title: 'Reservations',
-                href: 'https://restaurant-reservation-order.netlify.app/',
-                src: ImgR15,
-            },
-            {
-                title: 'Todo List',
-                href: 'https://todo-list-react-redux-typescript.netlify.app/',
-                src: ImgR16,
-            },
-            {
-                title: 'Moos and Coos',
-                href: 'https://moosandcoosreactreduxtypescript.netlify.app/',
-                src: ImgR17,
-            },
-            {
-                title: 'Moving Art',
-                href: 'https://moving-art-exhibition.netlify.app/',
-                src: ImgR18,
-            }
         ]
     },
     {
         title: 'JavaScript Projects',
         project: [
-            {
-                title: 'Just for FUN',
-                href: 'https://just-for-fun-js.netlify.app/',
-                src: ImgJ1,
-            },
             {
                 title: 'Frogger',
                 href: 'frogger-luna-smith.netlify.app',
@@ -218,6 +195,11 @@ const projects = [
                 src: ImgJ7,
             },
             {
+                title: 'Team Generator',
+                href: 'https://elaborate-caramel-f27ed1.netlify.app/',
+                src: ImgJ12,
+            },
+            {
                 title: 'Matrix',
                 href: 'https://matrix-js.netlify.app/',
                 src: ImgJ8,
@@ -233,14 +215,14 @@ const projects = [
                 src: ImgJ10,
             },
             {
-                title: 'Follow me',
-                href: 'https://multiple-canvases-js.netlify.app/',
-                src: ImgJ11,
+                title: 'Flow Fields',
+                href: 'https://flow-fields-javascripst.netlify.app/',
+                src: ImgJ18,
             },
             {
-                title: 'Team Generator',
-                href: 'https://elaborate-caramel-f27ed1.netlify.app/',
-                src: ImgJ12,
+                title: 'Just for FUN',
+                href: 'https://just-for-fun-js.netlify.app/',
+                src: ImgJ1,
             },
             {
                 title: 'Play with CANVAS',
@@ -257,17 +239,6 @@ const projects = [
                 href: 'https://pixel-rain.netlify.app/',
                 src: ImgJ15,
             },
-            {
-                title: 'Connect Four',
-                href: 'connect-four-luna-smith.netlify.app',
-                src: ImgJ16,
-            },
-            {
-                title: 'Space Invaders',
-                href: 'https://space-invaders-luna-smith.netlify.app/',
-                src: ImgJ17,
-            },
-            
         ]
     },
     {
@@ -365,10 +336,10 @@ const projects = [
                 src: ImgR12,
             },
             {
-                title: 'Quiz',
-                href: 'https://vue-ulitmate-quiz.netlify.app/',
-                src: ImgV2,
-            } 
+                title: 'Connect Four',
+                href: 'connect-four-luna-smith.netlify.app',
+                src: ImgJ16,
+            },
         ]
     },
 ]
