@@ -24,7 +24,7 @@ const FineArt = ({mode, handleMode}: ModeProps) => {
       <div className="componentContainer">
         <h2>Fine Art</h2>
         <div className="artShow">
-          <ArtExhibition />
+          <ArtExhibition mode={mode} />
         </div>
         <div className="paintingsContainer">
           {paintings.map((painting, index) => {

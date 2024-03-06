@@ -3,7 +3,11 @@ import artExhibtionPages from '../../../assets/content/artExhibitionPages';
 import Navigation from './Navigation/Navigation';
 import { motion } from 'framer-motion';
 
-function ArtExhibition() {
+interface ModeProps {
+  mode: string,
+};
+
+const ArtExhibition = ({mode}: ModeProps) => {
 
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -43,7 +47,7 @@ function ArtExhibition() {
   }, [scrollValue]);
 
   return (
-    <div className="ArtExhibition">
+    <div className={`ArtExhibition ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
       <section className='mainSection' ref={containerRef}>
       {artExhibtionPages.map((Page, index) => (
           <div key={index}>

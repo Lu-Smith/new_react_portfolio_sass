@@ -29,7 +29,7 @@ const TopBackground: React.FC = () => {
         <motion.path
           d="M8.76,34 C10,6.5 40,10 50,30 C57.5,46 90.1,49.4 91.2,18.25"
           fill="none"
-          stroke={`rgba(${mousePosition.x / window.innerWidth * 255}, ${mousePosition.y / window.innerHeight * 255}, 0, 1)`}
+          stroke={`rgba(${mousePosition.x / window.innerWidth * 255}, ${mousePosition.y / window.innerHeight * 255}, 100, 0.5)`}
           strokeWidth="0.2"
           strokeDasharray="200"
           initial={{ pathLength: 0, pathOffset: -1 }} 
