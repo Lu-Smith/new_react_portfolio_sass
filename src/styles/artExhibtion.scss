@@ -2,7 +2,7 @@
   background-color: rgb(248, 244, 224);
   .mainSection {
     background: linear-gradient(09deg, rgba(0, 0, 0, 0) 15.2%, rgba(0, 0, 0, 0) 18%,  
-    rgb(20, 20, 20) 20.4%, rgb(99, 98, 98) 78%, rgb(99, 98, 98) 84.2%, rgba(0, 0, 0, 0) 88.2%,);
+    $light-box-background 20.4%, $owl-focus-green 78%, $owl-focus-green 84.2%, rgba(0, 0, 0, 0) 88.2%,);
   }
 
   .navSection {
