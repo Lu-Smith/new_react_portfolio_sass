@@ -17,11 +17,17 @@ import ImgJ15 from '../media/projects/JavaScript/PixelRain_J.jpg';
 import ImgJ16 from '../media/projects/JavaScript/ConnectFour_J.jpg';
 import ImgJ17 from '../media/projects/JavaScript/SpaceInvaders_J.jpg';
 import ImgJ18 from '../media/projects/JavaScript/FlowFields_J.jpg';
+import ImgJ19 from '../media/projects/JavaScript/MobileGame_J.jpg';
 
 const projects = [
     {
         title: 'JavaScript Projects',
         project: [
+            {
+                title: 'Obstacle Game',
+                href: 'https://mobile-game-js-luna-smith.netlify.app/',
+                src: ImgJ19,
+            },
             {
                 title: 'Frogger',
                 href: 'frogger-luna-smith.netlify.app',

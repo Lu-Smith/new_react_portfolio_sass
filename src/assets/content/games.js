@@ -14,6 +14,7 @@ import ImgJ11 from '../media/projects/JavaScript/FollowMe_J.jpg';
 import ImgJ13 from '../media/projects/JavaScript/PlayWithCanvas_J.jpg';
 import ImgJ16 from '../media/projects/JavaScript/ConnectFour_J.jpg';
 import ImgJ17 from '../media/projects/JavaScript/SpaceInvaders_J.jpg';
+import ImgJ19 from '../media/projects/JavaScript/MobileGame_J.jpg';
 
 //Vue
 import ImgV1 from '../media/projects/Vue/SnakeGame_V.jpg';
@@ -26,6 +27,11 @@ const gamesProjects = [
     {
         title: 'Games',
         project: [
+            {
+                title: 'Obstacle Game',
+                href: 'https://mobile-game-js-luna-smith.netlify.app/',
+                src: ImgJ19,
+            },
             {
                 title: 'Snake Game',
                 href: 'https://snake-game-vue-tailwindcss.netlify.app/',

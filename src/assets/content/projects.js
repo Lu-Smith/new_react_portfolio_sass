@@ -30,9 +30,9 @@ import ImgJ12 from '../media/projects/JavaScript/TeamGenerator_J.png';
 import ImgJ13 from '../media/projects/JavaScript/PlayWithCanvas_J.jpg';
 import ImgJ14 from '../media/projects/JavaScript/JS Animations_J.jpg';
 import ImgJ15 from '../media/projects/JavaScript/PixelRain_J.jpg';
-import ImgJ16 from '../media/projects/JavaScript/ConnectFour_J.jpg';
 import ImgJ17 from '../media/projects/JavaScript/SpaceInvaders_J.jpg';
 import ImgJ18 from '../media/projects/JavaScript/FlowFields_J.jpg';
+import ImgJ19 from '../media/projects/JavaScript/MobileGame_J.jpg';
 
 //Vue
 import ImgV1 from '../media/projects/Vue/SnakeGame_V.jpg';
@@ -70,10 +70,10 @@ const projects = [
                 src: ImgR7,
             },
             {
-                title: 'Snake Game',
-                href: 'https://snake-game-vue-tailwindcss.netlify.app/',
-                src: ImgV1,
-            }, 
+                title: 'Obstacle Game',
+                href: 'https://mobile-game-js-luna-smith.netlify.app/',
+                src: ImgJ19,
+            },
             {
                 title: 'Recipe Search',
                 href: 'https://vue-recipe-search-tailwindcss.netlify.app/',
@@ -225,9 +225,9 @@ const projects = [
                 src: ImgJ1,
             },
             {
-                title: 'Play with CANVAS',
-                href: 'https://canvas-project-js.netlify.app/',
-                src: ImgJ13,
+                title: 'Obstacle Game',
+                href: 'https://mobile-game-js-luna-smith.netlify.app/',
+                src: ImgJ19,
             },
             {
                 title: 'JS Animations',
@@ -336,9 +336,9 @@ const projects = [
                 src: ImgR12,
             },
             {
-                title: 'Connect Four',
-                href: 'connect-four-luna-smith.netlify.app',
-                src: ImgJ16,
+                title: 'Obstacle Game',
+                href: 'https://mobile-game-js-luna-smith.netlify.app/',
+                src: ImgJ19,
             },
         ]
     },
