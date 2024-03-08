@@ -27,7 +27,6 @@ import ImgJ8 from '../media/projects/JavaScript/Matrix_J.jpg';
 import ImgJ9 from '../media/projects/JavaScript/RockPaperScissors_J.jpg';
 import ImgJ10 from '../media/projects/JavaScript/SASS_J.jpg';
 import ImgJ12 from '../media/projects/JavaScript/TeamGenerator_J.png';
-import ImgJ13 from '../media/projects/JavaScript/PlayWithCanvas_J.jpg';
 import ImgJ14 from '../media/projects/JavaScript/JS Animations_J.jpg';
 import ImgJ15 from '../media/projects/JavaScript/PixelRain_J.jpg';
 import ImgJ17 from '../media/projects/JavaScript/SpaceInvaders_J.jpg';
