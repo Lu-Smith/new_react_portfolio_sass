@@ -43,6 +43,7 @@ import ImgV6 from '../media/projects/Vue/StopWatch-V.jpg';
 import ImgV7 from '../media/projects/Vue/RockPaperScissors_V.jpg';
 import ImgV8 from '../media/projects/Vue/PlayWithCanvas_V.jpg';
 import ImgV9 from '../media/projects/Vue/GenerativeArt_V.jpg';
+import ImgV10 from '../media/projects/Vue/TobbyTressureQuest_V.jpg';
 
 const projects = [
     {
@@ -52,11 +53,6 @@ const projects = [
                 title: 'LuArt Gallery',
                 href: 'https://luartgallery.com/',
                 src: ImgR1,
-            },
-            {
-                title: 'Weather App',
-                href: 'https://weather-app-react-luna-smith.netlify.app/',
-                src: ImgR2,
             },
             {
                 title: 'Play with Canvas',
@@ -69,15 +65,20 @@ const projects = [
                 src: ImgR7,
             },
             {
-                title: 'Obstacle Game',
-                href: 'https://mobile-game-js-luna-smith.netlify.app/',
-                src: ImgJ19,
+                title: "Tobby's Tresure Hunt",
+                href: 'https://tobbystreasurequest.netlify.app/',
+                src: ImgV10,
             },
             {
                 title: 'Recipe Search',
                 href: 'https://vue-recipe-search-tailwindcss.netlify.app/',
                 src: ImgV2,
             }, 
+            {
+                title: 'Weather App',
+                href: 'https://weather-app-react-luna-smith.netlify.app/',
+                src: ImgR2,
+            },
         ]
     },
     {
@@ -254,6 +255,11 @@ const projects = [
                 src: ImgV2,
             },   
             {
+                title: "Tobby's Tresure Hunt",
+                href: 'https://tobbystreasurequest.netlify.app/',
+                src: ImgV10,
+            },
+            {
                 title: 'Expense Tracker',
                 href: 'https://expense-tracker-vue-tailwind.netlify.app/',
                 src: ImgV3,
@@ -305,6 +311,11 @@ const projects = [
                 src: ImgJ3,
             },
             {
+                title: "Tobby's Tresure Hunt",
+                href: 'https://tobbystreasurequest.netlify.app/',
+                src: ImgV10,
+            },
+            {
                 title: 'Frogger',
                 href: 'frogger-luna-smith.netlify.app',
                 src: ImgJ2,
@@ -329,11 +340,6 @@ const projects = [
                 href: 'https://space-invaders-luna-smith.netlify.app/',
                 src: ImgJ17,
             }, 
-            {
-                title: 'Quiz',
-                href: 'https://react-typescript-quiz-luna-smith.netlify.app/',
-                src: ImgR12,
-            },
             {
                 title: 'Obstacle Game',
                 href: 'https://mobile-game-js-luna-smith.netlify.app/',

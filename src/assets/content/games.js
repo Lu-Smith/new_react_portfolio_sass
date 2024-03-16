@@ -22,11 +22,17 @@ import ImgV2 from '../media/projects/Vue/Quiz_V.jpg';
 import ImgV3 from '../media/projects/Vue/WarGame_V.jpg';
 import ImgV7 from '../media/projects/Vue/RockPaperScissors_V.jpg';
 import ImgV8 from '../media/projects/Vue/PlayWithCanvas_V.jpg';
+import ImgV10 from '../media/projects/Vue/TobbyTressureQuest_V.jpg';
 
 const gamesProjects = [
     {
         title: 'Games',
         project: [
+            {
+                title: "Tobby's Tresure Hunt",
+                href: 'https://tobbystreasurequest.netlify.app/',
+                src: ImgV10,
+            },
             {
                 title: 'Obstacle Game',
                 href: 'https://mobile-game-js-luna-smith.netlify.app/',
