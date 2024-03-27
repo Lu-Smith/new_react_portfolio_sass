@@ -81,7 +81,13 @@
             }
 
             @include mobile {
-                font-size: $big-font-size;
+                font-size: $primary-font-size;
+            }
+        }
+
+        @include ipad {
+            span {
+                padding: 0 10px;
             }
         }
 
