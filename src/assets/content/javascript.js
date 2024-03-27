@@ -18,11 +18,17 @@ import ImgJ16 from '../media/projects/JavaScript/ConnectFour_J.jpg';
 import ImgJ17 from '../media/projects/JavaScript/SpaceInvaders_J.jpg';
 import ImgJ18 from '../media/projects/JavaScript/FlowFields_J.jpg';
 import ImgJ19 from '../media/projects/JavaScript/MobileGame_J.jpg';
+import ImgJ20 from '../media/projects/JavaScript/SpaceInvadersTs_J.jpg';
 
 const projects = [
     {
         title: 'JavaScript Projects',
         project: [
+            {
+                title: "Space Invaders",
+                href: 'https://space-invaders-luna-smith-typescript.netlify.app/',
+                src: ImgJ20,
+            },
             {
                 title: 'Obstacle Game',
                 href: 'https://mobile-game-js-luna-smith.netlify.app/',

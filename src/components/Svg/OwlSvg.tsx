@@ -24,7 +24,7 @@ const OwlSvg = () => {
 
   return (
     <div>
-    <motion.svg height="200px" 
+    <motion.svg height="160px" 
     animate={controls}
     variants={rotateVariants}
     width="200px" version="1.1" 

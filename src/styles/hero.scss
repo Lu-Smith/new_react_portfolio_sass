@@ -4,12 +4,28 @@
     .futuredContainer {
         .recentProjects{
             background-color: $primary-background;
+
+            h2 {
+                @include mobile {
+                    font-size: $primary-font-size;
+                }
+            }
         }
     }
 
     .messageContainer {
         a {
+            overflow: hidden;
             background-color: $primary-background;
+            div {
+                overflow: hidden;
+
+                h2 {
+                    @include mobile {
+                        font-size: $primary-font-size;
+                    }
+                }
+            }
         }
 
         .contact {
@@ -27,6 +43,7 @@
         }
 
         .mainInfo {
+            overflow: hidden;
             background: radial-gradient(
                 circle at 50% -10%,  
                 $light-box-background 0%, 
@@ -39,6 +56,11 @@
 
             &:hover {
                 background-color: $primary-background;
+            }
+
+            div {
+                overflow: hidden;
+                font-size: $primary-font-size;
             }
         }
     }
