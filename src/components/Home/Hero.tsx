@@ -32,7 +32,7 @@ const Hero = ({ mode }: ModeProps) => {
         </div>
         <div className="recentProjects">
           <Link to="/projects">
-           <OwlSvg />
+            <OwlSvg />
             <h2>Futured Projects</h2></Link>
         </div>
       </div>

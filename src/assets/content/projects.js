@@ -29,7 +29,6 @@ import ImgJ10 from '../media/projects/JavaScript/SASS_J.jpg';
 import ImgJ12 from '../media/projects/JavaScript/TeamGenerator_J.png';
 import ImgJ14 from '../media/projects/JavaScript/JS Animations_J.jpg';
 import ImgJ15 from '../media/projects/JavaScript/PixelRain_J.jpg';
-import ImgJ17 from '../media/projects/JavaScript/SpaceInvaders_J.jpg';
 import ImgJ19 from '../media/projects/JavaScript/MobileGame_J.jpg';
 import ImgJ20 from '../media/projects/JavaScript/SpaceInvadersTs_J.jpg';
 
