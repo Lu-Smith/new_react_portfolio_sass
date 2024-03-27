@@ -15,6 +15,7 @@ import ImgJ13 from '../media/projects/JavaScript/PlayWithCanvas_J.jpg';
 import ImgJ16 from '../media/projects/JavaScript/ConnectFour_J.jpg';
 import ImgJ17 from '../media/projects/JavaScript/SpaceInvaders_J.jpg';
 import ImgJ19 from '../media/projects/JavaScript/MobileGame_J.jpg';
+import ImgJ20 from '../media/projects/JavaScript/SpaceInvadersTs_J.jpg';
 
 //Vue
 import ImgV1 from '../media/projects/Vue/SnakeGame_V.jpg';
@@ -28,6 +29,11 @@ const gamesProjects = [
     {
         title: 'Games',
         project: [
+            {
+                title: "Space Invaders",
+                href: 'https://space-invaders-luna-smith-typescript.netlify.app/',
+                src: ImgJ20,
+            },
             {
                 title: "Tobby's Tresure Hunt",
                 href: 'https://tobbystreasurequest.netlify.app/',
