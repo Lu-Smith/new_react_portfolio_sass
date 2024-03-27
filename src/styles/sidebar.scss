@@ -103,8 +103,12 @@
             overflow: hidden;
             
             .imageContainer{
-                width: 60%;
+                width: 50%;
                 margin: auto;
+
+                @include pad {
+                    width: 40%;
+                }
     
                 img {
                     width: 100%;
@@ -118,11 +122,19 @@
                 font-size: $primary-font-size;
                 font-family: 'Mulish', sans-serif;
                 overflow: hidden;
+
+                @include pad {
+                    font-size: $mobile-font-size;
+                }
     
                 span {
                     font-weight: bold;
                     color: $focus-color;
                     font-size: $big-font-size;
+
+                    @include pad {
+                        font-size: $primary-font-size;
+                    }
                 }
              }
         }
@@ -133,10 +145,16 @@
     .linkContainer {
         flex: 2;
         @include flex-direction(center, column);
-        gap: 20px;
+        gap: 18px;
         width: 100%;
         align-items: self-start;
-        padding-left: 30px;
+        padding-left: 40px;
+
+        @include pad {
+            gap: 12px;
+            font-size: $mobile-font-size;
+            padding-left: 54px;
+        }
 
         @include medium {
             font-size: $primary-font-size;
@@ -149,13 +167,21 @@
             gap: 10px;
             position: relative;
 
+            @include pad {
+                gap: 8px;
+            }
+
             &:hover {
                 color: $focus-color;
             }
 
             div {
                 @include flex-direction(center, row);
-                gap: 8px;
+                gap: 18px;
+
+                @include pad {
+                    gap: 16px;
+                }
                 span {
                     color: $focus-color;
                     font-size: $nav-font-size;
@@ -175,12 +201,18 @@
 
         .container {
             border-radius: 10px;
-            width: 100px;
-            height: 100px;
+            width: 90px;
+            height: 90px;
             @include flex(center, center);
             text-align: center;
             box-shadow: $primary-shadow;
             transition: 200ms all ease-in-out;
+
+            @include pad {
+                width: 70px;
+                height: 70px;
+                font-size: $mobile-font-size;
+            }
 
             &:hover {
                 box-shadow: none;

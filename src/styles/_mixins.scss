@@ -23,6 +23,12 @@
     }
 };
 
+@mixin pad {
+    @media (max-height: 600px) {
+        @content
+    }
+};
+
 @mixin medium {
     @media (max-width: 1200px) {
         @content
