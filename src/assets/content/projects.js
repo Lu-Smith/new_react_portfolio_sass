@@ -30,8 +30,8 @@ import ImgJ12 from '../media/projects/JavaScript/TeamGenerator_J.png';
 import ImgJ14 from '../media/projects/JavaScript/JS Animations_J.jpg';
 import ImgJ15 from '../media/projects/JavaScript/PixelRain_J.jpg';
 import ImgJ17 from '../media/projects/JavaScript/SpaceInvaders_J.jpg';
-import ImgJ18 from '../media/projects/JavaScript/FlowFields_J.jpg';
 import ImgJ19 from '../media/projects/JavaScript/MobileGame_J.jpg';
+import ImgJ20 from '../media/projects/JavaScript/SpaceInvadersTs_J.jpg';
 
 //Vue
 import ImgV1 from '../media/projects/Vue/SnakeGame_V.jpg';
@@ -165,9 +165,9 @@ const projects = [
         title: 'JavaScript Projects',
         project: [
             {
-                title: 'Frogger',
-                href: 'frogger-luna-smith.netlify.app',
-                src: ImgJ2,
+                title: "Space Invaders",
+                href: 'https://space-invaders-luna-smith-typescript.netlify.app/',
+                src: ImgJ20,
             },
             {
                 title: 'Raibow Spikes',
@@ -188,6 +188,11 @@ const projects = [
                 title: 'Example Shop',
                 href: 'https://resonant-mermaid-b21b5e.netlify.app/',
                 src: ImgJ6,
+            },
+            {
+                title: 'Frogger',
+                href: 'frogger-luna-smith.netlify.app',
+                src: ImgJ2,
             },
             {
                 title: 'Text Animations',
@@ -213,11 +218,6 @@ const projects = [
                 title: 'SASS',
                 href: 'https://sass-my-first-website.netlify.app/',
                 src: ImgJ10,
-            },
-            {
-                title: 'Flow Fields',
-                href: 'https://flow-fields-javascripst.netlify.app/',
-                src: ImgJ18,
             },
             {
                 title: 'Just for FUN',
@@ -316,6 +316,11 @@ const projects = [
                 src: ImgV10,
             },
             {
+                title: "Space Invaders",
+                href: 'https://space-invaders-luna-smith-typescript.netlify.app/',
+                src: ImgJ20,
+            },
+            {
                 title: 'Frogger',
                 href: 'frogger-luna-smith.netlify.app',
                 src: ImgJ2,
@@ -335,11 +340,6 @@ const projects = [
                 href: 'https://rock-paper-scissors-vue-luna-smith.netlify.app/',
                 src: ImgV7,
             },
-            {
-                title: 'Space Invaders',
-                href: 'https://space-invaders-luna-smith.netlify.app/',
-                src: ImgJ17,
-            }, 
             {
                 title: 'Obstacle Game',
                 href: 'https://mobile-game-js-luna-smith.netlify.app/',
