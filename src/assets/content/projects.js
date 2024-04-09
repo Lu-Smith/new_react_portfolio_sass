@@ -43,6 +43,7 @@ import ImgV7 from '../media/projects/Vue/RockPaperScissors_V.jpg';
 import ImgV8 from '../media/projects/Vue/PlayWithCanvas_V.jpg';
 import ImgV9 from '../media/projects/Vue/GenerativeArt_V.jpg';
 import ImgV10 from '../media/projects/Vue/TobbyTressureQuest_V.jpg';
+import ImgV11 from '../media/projects/Vue/EasterEggHunt_V.jpg';
 
 const projects = [
     {
@@ -74,9 +75,9 @@ const projects = [
                 src: ImgV2,
             }, 
             {
-                title: 'Weather App',
-                href: 'https://weather-app-react-luna-smith.netlify.app/',
-                src: ImgR2,
+                title: 'Easter Egg Hunt',
+                href: 'https://easter-egg-hunt-vue.netlify.app/',
+                src: ImgV11,
             },
         ]
     },
@@ -244,6 +245,11 @@ const projects = [
         title: 'Vue Projects',
         project: [
             {
+                title: 'Easter Egg Hunt',
+                href: 'https://easter-egg-hunt-vue.netlify.app/',
+                src: ImgV11,
+            },
+            {
                 title: 'Snake Game',
                 href: 'https://snake-game-vue-tailwindcss.netlify.app/',
                 src: ImgV1,
@@ -335,9 +341,9 @@ const projects = [
                 src: ImgV1,
             },   
             {
-                title: 'Rock Paper Scissors',
-                href: 'https://rock-paper-scissors-vue-luna-smith.netlify.app/',
-                src: ImgV7,
+                title: 'Easter Egg Hunt',
+                href: 'https://easter-egg-hunt-vue.netlify.app/',
+                src: ImgV11,
             },
             {
                 title: 'Obstacle Game',
