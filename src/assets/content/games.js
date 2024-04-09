@@ -24,6 +24,7 @@ import ImgV3 from '../media/projects/Vue/WarGame_V.jpg';
 import ImgV7 from '../media/projects/Vue/RockPaperScissors_V.jpg';
 import ImgV8 from '../media/projects/Vue/PlayWithCanvas_V.jpg';
 import ImgV10 from '../media/projects/Vue/TobbyTressureQuest_V.jpg';
+import ImgV11 from '../media/projects/Vue/EasterEggHunt_V.jpg';
 
 const gamesProjects = [
     {
@@ -40,6 +41,16 @@ const gamesProjects = [
                 src: ImgV10,
             },
             {
+                title: 'Tic Tac Toe',
+                href: 'https://tic-tac-toe-react-typescript-luna.netlify.app/',
+                src: ImgR3,
+            },
+            {
+                title: 'Easter Egg Hunt',
+                href: 'https://easter-egg-hunt-vue.netlify.app/',
+                src: ImgV11,
+            },
+            {
                 title: 'Obstacle Game',
                 href: 'https://mobile-game-js-luna-smith.netlify.app/',
                 src: ImgJ19,
@@ -49,11 +60,6 @@ const gamesProjects = [
                 href: 'https://snake-game-vue-tailwindcss.netlify.app/',
                 src: ImgV1,
             },   
-            {
-                title: 'Tic Tac Toe',
-                href: 'https://tic-tac-toe-react-typescript-luna.netlify.app/',
-                src: ImgR3,
-            },
             {
                 title: 'Raibow Spikes',
                 href: 'https://rainbow-spikes-javascript-animation.netlify.app/',
