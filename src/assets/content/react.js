@@ -18,6 +18,7 @@ import ImgR16 from '../media/projects/React/TodoList_R.jpg';
 import ImgR17 from '../media/projects/React/MoosAndCoos_R.jpg';
 import ImgR18 from '../media/projects/React/MovingArt_R.jpg';
 import ImgR19 from '../media/projects/React/FlowFields_R.jpg';
+import ImgR20 from '../media/projects/React/Graphs_R.jpg';
 
 const projects = [
     {
@@ -82,6 +83,11 @@ const projects = [
                 title: 'Flow Fields',
                 href: 'https://flow-fields-react.netlify.app/',
                 src: ImgR19,
+            },
+            {
+                title: 'Graphs',
+                href: 'https://react-graphs-luna-smith.netlify.app/',
+                src: ImgR20,
             },
             {
                 title: 'Quiz',
