@@ -14,6 +14,7 @@ import ImgR12 from '../media/projects/React/Quiz_R.jpg';
 import ImgR13 from '../media/projects/React/MusicApp_R.jpg';
 import ImgR14 from '../media/projects/React/PawHub_R.jpg'
 import ImgR19 from '../media/projects/React/FlowFields_R.jpg';
+import ImgR20 from '../media/projects/React/Graphs_R.jpg';
 
 //JavaScript
 import ImgJ1 from '../media/projects/JavaScript/JustForFun_J.jpg';
@@ -130,9 +131,9 @@ const projects = [
                 src: ImgR9,
             },
             {
-                title: 'Quotes App',
-                href: 'https://quotes-app-luna-smith.netlify.app/',
-                src: ImgR10,
+                title: 'Graphs',
+                href: 'https://react-graphs-luna-smith.netlify.app/',
+                src: ImgR20,
             },
             {
                 title: 'Art World',
