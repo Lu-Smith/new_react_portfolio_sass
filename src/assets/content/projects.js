@@ -8,7 +8,6 @@ import ImgR6 from '../media/projects/React/SnakeGame_R.jpg'
 import ImgR7 from '../media/projects/React/CandyHeavenShop_R.jpg';
 import ImgR8 from '../media/projects/React/BubbleCommunity_R.jpg';
 import ImgR9 from '../media/projects/React/Hangman_R.jpg';
-import ImgR10 from '../media/projects/React/Quotes_R.jpg';
 import ImgR11 from '../media/projects/React/ArtWorld_R.jpg';
 import ImgR12 from '../media/projects/React/Quiz_R.jpg';
 import ImgR13 from '../media/projects/React/MusicApp_R.jpg';
