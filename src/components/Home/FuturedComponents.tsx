@@ -33,7 +33,7 @@ const FuturedComponents = ({ mode }: ModeProps) => {
           <h2>100+</h2>
           <span>Completed Projects</span>
         </Link>
-        <Link to='/projects' className="boxContainer">
+        <Link to='/reactProjects' className="boxContainer">
           <h2>React</h2>
           <h2>Expert</h2>
         </Link>
