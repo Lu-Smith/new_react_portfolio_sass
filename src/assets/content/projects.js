@@ -6,7 +6,6 @@ import ImgR4 from '../media/projects/React/DicionaryApp_R.jpg';
 import ImgR5 from '../media/projects/React/RecipeApp_R.jpg';
 import ImgR6 from '../media/projects/React/SnakeGame_R.jpg'
 import ImgR7 from '../media/projects/React/CandyHeavenShop_R.jpg';
-import ImgR8 from '../media/projects/React/BubbleCommunity_R.jpg';
 import ImgR9 from '../media/projects/React/Hangman_R.jpg';
 import ImgR11 from '../media/projects/React/ArtWorld_R.jpg';
 import ImgR12 from '../media/projects/React/Quiz_R.jpg';
@@ -14,6 +13,7 @@ import ImgR13 from '../media/projects/React/MusicApp_R.jpg';
 import ImgR14 from '../media/projects/React/PawHub_R.jpg'
 import ImgR19 from '../media/projects/React/FlowFields_R.jpg';
 import ImgR20 from '../media/projects/React/Graphs_R.jpg';
+import ImgR22 from '../media/projects/React/LottoNumbers_R.jpg';
 
 //JavaScript
 import ImgJ1 from '../media/projects/JavaScript/JustForFun_J.jpg';
@@ -121,9 +121,9 @@ const projects = [
                 src: ImgR7,
             },
             {
-                title: 'Bubble',
-                href: 'https://community-fans.netlify.app/',
-                src: ImgR8,
+                title: 'Lucky Numbers',
+                href: 'https://lotto-numbers-react.netlify.app/',
+                src: ImgR22,
             },
             {
                 title: 'Hangman',

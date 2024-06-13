@@ -19,6 +19,8 @@ import ImgR17 from '../media/projects/React/MoosAndCoos_R.jpg';
 import ImgR18 from '../media/projects/React/MovingArt_R.jpg';
 import ImgR19 from '../media/projects/React/FlowFields_R.jpg';
 import ImgR20 from '../media/projects/React/Graphs_R.jpg';
+import ImgR21 from '../media/projects/React/ScottishPoetry_R.jpg';
+import ImgR22 from '../media/projects/React/LottoNumbers_R.jpg';
 
 const projects = [
     {
@@ -30,9 +32,9 @@ const projects = [
                 src: ImgR1,
             },
             {
-                title: 'Weather App',
-                href: 'https://weather-app-react-luna-smith.netlify.app/',
-                src: ImgR2,
+                title: 'Recipe App',
+                href: 'https://recipe-app-react-luna-smith.netlify.app/',
+                src: ImgR5,
             },
             {
                 title: 'Tic Tac Toe',
@@ -45,9 +47,9 @@ const projects = [
                 src: ImgR4,
             },
             {
-                title: 'Recipe App',
-                href: 'https://recipe-app-react-luna-smith.netlify.app/',
-                src: ImgR5,
+                title: 'Weather App',
+                href: 'https://weather-app-react-luna-smith.netlify.app/',
+                src: ImgR2,
             },
             {
                 title: 'Snake Game',
@@ -60,14 +62,19 @@ const projects = [
                 src: ImgR7,
             },
             {
-                title: 'Bubble',
-                href: 'https://community-fans.netlify.app/',
-                src: ImgR8,
+                title: 'Lucky Numbers',
+                href: 'https://lotto-numbers-react.netlify.app/',
+                src: ImgR22,
             },
             {
                 title: 'Hangman',
                 href: 'https://hangman-react-typescript.netlify.app/',
                 src: ImgR9,
+            },
+            {
+                title: 'Flow Fields',
+                href: 'https://flow-fields-react.netlify.app/',
+                src: ImgR19,
             },
             {
                 title: 'Quotes App',
@@ -78,11 +85,6 @@ const projects = [
                 title: 'Art World',
                 href: 'https://example-art-gallery.netlify.app/',
                 src: ImgR11,
-            },
-            {
-                title: 'Flow Fields',
-                href: 'https://flow-fields-react.netlify.app/',
-                src: ImgR19,
             },
             {
                 title: 'Graphs',
@@ -115,6 +117,11 @@ const projects = [
                 src: ImgR16,
             },
             {
+                title: 'Scottish Poetry',
+                href: 'https://scottish-poetry.netlify.app/',
+                src: ImgR21,
+            },
+            {
                 title: 'Moos and Coos',
                 href: 'https://moosandcoosreactreduxtypescript.netlify.app/',
                 src: ImgR17,
@@ -123,7 +130,12 @@ const projects = [
                 title: 'Moving Art',
                 href: 'https://moving-art-exhibition.netlify.app/',
                 src: ImgR18,
-            }
+            },
+            {
+                title: 'Bubble',
+                href: 'https://community-fans.netlify.app/',
+                src: ImgR8,
+            },
         ]
     },
 ]
