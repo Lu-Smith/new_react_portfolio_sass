@@ -6,7 +6,7 @@ import ImgR4 from '../media/projects/React/DicionaryApp_R.jpg';
 import ImgR5 from '../media/projects/React/RecipeApp_R.jpg';
 import ImgR6 from '../media/projects/React/SnakeGame_R.jpg'
 import ImgR7 from '../media/projects/React/CandyHeavenShop_R.jpg';
-import ImgR8 from '../media/projects/React/BubbleCommunity_R.jpg';
+import ImgR8 from '../media/projects/React/CommunityHub_R.jpg';
 import ImgR9 from '../media/projects/React/Hangman_R.jpg';
 import ImgR10 from '../media/projects/React/Quotes_R.jpg';
 import ImgR11 from '../media/projects/React/ArtWorld_R.jpg';
@@ -122,6 +122,11 @@ const projects = [
                 src: ImgR21,
             },
             {
+                title: 'Community Hub',
+                href: 'https://community-hub-react.netlify.app/',
+                src: ImgR8,
+            },
+            {
                 title: 'Moos and Coos',
                 href: 'https://moosandcoosreactreduxtypescript.netlify.app/',
                 src: ImgR17,
@@ -130,12 +135,7 @@ const projects = [
                 title: 'Moving Art',
                 href: 'https://moving-art-exhibition.netlify.app/',
                 src: ImgR18,
-            },
-            {
-                title: 'Bubble',
-                href: 'https://community-fans.netlify.app/',
-                src: ImgR8,
-            },
+            }
         ]
     },
 ]
