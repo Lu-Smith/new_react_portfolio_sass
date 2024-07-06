@@ -9,7 +9,7 @@ import ImgR7 from '../media/projects/React/CandyHeavenShop_R.jpg';
 import ImgR8 from '../media/projects/React/CommunityHub_R.jpg';
 import ImgR9 from '../media/projects/React/Hangman_R.jpg';
 import ImgR10 from '../media/projects/React/Quotes_R.jpg';
-import ImgR11 from '../media/projects/React/ArtWorld_R.jpg';
+import ImgR11 from '../media/projects/React/WorldMinds_R.jpg';
 import ImgR12 from '../media/projects/React/Quiz_R.jpg';
 import ImgR13 from '../media/projects/React/MusicApp_R.jpg';
 import ImgR14 from '../media/projects/React/PawHub_R.jpg'
@@ -82,8 +82,8 @@ const projects = [
                 src: ImgR10,
             },
             {
-                title: 'Art World',
-                href: 'https://example-art-gallery.netlify.app/',
+                title: 'World Minds',
+                href: 'https://world-minds-react.netlify.app/',
                 src: ImgR11,
             },
             {
