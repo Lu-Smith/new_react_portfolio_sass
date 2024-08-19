@@ -42,7 +42,11 @@ const PageSeven: React.FC<PageProps> = ({ artwork }) => {
               restDelta: 0.001
             }
           }}>
-             <img src={art} alt="An original artwork, created by a Scottish painter, Luna Smith" />
+             <img src={art} alt="An original artwork, created by a Scottish painter, Luna Smith" 
+              title="An original artwork, created by a Scottish painter, Luna Smith" 
+              loading="lazy" 
+              width="auto" 
+              height="auto"/>
           </motion.div>
         })}
            <div className='animatedCircle'>
