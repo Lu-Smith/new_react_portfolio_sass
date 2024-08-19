@@ -31,9 +31,9 @@ const gamesProjects = [
         title: 'Games',
         project: [
             {
-                title: "Space Invaders",
-                href: 'https://space-invaders-luna-smith-typescript.netlify.app/',
-                src: ImgJ20,
+                title: 'Easter Egg Hunt',
+                href: 'https://easter-egg-hunt-vue.netlify.app/',
+                src: ImgV11,
             },
             {
                 title: "Tobby's Tresure Hunt",
@@ -41,14 +41,14 @@ const gamesProjects = [
                 src: ImgV10,
             },
             {
+                title: 'Raibow Spikes',
+                href: 'https://rainbow-spikes-javascript-animation.netlify.app/',
+                src: ImgJ3,
+            },
+            {
                 title: 'Tic Tac Toe',
                 href: 'https://tic-tac-toe-react-typescript-luna.netlify.app/',
                 src: ImgR3,
-            },
-            {
-                title: 'Easter Egg Hunt',
-                href: 'https://easter-egg-hunt-vue.netlify.app/',
-                src: ImgV11,
             },
             {
                 title: 'Obstacle Game',
@@ -61,11 +61,6 @@ const gamesProjects = [
                 src: ImgV1,
             },   
             {
-                title: 'Raibow Spikes',
-                href: 'https://rainbow-spikes-javascript-animation.netlify.app/',
-                src: ImgJ3,
-            },
-            {
                 title: 'Frogger',
                 href: 'frogger-luna-smith.netlify.app',
                 src: ImgJ2,
@@ -74,6 +69,16 @@ const gamesProjects = [
                 title: 'Memory Game',
                 href: 'https://memory-game-crypto-coo.netlify.app/',
                 src: ImgJ4,
+            },
+            {
+                title: 'Text Animations',
+                href: 'https://ephemeral-bienenstitch-24f392.netlify.app/',
+                src: ImgJ7,
+            },
+            {
+                title: "Space Invaders",
+                href: 'https://space-invaders-luna-smith-typescript.netlify.app/',
+                src: ImgJ20,
             },
             {
                 title: 'Snake Game',
@@ -90,11 +95,6 @@ const gamesProjects = [
                 title: 'Follow me',
                 href: 'https://multiple-canvases-js.netlify.app/',
                 src: ImgJ11,
-            },
-            {
-                title: 'Text Animations',
-                href: 'https://ephemeral-bienenstitch-24f392.netlify.app/',
-                src: ImgJ7,
             },
             {
                 title: 'Rock Paper Scissors',
