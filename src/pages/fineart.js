@@ -9,6 +9,7 @@ const fineart = ({mode, handleMode}) => {
     <>
      <Helmet>
         <title>Fine Art by Luna Smith</title>
+        <link rel="canonical" href="https://www.lunasmithart.com/fineart" />
         <meta name="description" content="Fine Art by Luna Smith" />
         <meta name="keywords" content="art, Luna, Smith, portfolio, oil paintings, art, contemporary, Scottish art, Scotland, art gallery" />
         <meta property="og:title" content="Fine Art by Luna Smith" />

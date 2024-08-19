@@ -10,6 +10,7 @@ const projects = ({mode, handleMode}) => {
      <Helmet>
         <title>Projects created by Luna Smith</title>
         <meta name="description" content="Projects created by Luna Smith" />
+        <link rel="canonical" href="https://www.lunasmithart.com/projects" />
         <meta name="keywords" content="react, Luna, Smith, portfolio, web developer, react, javascript, vue, Scotland, games, engineer, programming" />
         <meta property="og:title" content="Projects created by Luna Smith" />
         <meta property="og:description" content="Projects created by Luna Smith - a web developer" />

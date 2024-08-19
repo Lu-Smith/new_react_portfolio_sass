@@ -9,6 +9,7 @@ const about = ({mode, handleMode}) => {
     <>
       <Helmet>
         <title>Luna Smith - an artist and a web developer</title>
+        <link rel="canonical" href="https://www.lunasmithart.com/about" />
         <meta name="description" content="Luna Smith - an artist and a web developer" />
         <meta name="keywords" content="codine,code, react, vue, javascript, art, Luna, Smith, portfolio, oil paintings, art, contemporary, Scottish art, Scotland, art gallery" />
         <meta property="og:title" content="Luna Smith - an artist and a web developer" />

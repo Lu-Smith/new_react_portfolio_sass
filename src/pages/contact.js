@@ -9,6 +9,7 @@ const contact = ({mode, handleMode}) => {
     <>
       <Helmet>
         <title>Contact Luna Smith</title>
+        <link rel="canonical" href="https://www.lunasmithart.com/contact" />
         <meta name="description" content="Luna Smith portfolio - a web developer and an artist" />
         <meta name="keywords" content="contact, Luna, Smith, portfolio, web developer, artist, fine art, Scotland, games, engineer, programming" />
         <meta property="og:title" content="Contact Luna Smith" />
