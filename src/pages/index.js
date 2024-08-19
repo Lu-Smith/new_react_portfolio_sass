@@ -10,7 +10,7 @@ const home = ({mode, handleMode}) => {
       <Helmet>
         <title>Luna Smith Art portfolio</title>
         <meta name="description" content="Luna Smith portfolio - a web developer and an artist" />
-        <meta name="keywords" content="react, Luna, Smith, portfolio, web developer, artist, fine art, Scotland, games, engineer, programming" />
+        <meta name="keywords" content="react, vue, javascript, Luna, Smith, portfolio, web developer, artist, fine art, Scotland, games, engineer, programming" />
         <meta property="og:title" content="Luna Smith Art portfolio" />
         <meta property="og:description" content="Luna Smith portfolio - a web developer and an artist" />
         <meta property="og:image" content={Facebook} />
