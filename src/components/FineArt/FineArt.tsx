@@ -37,7 +37,7 @@ const FineArt = ({mode, handleMode}: ModeProps) => {
                       initial={{scale: 0.9}}
                       whileHover={{scale: 1.3}}
                       transition={{ duration: 0.5}}>
-                        <img src={item.src} alt={item.title} />
+                        <img src={item.src} alt={item.title} title={item.title} loading="lazy" width="auto" height="auto"/>
                       </motion.div>
                       <h3>{item.title}</h3>
                     </a>

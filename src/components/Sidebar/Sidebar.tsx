@@ -16,7 +16,7 @@ const Sidebar = ({ mode, handleMode }: ModeProps) => {
       <div className="titleContainer">
         <Link to="/">
           <div className="imageContainer">
-            <img src={ProfileImage} alt="Luna Smith's profile" />
+            <img src={ProfileImage} alt="Luna Smith's profile" title="Luna Smith's profile" loading="lazy" width="auto" height="auto" />
           </div>
           <h2><span>L</span>una <span>S</span>mith</h2>
         </Link>

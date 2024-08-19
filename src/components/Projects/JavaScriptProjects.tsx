@@ -29,7 +29,7 @@ const JavaScriptProjects = ( {mode, handleMode}: ModeProps ) => {
                 {project.project.map((item, index) => {
                   return <a href={item.href} key={index} target='_blank' rel="noreferrer">
                         <div className="imageContainer">
-                          <img src={item.src} alt={item.title} />
+                          <img src={item.src} alt={item.title} title={item.title} loading="lazy" width="auto" height="auto" />
                         </div>
                         <h4>{item.title}<LiaExternalLinkAltSolid /></h4>
                   </a>
