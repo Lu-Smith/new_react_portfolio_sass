@@ -19,7 +19,7 @@ const Bio = ({ mode }: ModeProps) => {
         <h2>About</h2>
         <div className="bioContainer">
           <div className="imageContainer">
-            <img src={BioImage} alt="Luna Smith" />
+            <img src={BioImage} alt="Luna Smith" title="Luna Smith" loading="lazy" width="auto" height="auto"/>
           </div>
           <div className="bio">
             <p>I am a professional artist and web developer from Edinburgh, Scotland, deeply rooted in the rich culture and landscapes of my homeland. Since my early years, a profound love for nature and art has guided my creative journey. Winning my first art competition in primary school ignited a passion that has withstood challenges and obstacles, shaping my distinctive artistic style.</p>

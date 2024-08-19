@@ -46,10 +46,15 @@ const Work = () => {
                 <div className="imageContainer">
                     <motion.img 
                     src={Art} 
-                    alt="Fine art - Life Architect by Luna Smith"
+                    alt="Fine art - Droplets by Luna Smith"
                     animate="animate"
                     initial="initial"
-                    variants={artVariants} />
+                    variants={artVariants} 
+                    title="Fine art - Droplets by Luna Smith" 
+                    loading="lazy" 
+                    width="auto" 
+                    height="auto"
+                    />
                 </div>
             </Link>
         </div>
