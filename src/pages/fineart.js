@@ -15,6 +15,7 @@ const fineart = ({mode, handleMode}) => {
         <meta property="og:title" content="Fine Art by Luna Smith" />
         <meta property="og:description" content="Fine Art by Luna Smith - a Scottish contemporary artist" />
         <meta property="og:image" content={Artist} />
+        <meta property="og:type" content="profile" />
         <meta name="robots" content="index, follow" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Fine Art by Luna Smith" />

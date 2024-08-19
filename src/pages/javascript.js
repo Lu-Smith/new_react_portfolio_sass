@@ -10,7 +10,7 @@ const javaScript = ({mode, handleMode}) => {
       <Helmet>
         <title>JavaScript projects</title>
         <meta name="description" content="Luna Smith portfolio - a web developer" />
-        <link rel="canonical" href="https://www.lunasmithart.com/javascript" />
+        <link rel="canonical" href="https://www.lunasmithart.com/javaScriptProjects" />
         <meta name="keywords" content="JavaScript, Luna, Smith, portfolio, web developer, games, engineer, programming" />
         <meta property="og:title" content="JavaScript projects" />
         <meta property="og:description" content="Luna Smith portfolio - a web developer" />
