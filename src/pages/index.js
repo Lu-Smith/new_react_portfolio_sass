@@ -16,6 +16,7 @@ const home = ({mode, handleMode}) => {
         <meta property="og:description" content="Luna Smith portfolio - a web developer and an artist" />
         <meta property="og:image" content={Facebook} />
         <meta property="og:type" content="profile" />
+        <meta property="og:url" content="https://www.lunasmithart.com" />
         <meta name="robots" content="index, follow" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Luna Smith Art portfolio" />

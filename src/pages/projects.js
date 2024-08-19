@@ -16,6 +16,7 @@ const projects = ({mode, handleMode}) => {
         <meta property="og:description" content="Projects created by Luna Smith - a web developer" />
         <meta property="og:image" content={Facebook} />
         <meta property="og:type" content="profile" />
+        <meta property="og:url" content="https://www.lunasmithart.com/projects" />
         <meta name="robots" content="index, follow" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Projects created by Luna Smith" />

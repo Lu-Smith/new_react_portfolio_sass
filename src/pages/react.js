@@ -15,6 +15,7 @@ const react = ({mode, handleMode}) => {
         <meta property="og:title" content="React projects" />
         <meta property="og:description" content="Luna Smith portfolio - a web developer" />
         <meta property="og:image" content={Facebook} />
+        <meta property="og:url" content="https://www.lunasmithart.com/reactProjects" />
         <meta name="robots" content="index, follow" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="React projects" />

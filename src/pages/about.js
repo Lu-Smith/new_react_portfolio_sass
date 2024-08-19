@@ -16,6 +16,7 @@ const about = ({mode, handleMode}) => {
         <meta property="og:description" content="Luna Smith - an artist and a web developer - a Scottish contemporary artist" />
         <meta property="og:image" content={Artist} />
         <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://www.lunasmithart.com/about" />
         <meta name="robots" content="index, follow" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Luna Smith - an artist and a web developer" />
