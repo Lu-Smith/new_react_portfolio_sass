@@ -139,7 +139,7 @@ const projects = [
             },
             {
                 title: 'Color Picker',
-                href: 'https://celebrated-paprenjak-7877c7.netlify.app/',
+                href: 'https://color-picker-react-luna-smith.netlify.app/',
                 src: ImgR23,
             }
         ]
