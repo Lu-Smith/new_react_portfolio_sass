@@ -21,6 +21,7 @@ import ImgR19 from '../media/projects/React/FlowFields_R.jpg';
 import ImgR20 from '../media/projects/React/Graphs_R.jpg';
 import ImgR21 from '../media/projects/React/ScottishPoetry_R.jpg';
 import ImgR22 from '../media/projects/React/LottoNumbers_R.jpg';
+import ImgR23 from '../media/projects/React/ColorPicker_R.jpg';
 
 const projects = [
     {
@@ -135,6 +136,11 @@ const projects = [
                 title: 'Moving Art',
                 href: 'https://moving-art-exhibition.netlify.app/',
                 src: ImgR18,
+            },
+            {
+                title: 'Color Picker',
+                href: 'https://celebrated-paprenjak-7877c7.netlify.app/',
+                src: ImgR23,
             }
         ]
     },
