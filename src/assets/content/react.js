@@ -48,6 +48,11 @@ const projects = [
                 src: ImgR4,
             },
             {
+                title: 'World Minds',
+                href: 'https://world-minds-react.netlify.app/',
+                src: ImgR11,
+            },
+            {
                 title: 'Weather App',
                 href: 'https://weather-app-react-luna-smith.netlify.app/',
                 src: ImgR2,
@@ -58,24 +63,14 @@ const projects = [
                 src: ImgR7,
             },
             {
-                title: 'World Minds',
-                href: 'https://world-minds-react.netlify.app/',
-                src: ImgR11,
-            },
-            {
-                title: 'Lucky Numbers',
-                href: 'https://lotto-numbers-react.netlify.app/',
-                src: ImgR22,
+                title: 'Flow Fields',
+                href: 'https://flow-fields-react.netlify.app/',
+                src: ImgR19,
             },
             {
                 title: 'Hangman',
                 href: 'https://hangman-react-typescript.netlify.app/',
                 src: ImgR9,
-            },
-            {
-                title: 'Flow Fields',
-                href: 'https://flow-fields-react.netlify.app/',
-                src: ImgR19,
             },
             {
                 title: 'Graphs',
@@ -91,6 +86,11 @@ const projects = [
                 title: 'Music App',
                 href: 'https://music-app-luna-smith.netlify.app/',
                 src: ImgR13,
+            },
+            {
+                title: 'Community Hub',
+                href: 'https://community-hub-react.netlify.app/',
+                src: ImgR8,
             },
             {
                 title: 'PawHub',
@@ -123,9 +123,9 @@ const projects = [
                 src: ImgR21,
             },
             {
-                title: 'Community Hub',
-                href: 'https://community-hub-react.netlify.app/',
-                src: ImgR8,
+                title: 'Lucky Numbers',
+                href: 'https://lotto-numbers-react.netlify.app/',
+                src: ImgR22,
             },
             {
                 title: 'Moos and Coos',
