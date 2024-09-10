@@ -4,7 +4,7 @@ import ImgR2 from '../media/projects/React/WeatherApp_R.jpg';
 import ImgR3 from '../media/projects/React/TicTacToe_R.jpg';
 import ImgR4 from '../media/projects/React/DicionaryApp_R.jpg';
 import ImgR5 from '../media/projects/React/RecipeApp_R.jpg';
-import ImgR6 from '../media/projects/React/SnakeGame_R.jpg'
+import ImgR6 from '../media/projects/React/SnakeGame_R.jpg';
 import ImgR7 from '../media/projects/React/CandyHeavenShop_R.jpg';
 import ImgR8 from '../media/projects/React/CommunityHub_R.jpg';
 import ImgR9 from '../media/projects/React/Hangman_R.jpg';
@@ -12,7 +12,7 @@ import ImgR10 from '../media/projects/React/Quotes_R.jpg';
 import ImgR11 from '../media/projects/React/WorldMinds_R.jpg';
 import ImgR12 from '../media/projects/React/Quiz_R.jpg';
 import ImgR13 from '../media/projects/React/MusicApp_R.jpg';
-import ImgR14 from '../media/projects/React/PawHub_R.jpg'
+import ImgR14 from '../media/projects/React/PawHub_R.jpg';
 import ImgR15 from '../media/projects/React/RestaurantReservations_R.jpg';
 import ImgR16 from '../media/projects/React/TodoList_R.jpg';
 import ImgR17 from '../media/projects/React/MoosAndCoos_R.jpg';
@@ -53,14 +53,14 @@ const projects = [
                 src: ImgR2,
             },
             {
-                title: 'Snake Game',
-                href: 'https://snake-game-react-typescript.netlify.app/',
-                src: ImgR6,
-            },
-            {
                 title: 'Candy Heaven',
                 href: 'https://candyheavenshop.netlify.app/',
                 src: ImgR7,
+            },
+            {
+                title: 'World Minds',
+                href: 'https://world-minds-react.netlify.app/',
+                src: ImgR11,
             },
             {
                 title: 'Lucky Numbers',
@@ -76,16 +76,6 @@ const projects = [
                 title: 'Flow Fields',
                 href: 'https://flow-fields-react.netlify.app/',
                 src: ImgR19,
-            },
-            {
-                title: 'Quotes App',
-                href: 'https://quotes-app-luna-smith.netlify.app/',
-                src: ImgR10,
-            },
-            {
-                title: 'World Minds',
-                href: 'https://world-minds-react.netlify.app/',
-                src: ImgR11,
             },
             {
                 title: 'Graphs',
@@ -113,9 +103,19 @@ const projects = [
                 src: ImgR15,
             },
             {
+                title: 'Snake Game',
+                href: 'https://snake-game-react-typescript.netlify.app/',
+                src: ImgR6,
+            },
+            {
                 title: 'Todo List',
                 href: 'https://todo-list-react-redux-typescript.netlify.app/',
                 src: ImgR16,
+            },
+            {
+                title: 'Quotes App',
+                href: 'https://quotes-app-luna-smith.netlify.app/',
+                src: ImgR10,
             },
             {
                 title: 'Scottish Poetry',
