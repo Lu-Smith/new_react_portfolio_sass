@@ -22,6 +22,7 @@ import ImgR20 from '../media/projects/React/Graphs_R.jpg';
 import ImgR21 from '../media/projects/React/ScottishPoetry_R.jpg';
 import ImgR22 from '../media/projects/React/LottoNumbers_R.jpg';
 import ImgR23 from '../media/projects/React/ColorPicker_R.jpg';
+import ImgR24 from '../media/projects/React/Digitalclock_R.jpg';
 
 const projects = [
     {
@@ -126,6 +127,11 @@ const projects = [
                 title: 'Lucky Numbers',
                 href: 'https://lotto-numbers-react.netlify.app/',
                 src: ImgR22,
+            },
+            {
+                title: 'Digital Clock',
+                href: 'https://digital-clock-react-luna-smith.netlify.app/',
+                src: ImgR24,
             },
             {
                 title: 'Moos and Coos',
