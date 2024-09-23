@@ -46,6 +46,12 @@ import ImgV10 from '../media/projects/Vue/TobbyTressureQuest_V.jpg';
 import ImgV11 from '../media/projects/Vue/EasterEggHunt_V.jpg';
 import ImgV12 from '../media/projects/Vue/Graphs_V.jpg';
 
+//Python
+import ImgP1 from '../media/projects/Python/SlotMachine_P.jpg';
+import ImgP2 from '../media/projects/Python/Hangman_P.jpg';
+import ImgP3 from '../media/projects/Python/Encryption.jpg';
+import ImgP4 from '../media/projects/Python/Adventure.jpg';
+
 const projects = [
     {
         title: 'Futured Projects',
@@ -356,6 +362,31 @@ const projects = [
                 href: 'https://mobile-game-js-luna-smith.netlify.app/',
                 src: ImgJ19,
             },
+        ]
+    },
+    {
+        title: 'Python',
+        project: [
+            {
+                title: 'Slot Machine',
+                href: 'https://github.com/Lu-Smith/python-slot-machine',
+                src: ImgP1,
+            },
+            {
+                title: 'Hangman',
+                href: 'https://github.com/Lu-Smith/hangman_python',
+                src: ImgP2,
+            },
+            {
+                title: 'Encryption',
+                href: 'https://github.com/Lu-Smith/python_encryption',
+                src: ImgP3,
+            },
+            {
+                title: 'Adventure',
+                href: 'https://github.com/Lu-Smith/python_choose_your_own_adventure',
+                src: ImgP4,
+            }
         ]
     },
 ]
