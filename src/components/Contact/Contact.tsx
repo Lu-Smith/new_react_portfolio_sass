@@ -41,7 +41,7 @@ const Contact = ({mode, handleMode}: ModeProps) => {
 
   return (
     <div className={`Contact ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
-           <div className='menu'>
+      <div className='menu'>
         <Sidebar mode={mode} handleMode={handleMode} />
       </div>
       <div className='menuMobile'>
