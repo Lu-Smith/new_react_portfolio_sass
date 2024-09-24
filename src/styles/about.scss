@@ -56,12 +56,25 @@
                 font-size: $primary-font-size;
             }
         }
+
+        .backgroundCanvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1; 
+        }
+
+        .Bio {
+            z-index: 2;
+        }
    
         .bioContainer {
             margin-top: $page-about-margin;
             @include flex-direction(center, column);
             gap: 40px;
-            max-width: 800px;
+            max-width: 800px; 
 
             .imageContainer {
                 overflow: hidden;
@@ -86,7 +99,7 @@
                 }
             }
 
-            .bio {
+            .bioDescription {
                 width: 80%;
                 @include flex-direction(center, column);
                 gap: 20px;
