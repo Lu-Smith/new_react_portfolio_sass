@@ -24,37 +24,37 @@
 }
 
 .Sidebar.lightMode {
-    background: $light-background;
+    background: $focus-color;
     color: $secondary-color;
 
     .titleContainer {
         h2 {
-            color: $light-box-background;
-
+            color: $secondary-color;
+            
             &:hover {
-                color: $secondary-color;
+                color: $light-box-background;
             }
 
             span {
-                color: $light-box-background;
+                color: $secondary-color;
             }
         }
     }
 
     .linkContainer {
         a {
-            color: $light-box-background;
+            color: $secondary-color;
 
             span {
-                color: $light-box-background;
+                color: $secondary-color;
 
                 &:hover {
-                    color: $secondary-color;
+                    color: $light-box-background;
                 }
             }
 
             &:hover {
-                color: $secondary-color;
+                color: $light-box-background;
             }
         }
     }
