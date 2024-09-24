@@ -20,12 +20,7 @@ const About = ({mode, handleMode}: ModeProps) => {
         <MobileSidebar mode={mode} handleMode={handleMode} />
       </div>
       <div className="componentContainer">
-        <section>
           <Bio mode={mode} />
-        </section>
-        <section>
-          <Work />
-        </section>
       </div>
     </div>
   )
