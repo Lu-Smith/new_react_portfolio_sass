@@ -51,6 +51,9 @@ import ImgP1 from '../media/projects/Python/SlotMachine_P.jpg';
 import ImgP2 from '../media/projects/Python/Hangman_P.jpg';
 import ImgP3 from '../media/projects/Python/Encryption.jpg';
 import ImgP4 from '../media/projects/Python/Adventure.jpg';
+import ImgP5 from '../media/projects/Python/AlarmClock_P.jpg';
+import ImgP6 from '../media/projects/Python/DigitalClock_P.jpg';
+import ImgP7 from '../media/projects/Python/StopWatch_P.jpg';
 
 const projects = [
     {
@@ -367,6 +370,21 @@ const projects = [
     {
         title: 'Python',
         project: [
+            {
+                title: 'Stopwatch',
+                href: 'https://github.com/Lu-Smith/stop_watch_pyqt5_python',
+                src: ImgP7,
+            },
+            {
+                title: 'Digital Clock',
+                href: 'https://github.com/Lu-Smith/digital_clock_pyqt5_python',
+                src: ImgP6,
+            },
+            {
+                title: 'Alarm Clock',
+                href: 'https://github.com/Lu-Smith/alarm_clock_python',
+                src: ImgP5,
+            },
             {
                 title: 'Slot Machine',
                 href: 'https://github.com/Lu-Smith/python-slot-machine',
