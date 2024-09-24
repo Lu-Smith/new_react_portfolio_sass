@@ -14,7 +14,7 @@ interface ModeProps {
 const Navbar = ({ mode }: ModeProps) => {
   return (
     <div className={`Navbar ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
-      <h1>Bridging <strong>Art</strong> and <strong>Web Development</strong></h1>
+      <h1>Fusing <strong>Art</strong> and <strong>Web Development</strong></h1>
       <div className="socialLinks">
       <a   
         href="//www.linkedin.com/in/luna-smith/"
