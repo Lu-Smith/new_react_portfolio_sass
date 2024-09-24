@@ -15,7 +15,7 @@ const Bio = ({ mode }: ModeProps) => {
       };
 
   return (
-    <div className='Bio'>
+    <div className={`Bio ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
         <h2>About</h2>
         <div className="bioContainer">
           <div className="imageContainer">
