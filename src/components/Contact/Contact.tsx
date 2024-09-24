@@ -1,10 +1,9 @@
-import React, { useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { motion } from 'framer-motion';
-import Sidebar from '../Sidebar/Sidebar';
 import MovingText from './MovingText';
-import MobileSidebar from '../Sidebar/MobileSidebar';
 import OwlSvg from '../Svg/OwlSvg';
 import PhoneSvg from '../Svg/PhoneSvg';
+import Menu from '../Menu/Menu';
 
 interface ModeProps {
   mode: string,
@@ -41,12 +40,7 @@ const Contact = ({mode, handleMode}: ModeProps) => {
 
   return (
     <div className={`Contact ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
-      <div className='menu'>
-        <Sidebar mode={mode} handleMode={handleMode} />
-      </div>
-      <div className='menuMobile'>
-        <MobileSidebar mode={mode} handleMode={handleMode} />
-      </div>
+      <Menu mode={mode} handleMode={handleMode} />
         <motion.div 
             ref = { ref }
             variants={variants}

@@ -1,9 +1,8 @@
 import { useState } from 'react';
 import projects from '../../assets/content/projects';
-import Sidebar from '../Sidebar/Sidebar';
 import { LiaExternalLinkAltSolid } from 'react-icons/lia';
-import MobileSidebar from '../Sidebar/MobileSidebar';
 import { Link } from 'react-router-dom';
+import Menu from '../Menu/Menu';
 
 const Projects = () => {
 
@@ -15,12 +14,7 @@ const Projects = () => {
 
   return (
     <div className={`Projects ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
-      <div className='menu'>
-        <Sidebar mode={mode} handleMode={handleMode} />
-      </div>
-      <div className='menuMobile'>
-        <MobileSidebar mode={mode} handleMode={handleMode} />
-      </div>
+      <Menu mode={mode} handleMode={handleMode} />
       <div className="componentContainer">
         <h2>Projects</h2>
         {projects.map((project, index) => {

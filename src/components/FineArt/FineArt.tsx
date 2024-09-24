@@ -1,10 +1,8 @@
-import React from 'react';
-import Sidebar from '../Sidebar/Sidebar';
 import paintings from '../../assets/content/fineart';
-import MobileSidebar from '../Sidebar/MobileSidebar';
 import ArtExhibition from './ArtExhibition/ArtExhibition';
 import { motion } from 'framer-motion';
 import { LiaExternalLinkAltSolid } from 'react-icons/lia';
+import Menu from '../Menu/Menu';
 
 interface ModeProps {
   mode: string,
@@ -15,12 +13,7 @@ const FineArt = ({mode, handleMode}: ModeProps) => {
 
   return (
     <div className={`FineArt ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
-         <div className='menu'>
-        <Sidebar mode={mode} handleMode={handleMode} />
-      </div>
-      <div className='menuMobile'>
-        <MobileSidebar mode={mode} handleMode={handleMode} />
-      </div>
+      <Menu mode={mode} handleMode={handleMode} />
       <div className="componentContainer">
         <h2>Fine Art</h2>
         <div className="artShow">

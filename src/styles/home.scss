@@ -10,8 +10,9 @@
 
 .Home {
     @include flex-direction(center, row);
-    width: 100%;
     height: 100%;
+    margin-left: 200px;
+    width: calc(100vw - 200px);
     
 
     .mainContainer {

@@ -2,6 +2,7 @@
 @import './mixins';
 @import './base';
 //home
+@import './menu.scss';
 @import './home.scss';
 @import './sidebar.scss';
 @import './mobileSidebar.scss';
@@ -15,7 +16,6 @@
 @import './fineart.scss';
 //about
 @import './about.scss';
-@import './work.scss';
 @import './events.scss';
 //contact
 @import './contact.scss';

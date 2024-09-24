@@ -1,8 +1,6 @@
-import React from 'react';
 import gameProjects from '../../assets/content/games';
 import { LiaExternalLinkAltSolid } from 'react-icons/lia';
-import Sidebar from '../Sidebar/Sidebar';
-import MobileSidebar from '../Sidebar/MobileSidebar';
+import Menu from '../Menu/Menu';
 
 interface ModeProps {
   mode: string,
@@ -13,12 +11,7 @@ const Games = ( {mode, handleMode}: ModeProps ) => {
 
   return (
     <div className={`Games ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
-      <div className='menu'>
-        <Sidebar mode={mode} handleMode={handleMode} />
-      </div>
-      <div className='menuMobile'>
-        <MobileSidebar mode={mode} handleMode={handleMode} />
-      </div>
+      <Menu mode={mode} handleMode={handleMode} />
         <div className="componentContainer">
           <h2>Games</h2>
           {gameProjects.map((project, index) => {

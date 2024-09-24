@@ -1,8 +1,6 @@
-import React from 'react';
-import Sidebar from "../Sidebar/Sidebar";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
-import MobileSidebar from '../Sidebar/MobileSidebar';
+import Menu from '../Menu/Menu';
 
 interface ModeProps {
   mode: string,
@@ -13,8 +11,7 @@ const Home = ({mode, handleMode}: ModeProps) => {
 
   return (
     <div className={`Home ${mode === 'light' ? 'lightMode' : 'darkMode'}`}>
-        <MobileSidebar mode={mode} handleMode={handleMode} />
-        <Sidebar mode={mode} handleMode={handleMode} />
+        <Menu mode={mode} handleMode={handleMode} />
         <div className="mainContainer">
             <Navbar mode={mode} />
             <Hero mode={mode} />
