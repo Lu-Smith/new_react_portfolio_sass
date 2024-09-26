@@ -374,7 +374,7 @@ const projects = [
             {
                 title: 'Weather App',
                 href: 'https://github.com/Lu-Smith/weather_app_python',
-                src: ImgP7,
+                src: ImgP9,
             },
             {
                 title: 'Stopwatch',
