@@ -54,6 +54,7 @@ import ImgP4 from '../media/projects/Python/Adventure.jpg';
 import ImgP5 from '../media/projects/Python/AlarmClock_P.jpg';
 import ImgP6 from '../media/projects/Python/DigitalClock_P.jpg';
 import ImgP7 from '../media/projects/Python/StopWatch_P.jpg';
+import ImgP9 from '../media/projects/Python/WeatherApp_P.jpg';
 
 const projects = [
     {
@@ -370,6 +371,11 @@ const projects = [
     {
         title: 'Python',
         project: [
+            {
+                title: 'Weather App',
+                href: 'https://github.com/Lu-Smith/weather_app_python',
+                src: ImgP7,
+            },
             {
                 title: 'Stopwatch',
                 href: 'https://github.com/Lu-Smith/stop_watch_pyqt5_python',
