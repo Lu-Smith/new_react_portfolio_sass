@@ -55,6 +55,7 @@ import ImgP5 from '../media/projects/Python/AlarmClock_P.jpg';
 import ImgP6 from '../media/projects/Python/DigitalClock_P.jpg';
 import ImgP7 from '../media/projects/Python/StopWatch_P.jpg';
 import ImgP9 from '../media/projects/Python/WeatherApp_P.jpg';
+import ImgP10 from '../media/projects/Python/Calculator_P.jpg';
 
 const projects = [
     {
@@ -375,6 +376,11 @@ const projects = [
                 title: 'Weather App',
                 href: 'https://github.com/Lu-Smith/weather_app_python',
                 src: ImgP9,
+            },
+            {
+                title: 'Calculator',
+                href: 'https://github.com/Lu-Smith/calculator_python',
+                src: ImgP10,
             },
             {
                 title: 'Stopwatch',
